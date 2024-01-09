@@ -2,7 +2,7 @@
   <div>
     <Navbar />
     <Hero />
-    <Intro />
+    <About />
     <NextEvents />
     <Contact />
     <Footer />

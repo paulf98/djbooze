@@ -1,5 +1,5 @@
 <template>
-    <div class="bg-black w-full pt-16 border-t border-white">
+    <footer class="bg-black w-full pt-16 border-t border-white">
         <div class="container max-w-5xl mx-auto flex justify-between gap-8">
             <div>
                 <NuxtImg src="djbooze-dark.png" alt="DJ Booze Logo" class="max-w-40" />
@@ -19,5 +19,5 @@
         <div class="py-8">
             <p class="text-center text-sm text-white italic">© {{ new Date().getFullYear() }} DJ Booze</p>
         </div>
-    </div>
+    </footer>
 </template>

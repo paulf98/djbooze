@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16">
+    <section class="py-16" id="contact">
         <div class="container max-w-5xl mx-auto flex justify-between items-center gap-8">
             <div class="flex flex-col gap-16">
                 <Heading text="Contact"></Heading>

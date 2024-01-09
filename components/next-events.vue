@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full bg-black py-16">
+    <section class="w-full bg-black py-16" id="events">
         <div class="container flex flex-col items-center gap-16 max-w-5xl mx-auto p-8 mb-8">
             <Heading text="Next Events →" />
         </div>
@@ -10,5 +10,5 @@
                 <Event name="Event 3" description="Description 3" date="01.01.24" location="Location 3" />
             </div>
         </div>
-    </div>
+    </section>
 </template>
