@@ -6,7 +6,8 @@ import type { _primary } from '#tailwind-config/theme/accentColor';
             <div class="flex flex-col items-start justify-center gap-8">
                 <NuxtImg src="djbooze-dark.png" alt="DJ Booze Logo" class="max-w-80" />
                 <p class="dark:text-white text-3xl font-thin tracking-wider">
-                    Ein DJ für alle Fälle
+                    DJ für Clubs, Hochzeiten & Events <br>
+                    in Pirmasens und Umgebung
                 </p>
                 <Button>
                     Jetzt Anfrage senden

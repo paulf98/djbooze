@@ -3,5 +3,6 @@
     <Hero />
     <Intro />
     <NextEvents />
+    <Footer />
   </div>
 </template>
