@@ -1,10 +1,6 @@
 <template>
-  <div>
-    <Navbar />
-    <Hero />
-    <About />
-    <NextEvents />
-    <Contact />
-    <Footer />
-  </div>
+    <NuxtLayout>
+        <NuxtPage />
+    </NuxtLayout>
 </template>
+  
