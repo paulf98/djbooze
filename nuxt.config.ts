@@ -49,4 +49,7 @@ export default defineNuxtConfig({
 			secretKey: process.env.TURNSTILE_SECRET_KEY,
 		},
 	},
+	app: {
+		pageTransition: { name: 'page', mode: 'out-in' },
+	},
 });
