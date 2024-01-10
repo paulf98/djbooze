@@ -1,6 +1,6 @@
 
 <template>
-    <section class="w-full bg-black py-16" id="hero">
+    <section class="w-full bg-black text-white py-16" id="hero">
         <div class="container flex flex-col sm:flex-row items-center justify-between gap-8 max-w-5xl mx-auto px-8">
             <div class="flex flex-col items-center sm:items-start justify-center gap-8">
                 <NuxtImg src="djbooze-dark.png" alt="DJ Booze Logo" class="max-w-60 md:max-w-80" />

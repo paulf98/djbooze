@@ -1,5 +1,5 @@
 <template>
-    <footer class="bg-black w-full pt-16 px-8">
+    <footer class="bg-black text-white w-full pt-16 px-8">
         <div class="container max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
             <div>
                 <NuxtImg src="djbooze-dark.png" alt="DJ Booze Logo" class="max-w-40" />

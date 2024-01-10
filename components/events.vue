@@ -1,5 +1,5 @@
 <template>
-    <section class="w-full bg-black py-16 md:py-32 px-8" id="events">
+    <section class="w-full bg-black text-white py-16 md:py-32 px-8" id="events">
         <div class="container flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
             <Heading text="Next →" />
         </div>
