@@ -6,7 +6,7 @@
             </div>
             <div class="flex flex-col items-center gap-2">
                 <h4 class="mb-4 text-xl">Folge mir auf Instagram!</h4>
-                <NuxtLink to="https://www.instagram.com/djbooze_official/" target="_blank" rel="noopener noreferrer">
+                <NuxtLink to="https://www.instagram.com/dj.booze" target="_blank" rel="noopener noreferrer">
                     <NuxtImg src="instagram.png" alt="Instagram Logo" class="max-w-10" />
                 </NuxtLink>
             </div>
