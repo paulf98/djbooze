@@ -16,7 +16,7 @@
                     {{ props.location }}
                 </p>
             </div>
-            <a class="hover:underline text-red-600 hover:text-red-700" :href="props.link">Zum Event</a>
+            <a v-if="props.link" class="hover:underline text-red-600 hover:text-red-700" :href="props.link">Zum Event</a>
         </div>
     </div>
 </template>
@@ -25,18 +25,18 @@
 
 const props = withDefaults(defineProps<{
     name: string,
-    description: string,
+    description?: string,
     date: string,
     location: string,
     image: string,
-    link: string
+    link?: string
 }>(), {
     name: 'Event',
-    description: 'Description',
-    date: 'Date',
+    description: undefined,
+    date: '01.01.24',
     location: 'Location',
     image: '/sample-event.JPEG',
-    link: '#'
+    link: undefined
 })
 
 </script>

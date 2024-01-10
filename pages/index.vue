@@ -2,7 +2,7 @@
   <main>
     <Hero />
     <About />
-    <NextEvents />
+    <Events />
     <Contact />
   </main>
 </template>
