@@ -16,7 +16,7 @@
             </div>
             <div>
 
-                <NuxtImg src="hero-image.jpeg" alt="DJ Booze" style="border-radius: 79% 21% 25% 75% / 30% 42% 58% 70% ;"
+                <NuxtImg src="hero-image.jpg" alt="DJ Booze" style="border-radius: 79% 21% 25% 75% / 30% 42% 58% 70% ;"
                     class="w-full h-auto max-w-md mx-auto" />
             </div>
         </div>
