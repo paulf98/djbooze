@@ -1,7 +1,9 @@
 <template>
     <nav class="bg-black py-4 sticky w-full top-0 z-50">
         <div class="flex justify-between items-center container mx-auto max-w-5xl gap-8">
-            <NuxtImg src="/djbooze-dark.png" alt="logo" class="h-10" />
+            <NuxtLink to="/">
+                <NuxtImg src="/djbooze-dark.png" alt="logo" class="h-10" />
+            </NuxtLink>
             <div>
                 <ul class="flex justify-center gap-8">
                     <li v-for="item in menuItems">
@@ -20,10 +22,6 @@
 
 const menuItems = [
     {
-        name: 'Start',
-        link: '/'
-    },
-    {
         name: 'About',
         link: '#about'
     },
@@ -31,10 +29,6 @@ const menuItems = [
         name: 'Events',
         link: '#events'
     },
-    {
-        name: 'Contact',
-        link: '#contact'
-    }
 ]
 
 </script>
