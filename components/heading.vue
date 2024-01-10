@@ -1,6 +1,6 @@
 <template>
-    <div class="flex flex-col items-start mb-4">
-        <div class="text-9xl -mb-20 opacity-10 text-red-600 z-0">{{ props.text }}</div>
+    <div class="flex flex-col items-start mb-4 max-w-full">
+        <div class="text-8xl sm:text-9xl -mb-20 opacity-10 text-red-600 z-0 shrink">{{ props.text }}</div>
         <h1 class="text-4xl font-bold text-center ml-8 text-red-600 z-10 tracking-wider">
             {{ props.text }}
         </h1>
