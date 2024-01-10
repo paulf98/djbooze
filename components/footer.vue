@@ -12,8 +12,8 @@
             </div>
             <div class="flex flex-col gap-2">
                 <h4 class="mb-4 text-xl">Rechtliches</h4>
-                <NuxtLink to="#">Impressum</NuxtLink>
-                <NuxtLink to="#">Datenschutz</NuxtLink>
+                <NuxtLink class="hover:underline" to="/impressum">Impressum</NuxtLink>
+                <NuxtLink class="hover:underline" to="/datenschutz">Datenschutz</NuxtLink>
             </div>
         </div>
         <div class="py-8">
