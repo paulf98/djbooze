@@ -1,6 +1,6 @@
 <template>
     <div>
-        <NuxtImg :src="props.image" :alt="props.name" class="max-w-xs mb-4 rounded-md" loading="lazy" />
+        <NuxtImg :src="props.image" :alt="props.name" class="max-w-xs mb-4 rounded-md" loading="lazy" fit="contain" />
         <div class="flex flex-col items-start justify-center gap-4">
             <p class="dark:text-white text-3xl font-thin tracking-wider">
                 {{ props.name }}

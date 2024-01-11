@@ -1,5 +1,5 @@
 <template>
-    <section class="py-16 px-8 bg-zinc-900 text-white" id="contact">
+    <section class="py-16 px-8 bg-neutral-900 text-white" id="contact">
         <div class="container max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-16">
             <div class="flex flex-col">
                 <div class="container flex flex-col items-center max-w-5xl mx-auto mb-8">
