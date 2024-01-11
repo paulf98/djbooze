@@ -1,6 +1,6 @@
 <template>
     <section
-        class="container flex flex-col items-center md:flex-row-reverse justify-between gap-16 max-w-5xl mx-auto p-8 py-16 md:py-32"
+        class="container flex flex-col items-center md:flex-row-reverse justify-between gap-16 max-w-5xl mx-auto p-8 py-16 md:py-32 bg-zinc-900 text-white"
         id="about">
         <div class="flex-1">
             <div class="flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
