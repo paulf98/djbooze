@@ -11,7 +11,7 @@
                 </NuxtLink>
             </div>
             <div class="flex flex-col gap-2 text-center md:text-left">
-                <h4 class="mb-4 text-xl">Rechtliches</h4>
+                <p class="mb-4 text-xl">Rechtliches</p>
                 <NuxtLink class="hover:underline" to="/impressum">Impressum</NuxtLink>
                 <NuxtLink class="hover:underline" to="/datenschutz">Datenschutz</NuxtLink>
             </div>
