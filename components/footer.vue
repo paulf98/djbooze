@@ -5,7 +5,7 @@
                 <NuxtImg src="djbooze-dark.png" alt="DJ Booze Logo" class="max-w-40" />
             </div>
             <div class="flex flex-col items-center gap-2">
-                <h4 class="mb-4 text-xl">Folge mir auf Instagram!</h4>
+                <p class="mb-4 text-xl">Folge mir auf Instagram!</p>
                 <NuxtLink to="https://www.instagram.com/dj.booze" target="_blank" rel="noopener noreferrer">
                     <NuxtImg src="instagram.png" alt="Instagram Logo" class="max-w-10" />
                 </NuxtLink>
