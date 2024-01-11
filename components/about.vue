@@ -24,7 +24,7 @@
             </div>
         </div>
         <div class="flex-1">
-            <NuxtImg class="rounded-full w-full h-auto max-w-sm " src="/paulfaass.jpg" />
+            <NuxtImg class="rounded-full w-full h-auto max-w-sm " src="/paulfaass.jpg" alt="Portrait von Paul Faass" />
         </div>
     </section>
 </template>
