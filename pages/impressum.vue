@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-16 md:py-32 px-8 prose text-white">
+    <div class="container mx-auto py-16 md:py-32 px-8 prose text-white break-words">
         <h1>IMPRESSUM</h1>
         <h2>WEBSEITENBETREIBER</h2>
         <p>Paul Faass</p>

@@ -1,5 +1,5 @@
 <template>
-    <div class="container text-justify mx-auto py-16 md:py-32 px-8 prose text-white">
+    <div class="container text-justify mx-auto py-16 md:py-32 px-8 prose text-white break-words">
         <h1>Datenschutzerklärung</h1>
         <p>Stand: 10. Januar 2024</p>
         <h2>Inhaltsübersicht</h2>

@@ -23,11 +23,11 @@
 const menuItems = [
     {
         name: 'About',
-        link: '#about'
+        link: '/#about'
     },
     {
         name: 'Events',
-        link: '#events'
+        link: '/#events'
     },
 ]
 
