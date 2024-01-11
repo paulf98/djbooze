@@ -9,6 +9,14 @@
     </div>
 </template>
 
+<script setup>
+useHead({
+    htmlAttrs: {
+        lang: 'de-DE',
+    }
+})
+</script>
+
 <style>
 .page-enter-active,
 .page-leave-active {
