@@ -5,7 +5,7 @@
             <div class="flex flex-1 flex-col items-center sm:items-start justify-center gap-8">
                 <NuxtImg src="djbooze-dark.png" alt="DJ Booze Logo" class="max-w-60 md:max-w-80 w-full" fit="contain" />
                 <p class="dark:text-white text-xl md:text-3xl font-thin tracking-wider">
-                    DJ für Clubs, Hochzeiten & Events <br>
+                    DJ für Clubs & Events <br>
                     in Pirmasens und Umgebung
                 </p>
                 <NuxtLink to="#contact">
