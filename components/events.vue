@@ -38,11 +38,11 @@
 
 const upcomingEvents = [
     {
-        name: 'Après Ski Party',
+        name: 'I ❤️ Après Ski',
         date: '03.02.24',
         location: "MATRIX Pirmasens",
         description: undefined,
-        image: "/apresski-placeholder.jpg"
+        image: "/apresski.jpg"
     }
 ];
 
