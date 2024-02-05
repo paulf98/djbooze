@@ -36,17 +36,16 @@
 
 <script setup lang="ts">
 
-const upcomingEvents = [
+const upcomingEvents = [] as any;
+
+const pastEvents = [
     {
         name: 'I ❤️ Après Ski',
         date: '03.02.24',
         location: "MATRIX Pirmasens",
         description: undefined,
         image: "/apresski.jpg"
-    }
-];
-
-const pastEvents = [
+    },
     {
         name: "Hip Hop & RnB Party",
         date: "16.12.23",
