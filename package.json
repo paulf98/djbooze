@@ -20,7 +20,7 @@
     "@nuxt/ui": "^2.12.3",
     "@nuxtjs/turnstile": "^0.6.3",
     "@vercel/analytics": "^1.1.2",
-    "nuxt-mail": "^4.0.2",
+    "nuxt-mail": "^4.0.3",
     "zod": "^3.22.4"
   }
 }
