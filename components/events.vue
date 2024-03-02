@@ -36,7 +36,15 @@
 
 <script setup lang="ts">
 
-const upcomingEvents = [] as any;
+const upcomingEvents = [
+    {
+        name: 'Trink dich zum Profit',
+        date: '16.03.24',
+        location: "MATRIX Pirmasens",
+        description: "Kaufe dir am Eingang einen Becher für 10€ und bekomme die ganze Nacht die Getränke zum halben Preis!",
+        image: "/profitsaufen.jpg"
+    }
+];
 
 const pastEvents = [
     {
