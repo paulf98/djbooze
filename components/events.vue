@@ -11,7 +11,7 @@
                     :image="event.image" />
                 <div v-else class="flex flex-col items-center justify-center gap-8 mx-auto">
                     <p class="text-2xl md:text-3xl font-thin tracking-wider text-center">
-                        Aktuell sind keine Events geplant.
+                        Aktuell sind keine öffentliche Termine geplant.
                     </p>
                     <NuxtLink to="#contact">
                         <Button>
@@ -36,17 +36,16 @@
 
 <script setup lang="ts">
 
-const upcomingEvents = [
+const upcomingEvents = [] as any[];
+
+const pastEvents = [
     {
         name: 'Trink dich zum Profit',
         date: '16.03.24',
         location: "MATRIX Pirmasens",
         description: "Kaufe dir am Eingang einen Becher für 10€ und bekomme die ganze Nacht die Getränke zum halben Preis!",
         image: "/profitsaufen.jpg"
-    }
-];
-
-const pastEvents = [
+    },
     {
         name: 'I ❤️ Après Ski',
         date: '03.02.24',
