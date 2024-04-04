@@ -8,18 +8,14 @@
                 class="container flex flex-col md:flex-row items-center justify-center gap-8 max-w-5xl mx-auto py-8 flex-wrap">
                 <Event v-if="upcomingEvents && upcomingEvents.length" v-for="event in upcomingEvents" :key="event.name"
                     :name="event.name" :description="event.description" :date="event.date" :location="event.location"
-                    :image="event.image" />
+                    :image="event.image" :link="event.link" />
                 <div v-else class="flex flex-col items-center justify-center gap-8 mx-auto">
                     <p class="text-2xl md:text-3xl font-thin tracking-wider text-center">
                         Aktuell sind keine öffentliche Termine geplant.
                     </p>
-                    <NuxtLink to="#contact">
-                        <Button>
-                            Jetzt Anfrage senden
-                        </Button>
-                    </NuxtLink>
                 </div>
             </div>
+            <Calendar />
         </div>
         <div class="container flex flex-col items-center gap-16 max-w-5xl mx-auto my-8 md:my-16">
             <Heading text="← Past" />
@@ -36,7 +32,14 @@
 
 <script setup lang="ts">
 
-const upcomingEvents = [] as any[];
+const upcomingEvents = [{
+    name: 'Bärmesenser Hexentour',
+    date: '30.04.24',
+    location: "Mobil/Bus",
+    description: "Die Hexen sind los! Ich begleite euch im Bus, dass euch zwischen den Stationen nicht langweilig wird 😜",
+    image: "/hexentour.jpg",
+    link: 'http://www.pshexentour.de/'
+}] as any[];
 
 const pastEvents = [
     {

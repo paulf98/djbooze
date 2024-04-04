@@ -30,6 +30,7 @@ export default defineNuxtConfig({
 				},
 			},
 		],
+		'@samk-dev/nuxt-vcalendar',
 	],
 	ui: {
 		// @ts-expect-error Somehow the typing for this is wrong
