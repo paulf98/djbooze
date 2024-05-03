@@ -25,66 +25,33 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-04-04',
-        highlight: true,
-        dates: ['2024-04-05'],
-        popover: {
-            label: 'Mannschaftsabend SV Lemberg',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-13-04',
-        highlight: true,
-        dates: ['2024-04-13'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-04-19',
-        highlight: true,
-        dates: ['2024-04-19'],
-        popover: {
-            label: 'Mannschaftsabend SV Lemberg',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-27-04',
-        highlight: true,
-        dates: ['2024-04-27'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-30-04',
-        highlight: true,
-        dates: ['2024-04-30'],
-        popover: {
-            label: 'Pirmasenser Hexentour',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
         key: '2024-05-11',
         highlight: true,
         dates: ['2024-05-11'],
         popover: {
-            label: 'Private Veranstaltung',
+            label: 'Kubb Afershow',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-05-17',
+        highlight: true,
+        dates: ['2024-05-17'],
+        popover: {
+            label: 'Teen Disco MATRIX',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-05-19',
+        highlight: true,
+        dates: ['2024-05-19'],
+        popover: {
+            label: 'Club Night MATRIX',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
@@ -107,6 +74,17 @@ const attributes: any = ref([
         dates: ['2024-05-25'],
         popover: {
             label: 'Mein Geburtstag',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-05-31',
+        highlight: true,
+        dates: ['2024-05-31'],
+        popover: {
+            label: 'SportHouse SV Lemberg',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',

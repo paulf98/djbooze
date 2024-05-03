@@ -32,16 +32,36 @@
 
 <script setup lang="ts">
 
-const upcomingEvents = [{
-    name: 'Bärmesenser Hexentour',
-    date: '30.04.24',
-    location: "Mobil/Bus",
-    description: "Die Hexen sind los! Ich begleite euch im Bus, dass euch zwischen den Stationen nicht langweilig wird 😜",
-    image: "/hexentour.jpg",
-    link: 'http://www.pshexentour.de/'
-}] as any[];
+const upcomingEvents = [
+    {
+        name: 'After Kubb Party',
+        date: '11.05.24',
+        location: "Dahn | An der Reichenbach 2",
+        image: "/afterkubb.jpg"
+    },
+    {
+        name: 'Teen Disco',
+        date: '17.05.24',
+        location: "MATRIX Pirmasens",
+        image: "/teendisco.jpg"
+    },
+    {
+        name: 'SportHouse',
+        date: '31.05.24',
+        location: "SV Lemberg",
+        image: "/sporthouse.jpg"
+    },
+] as any[];
 
 const pastEvents = [
+    {
+        name: 'Bärmesenser Hexentour',
+        date: '30.04.24',
+        location: "Mobil/Bus",
+        description: "Die Hexen sind los! Ich begleite euch im Bus, dass euch zwischen den Stationen nicht langweilig wird 😜",
+        image: "/hexentour.jpg",
+        link: 'http://www.pshexentour.de/'
+    },
     {
         name: 'Trink dich zum Profit',
         date: '16.03.24',
