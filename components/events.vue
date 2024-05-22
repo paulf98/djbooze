@@ -34,18 +34,6 @@
 
 const upcomingEvents = [
     {
-        name: 'After Kubb Party',
-        date: '11.05.24',
-        location: "Dahn | An der Reichenbach 2",
-        image: "/afterkubb.jpg"
-    },
-    {
-        name: 'Teen Disco',
-        date: '17.05.24',
-        location: "MATRIX Pirmasens",
-        image: "/teendisco.jpg"
-    },
-    {
         name: 'SportHouse',
         date: '31.05.24',
         location: "SV Lemberg",
@@ -54,6 +42,18 @@ const upcomingEvents = [
 ] as any[];
 
 const pastEvents = [
+    {
+        name: 'Teen Disco',
+        date: '17.05.24',
+        location: "MATRIX Pirmasens",
+        image: "/teendisco.jpg"
+    },
+    {
+        name: 'After Kubb Party',
+        date: '11.05.24',
+        location: "Dahn | An der Reichenbach 2",
+        image: "/afterkubb.jpg"
+    },
     {
         name: 'Bärmesenser Hexentour',
         date: '30.04.24',
