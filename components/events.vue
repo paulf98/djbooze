@@ -33,15 +33,16 @@
 <script setup lang="ts">
 
 const upcomingEvents = [
+
+] as any[];
+
+const pastEvents = [
     {
         name: 'SportHouse',
         date: '31.05.24',
         location: "SV Lemberg",
         image: "/sporthouse.jpg"
     },
-] as any[];
-
-const pastEvents = [
     {
         name: 'Teen Disco',
         date: '17.05.24',

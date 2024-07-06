@@ -25,42 +25,20 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-05-11',
+        key: '2024-07-13',
         highlight: true,
-        dates: ['2024-05-11'],
+        dates: ['2024-07-13', '2024-07-14'],
         popover: {
-            label: 'Kubb Afershow',
+            label: 'Sportfest SV Lemberg',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
         },
     },
     {
-        key: '2024-05-17',
+        key: '2024-07-19',
         highlight: true,
-        dates: ['2024-05-17'],
-        popover: {
-            label: 'Teen Disco MATRIX',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-05-19',
-        highlight: true,
-        dates: ['2024-05-19'],
-        popover: {
-            label: 'Club Night MATRIX',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-05-24',
-        highlight: true,
-        dates: ['2024-05-24'],
+        dates: ['2024-07-19'],
         popover: {
             label: 'Private Veranstaltung',
             color: 'red',
@@ -69,44 +47,33 @@ const attributes: any = ref([
         },
     },
     {
-        key: '2024-05-25',
+        key: '2024-08-02',
         highlight: true,
-        dates: ['2024-05-25'],
+        dates: ['2024-08-02', '2024-08-03'],
         popover: {
-            label: 'Mein Geburtstag',
+            label: 'MATRIX Schlabbeflicker Festival Afterparty',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
         },
     },
     {
-        key: '2024-05-31',
+        key: '2024-08-10',
         highlight: true,
-        dates: ['2024-05-31'],
+        dates: ['2024-08-10'],
         popover: {
-            label: 'SportHouse SV Lemberg',
+            label: 'Feuerwehrfest Lemberg',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
         },
     },
     {
-        key: '2024-06-15',
+        key: '2024-09-07',
         highlight: true,
-        dates: ['2024-06-15'],
+        dates: ['2024-09-07'],
         popover: {
-            label: 'Grün Weiße Nacht SV Lemberg',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-07-13',
-        highlight: true,
-        dates: ['2024-07-13', '2024-07-14'],
-        popover: {
-            label: 'Sportfest SV Lemberg',
+            label: 'Private Veranstaltung',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
