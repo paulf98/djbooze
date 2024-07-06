@@ -2,8 +2,7 @@
     <div class="py-8 flex flex-col items-center gap-4 justify-center">
         <h2 class="text-center text-3xl">Meine Termine</h2>
         <div class="flex justify-center items-center py-4">
-            <VCalendar v-model="date" :min-date="Date.now()" :max-date="new Date(new Date().setFullYear(new Date().getFullYear() + 1))
-                " :color="color" :attributes="attributes" />
+            <VCalendar v-model="date" :min-date="date" :max-date="maxDate" :color="color" :attributes="attributes" />
         </div>
         <p class="text-center">
             Hier siehst du meinen Terminkalender. Wenn du auch einen Termin mit mir planen möchtest, schreib mir
@@ -20,7 +19,8 @@
 
 <script setup lang="ts">
 
-const date = ref(new Date())
+const date = useState('date', () => new Date())
+const maxDate = useState('date', () => new Date(new Date().setFullYear(new Date().getFullYear() + 1)))
 const color = ref('red')
 
 const attributes: any = ref([

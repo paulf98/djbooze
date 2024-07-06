@@ -26,15 +26,9 @@
 </template>
 
 <script setup lang="ts">
+import { type MyEvent } from '~/types/event';
 
-const props = withDefaults(defineProps<{
-    name: string,
-    description?: string,
-    date: string,
-    location: string,
-    image: string,
-    link?: string
-}>(), {
+const props = withDefaults(defineProps<MyEvent>(), {
     name: 'Event',
     description: undefined,
     date: '01.01.24',

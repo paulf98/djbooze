@@ -15,7 +15,7 @@
                     </p>
                 </div>
             </div>
-            <Calendar />
+            <!-- <Calendar /> -->
         </div>
         <div class="container flex flex-col items-center gap-16 max-w-5xl mx-auto my-8 md:my-16">
             <Heading text="← Past" />
@@ -31,12 +31,11 @@
 </template>
 
 <script setup lang="ts">
+import { type MyEvent } from '~/types/event';
 
-const upcomingEvents = [
+const upcomingEvents: MyEvent[] = [];
 
-] as any[];
-
-const pastEvents = [
+const pastEvents: MyEvent[] = [
     {
         name: 'SportHouse',
         date: '31.05.24',

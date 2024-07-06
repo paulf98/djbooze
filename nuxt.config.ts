@@ -1,6 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	devtools: { enabled: true },
+
 	modules: [
 		'@nuxt/ui',
 		'@nuxt/image',
@@ -32,6 +33,7 @@ export default defineNuxtConfig({
 		],
 		'@samk-dev/nuxt-vcalendar',
 	],
+
 	ui: {
 		// @ts-expect-error Somehow the typing for this is wrong
 		notifications: {
@@ -39,18 +41,24 @@ export default defineNuxtConfig({
 			position: 'top-0 bottom-auto',
 		},
 	},
+
 	colorMode: {
 		preference: 'dark',
 	},
+
 	turnstile: {
 		siteKey: process.env.TURNSTILE_SITE_KEY,
 	},
+
 	runtimeConfig: {
 		turnstile: {
 			secretKey: process.env.TURNSTILE_SECRET_KEY,
 		},
 	},
+
 	app: {
 		pageTransition: { name: 'page', mode: 'out-in' },
 	},
+
+	compatibilityDate: '2024-07-06',
 });
