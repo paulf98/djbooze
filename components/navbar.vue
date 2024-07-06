@@ -12,7 +12,7 @@
             </ul>
 
             <Button>
-                <NuxtLink to="#contact">Jetzt kontaktieren</NuxtLink>
+                <NuxtLink class="text-white" to="#contact">Jetzt kontaktieren</NuxtLink>
             </Button>
         </div>
     </nav>
