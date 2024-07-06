@@ -15,7 +15,7 @@
                     </p>
                 </div>
             </div>
-            <!-- <Calendar /> -->
+            <Calendar />
         </div>
         <div class="container flex flex-col items-center gap-16 max-w-5xl mx-auto my-8 md:my-16">
             <Heading text="← Past" />
