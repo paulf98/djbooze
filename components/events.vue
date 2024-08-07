@@ -33,9 +33,34 @@
 <script setup lang="ts">
 import { type MyEvent } from '~/types/event';
 
-const upcomingEvents: MyEvent[] = [];
+const upcomingEvents: MyEvent[] = [
+    {
+        name: 'Feuerwehrfest Lemberg',
+        date: '10.08.24',
+        location: "Freizeithalle Lemberg",
+        image: "/feuerwehrfest.JPEG"
+    },
+    {
+        name: 'Teen Disco',
+        date: '23.08.24',
+        location: "MATRIX Pirmasens",
+        image: "/teendisco-august.JPEG"
+    },
+];
 
 const pastEvents: MyEvent[] = [
+    {
+        name: 'SchlabbeflickerFESTival',
+        date: '02.08.24 & 03.08.24',
+        location: "MATRIX Pirmasens",
+        image: "/schlabbeflicker-aftershow.JPEG"
+    },
+    {
+        name: 'SchlabbeflickerFESTival',
+        date: '03.08.24',
+        location: "Bühne an der Münztreppe",
+        image: "/schlabbeflicker.JPEG"
+    },
     {
         name: 'SportHouse',
         date: '31.05.24',
