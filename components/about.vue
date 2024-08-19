@@ -14,15 +14,15 @@
                         Kerweparty in
                         meiner Heimat wollte ich nicht länger nur "Spotify DJ" sein, sondern eine professionelle
                         Abendgestaltung
-                        bieten. DJ Booze war geboren 🎉
+                        bieten. <br />
+                        DJ Booze war geboren 🎉
                     </p>
                     <p>
-                        Seitdem habe ich immer wieder auf privaten Feiern aufgelegt und mich stetig weiterentwickelt.
-                        Nun
-                        habe
-                        ich bereits auf mehreren öffentlichen Veranstaltungen und in Clubs aufgelegt.
-                        Dabei bin ich musikalisch sehr flexibel. Ob Hip-Hop und R&B, House und Techno oder Schlager und
-                        Partyhits, ich habe für jeden Anlass die passende Musik.
+                        Seitdem habe ich immer wieder auf privaten und öffentlichen Feierlichkeiten aufgelegt und mich
+                        stetig weiterentwickelt. Dabei bin ich musikalisch sehr flexibel. Ob Hip-Hop und R&B, House,
+                        Schlager und
+                        Mallorca-Hits, oder die klassischen Dance-Dauerbrenner - ich habe für jeden Anlass die passende
+                        Musik.
                     </p>
                 </div>
             </div>
