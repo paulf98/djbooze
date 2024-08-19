@@ -22,7 +22,7 @@
         </div>
         <div>
             <div
-                class="container flex flex-col md:flex-row items-center justify-center gap-8 max-w-5xl mx-auto py-8 flex-wrap">
+                class="container flex flex-col md:flex-row items-stretch justify-center gap-8 max-w-5xl mx-auto py-8 flex-wrap">
                 <Event v-for="event in pastEvents" :key="event.name" :name="event.name" :description="event.description"
                     :image="event.image" :date="event.date" :location="event.location" />
             </div>
