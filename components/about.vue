@@ -27,7 +27,7 @@
                 </div>
             </div>
             <div class="flex-1">
-                <NuxtImg class="rounded-full w-full h-auto max-w-sm " fit="contain" src="/DJBooze-DarkPortrait.png"
+                <LazyNuxtImg class="rounded-full w-full h-auto max-w-sm " fit="contain" src="/DJBooze-DarkPortrait.png"
                     alt="Portrait von Paul Faass" loading="lazy" />
             </div>
         </div>
