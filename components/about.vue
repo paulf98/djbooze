@@ -7,21 +7,21 @@
                     <Heading text="About" />
                 </div>
                 <div class="text-justify flex flex-col gap-4">
-                    <p class="text-xl font-bold">Willkommen auf meiner Website!</p>
+                    <p class="text-2xl font-bold">Hi, ich bin Paul 👋🏻</p>
                     <p>
-                        Mein Name ist Paul Faass und ich bin DJ aus Leidenschaft.
-                        Meine Reise als DJ begann auf Partys, wo ich schon immer für die Musik verantwortlich war. Zur
-                        Kerweparty in
-                        meiner Heimat wollte ich nicht länger nur "Spotify DJ" sein, sondern eine professionelle
-                        Abendgestaltung
-                        bieten. <br />
+                        ... und ich bin Open-Format DJ aus Leidenschaft. <br />
+                        Schon immer war ich als Partygast auf privaten Feiern für die Musik verantwortlich war.
+                        Zur Kerweparty in meiner Heimat, wollte ich nicht länger nur "Spotify DJ" sein, sondern eine
+                        professionellere
+                        musikalische Abendgestaltung bieten. <br />
                         DJ Booze war geboren 🎉
                     </p>
                     <p>
-                        Seitdem habe ich immer wieder auf privaten und öffentlichen Feierlichkeiten aufgelegt und mich
-                        stetig weiterentwickelt. Dabei bin ich musikalisch sehr flexibel. Ob Hip-Hop und R&B, House,
-                        Schlager und
-                        Mallorca-Hits, oder die klassischen Dance-Dauerbrenner - ich habe für jeden Anlass die passende
+                        Seitdem begeistere ich regelmäßig auf privaten und öffentlichen Feierlichkeiten Menschen mit
+                        Musik.
+                        Dabei bin ich musikalisch sehr flexibel. Ob Hip-Hop und R&B, House, Schlager und
+                        Mallorca-Hits, oder doch die klassischen Dance-Dauerbrenner - ich finde für jeden Anlass die
+                        passende
                         Musik.
                     </p>
                 </div>
