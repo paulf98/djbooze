@@ -23,7 +23,6 @@ const date = useState('date', () => new Date())
 const color = ref('red')
 
 const attributes: any = ref([
-
     {
         key: '2024-08-23',
         highlight: true,
@@ -85,6 +84,17 @@ const attributes: any = ref([
         dates: ['2024-09-14'],
         popover: {
             label: '10 Jahre Next Level',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-09-28',
+        highlight: true,
+        dates: ['2024-09-28'],
+        popover: {
+            label: 'Private Veranstaltung',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
