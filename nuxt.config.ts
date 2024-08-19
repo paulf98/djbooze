@@ -64,10 +64,11 @@ export default defineNuxtConfig({
 
 	compatibilityDate: '2024-07-06',
 	site: {
-		url: 'https://djbooze.de',
+		url: 'https://www.djbooze.de',
 		name: 'DJ Booze',
 		description:
 			'DJ Booze - Pirmasens und Umgebung. Egal ob Club, Hochzeit oder Event - DJ Booze hat immer die richtigen Tracks dabei.',
 		defaultLocale: 'de-DE', // not needed if you have @nuxtjs/i18n installed
+		indexable: true,
 	},
 });
