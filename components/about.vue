@@ -1,6 +1,7 @@
 <template>
     <section class="py-16 md:py-32 bg-neutral-900 text-white" id="about">
-        <div class="container flex flex-col items-center md:flex-row-reverse justify-between gap-16 max-w-5xl mx-auto p-8">
+        <div
+            class="container flex flex-col items-center md:flex-row-reverse justify-between gap-16 max-w-5xl mx-auto p-8">
             <div class="flex-1">
                 <div class="flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
                     <Heading text="About" />
@@ -16,7 +17,8 @@
                         bieten. DJ Booze war geboren 🎉
                     </p>
                     <p>
-                        Seitdem habe ich immer wieder auf privaten Feiern aufgelegt und mich stetig weiterentwickelt. Nun
+                        Seitdem habe ich immer wieder auf privaten Feiern aufgelegt und mich stetig weiterentwickelt.
+                        Nun
                         habe
                         ich bereits auf mehreren öffentlichen Veranstaltungen und in Clubs aufgelegt.
                         Dabei bin ich musikalisch sehr flexibel. Ob Hip-Hop und R&B, House und Techno oder Schlager und
@@ -25,7 +27,7 @@
                 </div>
             </div>
             <div class="flex-1">
-                <NuxtImg class="rounded-full w-full h-auto max-w-sm " fit="contain" src="/paulfaass.jpg"
+                <NuxtImg class="rounded-full w-full h-auto max-w-sm " fit="contain" src="/DJBooze-DarkPortrait.png"
                     alt="Portrait von Paul Faass" loading="lazy" />
             </div>
         </div>
