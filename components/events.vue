@@ -2,6 +2,10 @@
     <section class="w-full bg-black text-white py-16 md:py-32 px-8" id="events">
         <div class="container flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
             <Heading text="Next →" />
+            <p class="text-center">
+                Hier findest du anstehende öffentliche Termine, für die ich bereits gebucht bin. <br />
+                Komm vorbei und lass uns gemeinsam feiern! 🎉
+            </p>
         </div>
         <div>
             <div
@@ -19,6 +23,10 @@
         </div>
         <div class="container flex flex-col items-center gap-16 max-w-5xl mx-auto my-8 md:my-16">
             <Heading text="← Past" />
+            <p class="text-center">
+                Hier findest du vergangene Veranstaltungen, bei denen ich bereits aufgelegt habe. <br />
+                Vielleicht warst du ja auch schon dabei? 🤔
+            </p>
         </div>
         <div>
             <div

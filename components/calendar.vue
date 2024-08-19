@@ -1,12 +1,13 @@
 <template>
     <div class="py-8 flex flex-col items-center gap-4 justify-center">
-        <h2 class="text-center text-3xl">Meine Termine</h2>
+        <Heading class="mb-16" text="Dates →" />
         <div class="flex justify-center items-center py-4">
             <VCalendar v-model="date" :min-date="date" :color="color" :attributes="attributes" />
         </div>
         <p class="text-center">
-            Hier siehst du meinen Terminkalender. Wenn du auch einen Termin mit mir planen möchtest, schreib mir
-            einfach eine Nachricht über das Kontaktformular oder Instagram.
+            Du hast Interesse und willst dir deinen eigenen Termin mit mir sichern? <br>
+            Schreibe mir einfach eine Nachricht über das Kontaktformular oder Instagram.
+            Wir klären alle Details persönlich.
         </p>
         <NuxtLink to="#contact">
             <Button>

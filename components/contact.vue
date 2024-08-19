@@ -5,10 +5,16 @@
                 <div class="container flex flex-col items-center max-w-5xl mx-auto mb-8">
                     <Heading text="Kontakt"></Heading>
                 </div>
-                <p class="max-w-md text-justify">
-                    Du möchtest DJ Booze für deine Veranstaltung buchen? Dann schreib mir einfach eine Nachricht über das
+                <p class="max-w-md text-justify mb-4">
+                    Du möchtest mich für deine Veranstaltung buchen? Dann schreib mir einfach eine Nachricht über das
                     Kontaktformular. Alternativ freue ich mich auch über eine Nachricht auf Instagram.
                 </p>
+
+                <a href="https://www.instagram.com/dj.booze/" class="hover:underline text-red-600 hover:text-red-700"
+                    target="_blank" rel="noopener noreferrer">
+                    Mein Instagram →
+                </a>
+
             </div>
             <UForm :schema="schema" :state="state" :validate="validate" class="w-full flex-grow" @submit="submit">
                 <div class="container flex flex-col items-stretch gap-4 max-w-xl mx-auto py-8">
@@ -19,7 +25,8 @@
                         <UInput v-model="state.email" placeholder="Email" variant="outline" color="green" />
                     </UFormGroup>
                     <UFormGroup label="Nachricht" name="message" eager-validation>
-                        <UTextarea v-model="state.message" placeholder="Nachricht ..." variant="outline" color="green" />
+                        <UTextarea v-model="state.message" placeholder="Nachricht ..." variant="outline"
+                            color="green" />
                     </UFormGroup>
                     <Button type="submit"
                         :disabled="!state.name || !state.email || !state.message || !token">Senden</Button>

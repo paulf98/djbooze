@@ -3,7 +3,8 @@
         <div class="flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
             <Heading text="SoundCloud" />
             <p class="text-center max-w-3xl">
-                Einige kurze Mixing-Sessions, die ich auf SoundCloud veröffentlicht habe. Viel Spaß beim Hören!
+                Hier findest du ein paar Mixe, die ich auf SoundCloud veröffentlicht habe. <br />
+                Viel Spaß beim Hören! 🎧
             </p>
         </div>
         <div class="container flex flex-col md:flex-row items-center justify-center gap-8 mx-auto py-8 flex-wrap">
