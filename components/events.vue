@@ -35,20 +35,26 @@ import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
     {
-        name: 'Feuerwehrfest Lemberg',
-        date: '10.08.24',
-        location: "Freizeithalle Lemberg",
-        image: "/feuerwehrfest.JPEG"
-    },
-    {
         name: 'Teen Disco',
         date: '23.08.24',
         location: "MATRIX Pirmasens",
         image: "/teendisco-august.JPEG"
     },
+    {
+        name: '10 Jahre Next Level',
+        date: '14.09.24',
+        location: "Next Level Pirmasens",
+        image: "/10JahreNext.JPEG"
+    },
 ];
 
 const pastEvents: MyEvent[] = [
+    {
+        name: 'Feuerwehrfest Lemberg',
+        date: '10.08.24',
+        location: "Freizeithalle Lemberg",
+        image: "/feuerwehrfest.JPEG"
+    },
     {
         name: 'SchlabbeflickerFESTival',
         date: '02.08.24 & 03.08.24',
