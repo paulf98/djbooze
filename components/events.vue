@@ -43,20 +43,26 @@ import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
     {
-        name: 'Teen Disco',
-        date: '23.08.24',
-        location: "MATRIX Pirmasens",
-        image: "/teendisco-august.JPEG"
-    },
-    {
         name: '10 Jahre Next Level',
         date: '14.09.24',
         location: "Next Level Pirmasens",
         image: "/10JahreNext.JPEG"
     },
+    {
+        name: 'Lemberger Kerweparty',
+        date: '19.10.2024',
+        location: "Freizeithalle Lemberg",
+        image: "/kerweparty24.JPEG"
+    },
 ];
 
 const pastEvents: MyEvent[] = [
+    {
+        name: 'Teen Disco',
+        date: '23.08.24',
+        location: "MATRIX Pirmasens",
+        image: "/teendisco-august.JPEG"
+    },
     {
         name: 'Feuerwehrfest Lemberg',
         date: '10.08.24',

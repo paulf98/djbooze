@@ -25,66 +25,22 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-08-23',
-        highlight: true,
-        dates: ['2024-08-23'],
-        popover: {
-            label: 'Teen Disco',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-08-24',
-        highlight: true,
-        dates: ['2024-08-24'],
-        popover: {
-            label: 'Privater Termin',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-08-30',
-        highlight: true,
-        dates: ['2024-08-30'],
-        popover: {
-            label: 'Privates Sommerfest',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-08-31',
-        highlight: true,
-        dates: ['2024-08-31'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-09-07',
-        highlight: true,
-        dates: ['2024-09-07'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
         key: '2024-09-14',
         highlight: true,
         dates: ['2024-09-14'],
         popover: {
             label: '10 Jahre Next Level',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-09-15',
+        highlight: true,
+        dates: ['2024-09-15'],
+        popover: {
+            label: 'Sundowner Edesheim',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
@@ -135,6 +91,17 @@ const attributes: any = ref([
         },
     },
     {
+        key: '2024-10-31',
+        highlight: true,
+        dates: ['2024-10-31'],
+        popover: {
+            label: 'MATRIX Halloween Party',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
         key: '2024-12-07',
         highlight: true,
         dates: ['2024-12-07'],
@@ -149,6 +116,17 @@ const attributes: any = ref([
         key: '2025-04-12',
         highlight: true,
         dates: ['2025-04-12'],
+        popover: {
+            label: 'Private Veranstaltung',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2025-07-12',
+        highlight: true,
+        dates: ['2025-07-12'],
         popover: {
             label: 'Private Veranstaltung',
             color: 'red',
