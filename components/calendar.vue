@@ -25,31 +25,31 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-09-14',
-        highlight: true,
-        dates: ['2024-09-14'],
-        popover: {
-            label: '10 Jahre Next Level',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-09-15',
-        highlight: true,
-        dates: ['2024-09-15'],
-        popover: {
-            label: 'Sundowner Edesheim',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
         key: '2024-09-28',
         highlight: true,
         dates: ['2024-09-28'],
+        popover: {
+            label: 'Private Veranstaltung',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-10-02',
+        highlight: true,
+        dates: ['2024-10-02'],
+        popover: {
+            label: 'Kneipentour @Next Level',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-10-05',
+        highlight: true,
+        dates: ['2024-10-05'],
         popover: {
             label: 'Private Veranstaltung',
             color: 'red',
