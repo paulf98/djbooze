@@ -10,7 +10,7 @@
                     <p class="text-2xl font-bold">Hi, ich bin Paul 👋🏻</p>
                     <p>
                         ... und ich bin Open-Format DJ aus Leidenschaft. <br />
-                        Schon immer war ich als Partygast auf privaten Feiern für die Musik verantwortlich war.
+                        Schon immer war ich als Partygast auf privaten Feiern für die Musik verantwortlich.
                         Zur Kerweparty in meiner Heimat, wollte ich nicht länger nur "Spotify DJ" sein, sondern eine
                         professionellere
                         musikalische Abendgestaltung bieten. <br />
