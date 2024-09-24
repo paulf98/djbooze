@@ -43,10 +43,10 @@ import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
     {
-        name: '10 Jahre Next Level',
-        date: '14.09.24',
+        name: 'KneipenKULTOUR',
+        date: '02.10.2024',
         location: "Next Level Pirmasens",
-        image: "/10JahreNext.JPEG"
+        image: "/kneipentour24.jpg"
     },
     {
         name: 'Lemberger Kerweparty',
@@ -57,6 +57,12 @@ const upcomingEvents: MyEvent[] = [
 ];
 
 const pastEvents: MyEvent[] = [
+    {
+        name: '10 Jahre Next Level',
+        date: '14.09.24',
+        location: "Next Level Pirmasens",
+        image: "/10JahreNext.JPEG"
+    },
     {
         name: 'Teen Disco',
         date: '23.08.24',
