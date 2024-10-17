@@ -43,20 +43,32 @@ import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
     {
-        name: 'KneipenKULTOUR',
-        date: '02.10.2024',
-        location: "Next Level Pirmasens",
-        image: "/kneipentour24.jpg"
-    },
-    {
         name: 'Lemberger Kerweparty',
         date: '19.10.2024',
         location: "Freizeithalle Lemberg",
         image: "/kerweparty24.JPEG"
     },
+    {
+        name: 'Halloween Teen Disco',
+        date: '31.10.2024',
+        location: "MaTriX Pirmasens",
+        image: "/halloween24-td.JPEG"
+    },
+    {
+        name: 'Halloween Party',
+        date: '31.10.2024',
+        location: "MaTriX Pirmasens",
+        image: "/halloween24.JPEG"
+    },
 ];
 
 const pastEvents: MyEvent[] = [
+    {
+        name: 'KneipenKULTOUR',
+        date: '02.10.2024',
+        location: "Next Level Pirmasens",
+        image: "/kneipentour24.jpg"
+    },
     {
         name: '10 Jahre Next Level',
         date: '14.09.24',

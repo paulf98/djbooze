@@ -25,50 +25,6 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-09-28',
-        highlight: true,
-        dates: ['2024-09-28'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-10-02',
-        highlight: true,
-        dates: ['2024-10-02'],
-        popover: {
-            label: 'Kneipentour @Next Level',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-10-05',
-        highlight: true,
-        dates: ['2024-10-05'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-10-12',
-        highlight: true,
-        dates: ['2024-10-12'],
-        popover: {
-            label: 'Die Anonyme Giddarischde - Aftershow',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
         key: '2024-10-19',
         highlight: true,
         dates: ['2024-10-19'],
@@ -95,7 +51,40 @@ const attributes: any = ref([
         highlight: true,
         dates: ['2024-10-31'],
         popover: {
-            label: 'MATRIX Halloween Party',
+            label: 'MaTriX Halloween Party',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-11-23',
+        highlight: true,
+        dates: ['2024-11-23'],
+        popover: {
+            label: 'Private Veranstaltung',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-11-30',
+        highlight: true,
+        dates: ['2024-11-30'],
+        popover: {
+            label: 'MaTriX Abiparty WG Pirmasens',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-12-06',
+        highlight: true,
+        dates: ['2024-12-06'],
+        popover: {
+            label: 'Icedisco Belznickelmarkt Pirmasens',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
@@ -106,7 +95,29 @@ const attributes: any = ref([
         highlight: true,
         dates: ['2024-12-07'],
         popover: {
-            label: 'Elias B-Day Bash',
+            label: 'DJ EL1AS B-Day Bash',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-12-13',
+        highlight: true,
+        dates: ['2024-12-13'],
+        popover: {
+            label: 'Icedisco Belznickelmarkt Pirmasens',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2024-12-14',
+        highlight: true,
+        dates: ['2024-12-14'],
+        popover: {
+            label: 'Private Veranstaltung',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
@@ -116,6 +127,17 @@ const attributes: any = ref([
         key: '2025-04-12',
         highlight: true,
         dates: ['2025-04-12'],
+        popover: {
+            label: 'Private Veranstaltung',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2025-05-16',
+        highlight: true,
+        dates: ['2025-05-16'],
         popover: {
             label: 'Private Veranstaltung',
             color: 'red',
