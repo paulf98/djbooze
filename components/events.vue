@@ -43,12 +43,6 @@ import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
     {
-        name: 'Lemberger Kerweparty',
-        date: '19.10.2024',
-        location: "Freizeithalle Lemberg",
-        image: "/kerweparty24.JPEG"
-    },
-    {
         name: 'Halloween Teen Disco',
         date: '31.10.2024',
         location: "MaTriX Pirmasens",
@@ -63,6 +57,12 @@ const upcomingEvents: MyEvent[] = [
 ];
 
 const pastEvents: MyEvent[] = [
+    {
+        name: 'Lemberger Kerweparty',
+        date: '19.10.2024',
+        location: "Freizeithalle Lemberg",
+        image: "/kerweparty24.JPEG"
+    },
     {
         name: 'KneipenKULTOUR',
         date: '02.10.2024',

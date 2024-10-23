@@ -25,17 +25,6 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-10-19',
-        highlight: true,
-        dates: ['2024-10-19'],
-        popover: {
-            label: 'Kerweparty Lemberg',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
         key: '2024-10-26',
         highlight: true,
         dates: ['2024-10-26'],
