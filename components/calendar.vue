@@ -113,11 +113,44 @@ const attributes: any = ref([
         },
     },
     {
+        key: '2024-12-21',
+        highlight: true,
+        dates: ['2024-12-21'],
+        popover: {
+            label: 'Next Level',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2025-02-28',
+        highlight: true,
+        dates: ['2025-02-28'],
+        popover: {
+            label: 'Next Level - Bad Taste Party',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
         key: '2025-04-12',
         highlight: true,
         dates: ['2025-04-12'],
         popover: {
             label: 'Private Veranstaltung',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2025-04-30',
+        highlight: true,
+        dates: ['2025-04-30'],
+        popover: {
+            label: 'Bärmesenser Hexentour @Next Level',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
