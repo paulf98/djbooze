@@ -25,28 +25,6 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-10-26',
-        highlight: true,
-        dates: ['2024-10-26'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-10-31',
-        highlight: true,
-        dates: ['2024-10-31'],
-        popover: {
-            label: 'MaTriX Halloween Party',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
         key: '2024-11-23',
         highlight: true,
         dates: ['2024-11-23'],

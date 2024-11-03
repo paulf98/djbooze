@@ -42,6 +42,10 @@
 import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
+
+];
+
+const pastEvents: MyEvent[] = [
     {
         name: 'Halloween Teen Disco',
         date: '31.10.2024',
@@ -54,9 +58,6 @@ const upcomingEvents: MyEvent[] = [
         location: "MaTriX Pirmasens",
         image: "/halloween24.JPEG"
     },
-];
-
-const pastEvents: MyEvent[] = [
     {
         name: 'Lemberger Kerweparty',
         date: '19.10.2024',
