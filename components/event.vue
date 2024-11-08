@@ -1,5 +1,5 @@
 <template>
-    <div class="w-full max-w-xs">
+    <div class="w-full max-w-xs mx-auto">
         <LazyNuxtImg :src="props.image" :alt="props.name" class="w-full max-w-xs mb-4 rounded-md" loading="lazy"
             fit="contain" />
         <div class="flex flex-col items-start justify-center gap-4">
