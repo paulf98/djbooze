@@ -42,7 +42,12 @@
 import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
-
+    {
+        name: 'Life is a Party',
+        date: '30.11.2024',
+        location: "MaTriX Pirmasens",
+        image: "/abiparty-bbs-24.jpg"
+    },
 ];
 
 const pastEvents: MyEvent[] = [

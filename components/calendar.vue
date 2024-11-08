@@ -40,7 +40,7 @@ const attributes: any = ref([
         highlight: true,
         dates: ['2024-11-30'],
         popover: {
-            label: 'MaTriX Abiparty WG Pirmasens',
+            label: 'MaTriX Abiparty',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',

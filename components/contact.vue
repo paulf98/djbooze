@@ -3,7 +3,7 @@
         <div class="container max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-16">
             <div class="flex flex-col">
                 <div class="container flex flex-col items-center max-w-5xl mx-auto mb-8">
-                    <Heading text="Kontakt"></Heading>
+                    <Heading text="Kontakt" />
                 </div>
                 <p class="max-w-md text-justify mb-4">
                     Du möchtest mich für deine Veranstaltung buchen? Dann schreib mir einfach eine Nachricht über das
@@ -14,7 +14,6 @@
                     target="_blank" rel="noopener noreferrer">
                     Mein Instagram →
                 </a>
-
             </div>
             <UForm :schema="schema" :state="state" :validate="validate" class="w-full flex-grow" @submit="submit">
                 <div class="container flex flex-col items-stretch gap-4 max-w-xl mx-auto py-8">

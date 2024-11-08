@@ -19,7 +19,6 @@
             </div>
             <a v-if="props.link" class="hover:underline mx-auto text-red-600 hover:text-red-700" :href="props.link">Zur
                 Veranstaltung →
-
             </a>
         </div>
     </div>
