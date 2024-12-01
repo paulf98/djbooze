@@ -14,7 +14,7 @@
     "@nuxtjs/google-fonts": "^3.2.0",
     "@nuxtjs/seo": "2.0.0-rc.23",
     "@samk-dev/nuxt-vcalendar": "^1.0.4",
-    "nuxt": "^3.14.159",
+    "nuxt": "^3.14.1592",
     "vue": "^3.5.12",
     "vue-router": "^4.4.5"
   },
