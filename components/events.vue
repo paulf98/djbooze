@@ -43,14 +43,38 @@ import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
     {
+        name: 'Icedisco Belznickelmarkt',
+        date: '06.12.2024',
+        location: "Schloßplatz Pirmasens",
+        image: "/Icedisco.png"
+    },
+    {
+        name: 'DJ EL1AS Birthday Bash',
+        date: '07.12.2024',
+        location: "MaTriX Pirmasens",
+        image: "/bdaybash.jpg"
+    },
+    {
+        name: 'Icedisco Belznickelmarkt',
+        date: '13.12.2024',
+        location: "Schloßplatz Pirmasens",
+        image: "/Icedisco.png"
+    },
+    {
+        name: 'Driving Home for Christmas',
+        date: '21.12.2024',
+        location: "Next Level Pirmasens",
+        image: "/driving-home-for-christmas.JPEG"
+    },
+];
+
+const pastEvents: MyEvent[] = [
+    {
         name: 'Life is a Party',
         date: '30.11.2024',
         location: "MaTriX Pirmasens",
         image: "/abiparty-bbs-24.jpg"
     },
-];
-
-const pastEvents: MyEvent[] = [
     {
         name: 'Halloween Teen Disco',
         date: '31.10.2024',
