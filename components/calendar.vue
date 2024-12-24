@@ -25,60 +25,28 @@ const color = ref('red')
 
 const attributes: any = ref([
     {
-        key: '2024-12-06',
+        key: '2025-01-04',
         highlight: true,
-        dates: ['2024-12-06'],
+        dates: ['2025-01-04'],
         popover: {
-            label: 'Icedisco Belznickelmarkt Pirmasens',
+            label: 'Die Erste Party des Jahres - WGW',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
         },
     },
     {
-        key: '2024-12-07',
+        key: '2025-02-21',
         highlight: true,
-        dates: ['2024-12-07'],
+        dates: ['2025-02-21'],
         popover: {
-            label: 'DJ EL1AS B-Day Bash',
+            label: 'Vermoddelte Turnstunde - TV Lemberg',
             color: 'red',
             placement: 'bottom',
             visibility: 'click',
         },
     },
-    {
-        key: '2024-12-13',
-        highlight: true,
-        dates: ['2024-12-13'],
-        popover: {
-            label: 'Icedisco Belznickelmarkt Pirmasens',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-12-14',
-        highlight: true,
-        dates: ['2024-12-14'],
-        popover: {
-            label: 'Private Veranstaltung',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
-    {
-        key: '2024-12-21',
-        highlight: true,
-        dates: ['2024-12-21'],
-        popover: {
-            label: 'Next Level',
-            color: 'red',
-            placement: 'bottom',
-            visibility: 'click',
-        },
-    },
+
     {
         key: '2025-02-28',
         highlight: true,

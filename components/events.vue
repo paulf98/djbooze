@@ -43,12 +43,6 @@ import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
     {
-        name: 'Driving Home for Christmas',
-        date: '21.12.2024',
-        location: "Next Level Pirmasens",
-        image: "/driving-home-for-christmas.JPEG"
-    },
-    {
         name: 'Die Erste Party des Jahres #wiegeilwerdzn',
         date: '04.01.2025',
         location: "Messehalle Pirmasens",
@@ -57,6 +51,12 @@ const upcomingEvents: MyEvent[] = [
 ];
 
 const pastEvents: MyEvent[] = [
+    {
+        name: 'Driving Home for Christmas',
+        date: '21.12.2024',
+        location: "Next Level Pirmasens",
+        image: "/driving-home-for-christmas.JPEG"
+    },
     {
         name: 'Icedisco Belznickelmarkt',
         date: '13.12.2024',
