@@ -7,15 +7,6 @@ export default defineNuxtConfig({
 		'@nuxt/image',
 		'@nuxtjs/turnstile',
 		[
-			'@nuxtjs/google-fonts',
-			{
-				families: {
-					Montserrat: [100, 200, 300, 400, 500, 600, 700, 800, 900],
-				},
-				display: 'swap',
-			},
-		],
-		[
 			'nuxt-mail',
 			{
 				message: {
@@ -34,6 +25,7 @@ export default defineNuxtConfig({
 		'@samk-dev/nuxt-vcalendar',
 		'@nuxt/scripts',
 		'@nuxtjs/seo',
+		'@vueuse/motion/nuxt',
 	],
 
 	ui: {
