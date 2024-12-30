@@ -46,7 +46,6 @@ const attributes: any = ref([
             visibility: 'click',
         },
     },
-
     {
         key: '2025-02-28',
         highlight: true,
@@ -95,6 +94,17 @@ const attributes: any = ref([
         key: '2025-07-12',
         highlight: true,
         dates: ['2025-07-12'],
+        popover: {
+            label: 'Private Veranstaltung',
+            color: 'red',
+            placement: 'bottom',
+            visibility: 'click',
+        },
+    },
+    {
+        key: '2025-09-06',
+        highlight: true,
+        dates: ['2025-09-06'],
         popover: {
             label: 'Private Veranstaltung',
             color: 'red',
