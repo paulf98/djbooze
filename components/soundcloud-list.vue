@@ -31,6 +31,10 @@ const soundclouds = [
     {
         id: 4,
         url: 'https://soundcloud.com/paul-faass/4-2000er-hip-hop-rnb-throwback-weekend-mix?si=0eb5a80088ae493caf6a28832226faf3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
+    },
+    {
+        id: 5,
+        url: 'https://soundcloud.com/paul-faass/5-2010er-throwback-weekend-mix?si=12431807e34d4ba3826c3a72aa7212fc&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing'
     }
 ]
 
