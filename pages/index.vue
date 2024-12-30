@@ -4,5 +4,6 @@
 		<About />
 		<Events />
 		<SoundcloudList />
+		<Veranstaltung />
 	</main>
 </template>
