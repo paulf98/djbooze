@@ -2,8 +2,8 @@
 	<section class="w-full bg-black text-white py-16 md:py-32 px-8" id="events">
 		<div
 			class="container flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
-			<Heading text="Next →" />
-			<p class="text-center">
+			<Heading text="Next →" v-motion-slide-visible-bottom :duration="800" />
+			<p class="text-center" v-motion-slide-visible-bottom :duration="800">
 				Hier findest du anstehende öffentliche Termine, für die ich bereits
 				gebucht bin. <br />
 				Komm vorbei und lass uns gemeinsam feiern! 🎉
@@ -34,8 +34,8 @@
 		</div>
 		<div
 			class="container flex flex-col items-center gap-16 max-w-5xl mx-auto my-8 md:my-16">
-			<Heading text="← Past" />
-			<p class="text-center">
+			<Heading text="← Past" v-motion-slide-visible-bottom :duration="800" />
+			<p class="text-center" v-motion-slide-visible-bottom :duration="800">
 				Hier findest du vergangene Veranstaltungen, bei denen ich bereits
 				aufgelegt habe. <br />
 				Vielleicht warst du ja auch schon dabei? 🤔
@@ -54,7 +54,10 @@
 					:location="event.location" />
 			</div>
 		</div>
-		<div class="flex justify-center mt-8">
+		<div
+			class="flex justify-center mt-8"
+			v-motion-slide-visible-bottom
+			:duration="800">
 			<NuxtLink to="/archiv">
 				<Button>Mehr anzeigen</Button>
 			</NuxtLink>

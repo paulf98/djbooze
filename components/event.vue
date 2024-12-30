@@ -1,39 +1,45 @@
 <template>
-    <div class="w-full max-w-xs mx-auto">
-        <LazyNuxtImg :src="props.image" :alt="props.name" class="w-full max-w-xs mb-4 rounded-md" loading="lazy"
-            fit="contain" />
-        <div class="flex flex-col items-start justify-center gap-4">
-            <p class="dark:text-white text-3xl font-thin tracking-wider">
-                {{ props.name }}
-            </p>
-            <p class="dark:text-white">
-                {{ props.description }}
-            </p>
-            <div class="flex justify-between gap-2 w-full">
-                <p class="dark:text-white font-thin tracking-wider">
-                    {{ props.date }}
-                </p>
-                <p class="dark:text-white font-thin tracking-wider">
-                    {{ props.location }}
-                </p>
-            </div>
-            <a v-if="props.link" class="hover:underline mx-auto text-red-600 hover:text-red-700" :href="props.link">Zur
-                Veranstaltung →
-            </a>
-        </div>
-    </div>
+	<div class="w-full max-w-xs mx-auto" v-motion-pop-visible :duration="800">
+		<LazyNuxtImg
+			:src="props.image"
+			:alt="props.name"
+			class="w-full max-w-xs mb-4 rounded-md"
+			loading="lazy"
+			fit="contain" />
+		<div class="flex flex-col items-start justify-center gap-4">
+			<p class="dark:text-white text-3xl font-thin tracking-wider">
+				{{ props.name }}
+			</p>
+			<p class="dark:text-white">
+				{{ props.description }}
+			</p>
+			<div class="flex justify-between gap-2 w-full">
+				<p class="dark:text-white font-thin tracking-wider">
+					{{ props.date }}
+				</p>
+				<p class="dark:text-white font-thin tracking-wider">
+					{{ props.location }}
+				</p>
+			</div>
+			<a
+				v-if="props.link"
+				class="hover:underline mx-auto text-red-600 hover:text-red-700"
+				:href="props.link"
+				>Zur Veranstaltung →
+			</a>
+		</div>
+	</div>
 </template>
 
 <script setup lang="ts">
 import { type MyEvent } from '~/types/event';
 
 const props = withDefaults(defineProps<MyEvent>(), {
-    name: 'Event',
-    description: undefined,
-    date: '01.01.24',
-    location: 'Location',
-    image: '/sample-event.JPEG',
-    link: undefined
-})
-
+	name: 'Event',
+	description: undefined,
+	date: '01.01.24',
+	location: 'Location',
+	image: '/sample-event.JPEG',
+	link: undefined,
+});
 </script>

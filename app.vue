@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div style="background-color: black; max-width: 100%; overflow-x: hidden">
 		<Navbar />
 		<div>
 			<NuxtPage />

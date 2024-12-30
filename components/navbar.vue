@@ -1,5 +1,8 @@
 <template>
-	<nav class="bg-black py-4 sticky w-full top-0 z-50 px-4">
+	<nav
+		class="bg-black py-4 sticky w-full top-0 z-50 px-4"
+		v-motion-slide-top
+		:duration="800">
 		<div
 			class="flex justify-between items-center container mx-auto max-w-5xl gap-8">
 			<NuxtLink to="/" class="hover:cursor-pointer">

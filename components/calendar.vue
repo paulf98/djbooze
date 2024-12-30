@@ -1,20 +1,27 @@
 <template>
 	<div class="py-8 flex flex-col items-center gap-4 justify-center">
-		<Heading class="mb-16" text="Dates →" />
-		<div class="flex justify-center items-center py-4">
+		<Heading
+			class="mb-16"
+			text="Dates →"
+			v-motion-slide-visible-bottom
+			:duration="800" />
+		<div
+			class="flex justify-center items-center py-4"
+			v-motion-slide-visible-bottom
+			:duration="800">
 			<VCalendar
 				v-model="date"
 				:min-date="date"
 				:color="color"
 				:attributes="attributes" />
 		</div>
-		<p class="text-center">
+		<p class="text-center" v-motion-slide-visible-bottom :duration="800">
 			Du hast Interesse und willst dir deinen eigenen Termin mit mir sichern?
 			<br />
 			Schreibe mir einfach eine Nachricht über das Kontaktformular oder
 			Instagram. Wir klären alle Details persönlich.
 		</p>
-		<NuxtLink to="#contact">
+		<NuxtLink to="#contact" v-motion-slide-visible-bottom :duration="800">
 			<Button> Jetzt Anfrage senden </Button>
 		</NuxtLink>
 	</div>

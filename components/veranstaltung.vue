@@ -4,20 +4,34 @@
 			class="container flex flex-col items-center md:flex-row-reverse justify-between gap-16 max-w-5xl mx-auto p-8">
 			<div
 				class="flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
-				<Heading text="Dein Event" />
+				<Heading
+					text="Dein Event"
+					v-motion-slide-visible-bottom
+					:duration="800" />
 			</div>
 		</div>
-		<p class="text-center mb-4 font-bold">
+		<p
+			class="text-center mb-4 font-bold"
+			v-motion-slide-visible-bottom
+			:duration="800">
 			🎧 Dein Event, Dein Sound – mit Deinem mobilen DJ! 🎉
 		</p>
-		<p class="text-center prose text-white mx-auto">
+		<p
+			class="text-center prose text-white mx-auto"
+			v-motion-slide-visible-bottom
+			:duration="800">
 			Egal ob Hochzeit, Geburtstag, Jubiläum oder private Feier – ich bringe den
 			passenden Soundtrack für Deine unvergesslichen Momente. Mit
 			professionellem Equipment, einem flexiblen Musikrepertoire und
 			Leidenschaft sorge ich dafür, dass Deine Gäste tanzen und Dein Event in
 			Erinnerung bleibt.
 		</p>
-		<h3 class="text-center text-2xl mb-4 font-bold mt-8">💡 So läuft's ab:</h3>
+		<h3
+			class="text-center text-2xl mb-4 font-bold mt-8"
+			v-motion-slide-visible-bottom
+			:duration="800">
+			💡 So läuft's ab:
+		</h3>
 		<div
 			class="max-w-screen-lg mx-auto space-y-8 relative before:absolute before:inset-0 before:ml-5 before:-translate-x-px md:before:mx-auto md:before:translate-x-0 before:h-full before:w-0.5 before:bg-gradient-to-b before:from-transparent before:via-slate-300 before:to-transparent py-8 md:py-16">
 			<TimelineItem :step="1">
