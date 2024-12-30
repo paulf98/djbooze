@@ -1,9 +1,8 @@
 <template>
-  <main>
-    <Hero />
-    <About />
-    <Events />
-    <SoundcloudList />
-    <Contact />
-  </main>
+	<main>
+		<Hero />
+		<About />
+		<Events />
+		<SoundcloudList />
+	</main>
 </template>
