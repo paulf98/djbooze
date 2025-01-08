@@ -35,7 +35,7 @@ const attributes: any = ref([
 	{
 		key: '2025-01-31',
 		highlight: true,
-		dates: ['2025-01-11'],
+		dates: ['2025-01-31'],
 		popover: {
 			label: 'Friday Night - MaTriX',
 			color: 'red',
