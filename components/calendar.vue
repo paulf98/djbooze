@@ -33,11 +33,11 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-01-04',
+		key: '2025-01-31',
 		highlight: true,
-		dates: ['2025-01-04'],
+		dates: ['2025-01-11'],
 		popover: {
-			label: 'Die Erste Party des Jahres - WGW',
+			label: 'Friday Night - MaTriX',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',

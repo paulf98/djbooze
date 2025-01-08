@@ -68,16 +68,15 @@
 <script setup lang="ts">
 import { type MyEvent } from '~/types/event';
 
-const upcomingEvents: MyEvent[] = [
+const upcomingEvents: MyEvent[] = [];
+
+const pastEvents: MyEvent[] = [
 	{
 		name: 'Die Erste Party des Jahres #wiegeilwerdzn',
 		date: '04.01.2025',
 		location: 'Messehalle Pirmasens',
 		image: '/wgw25.jpg',
 	},
-];
-
-const pastEvents: MyEvent[] = [
 	{
 		name: 'Driving Home for Christmas',
 		date: '21.12.2024',
