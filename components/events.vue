@@ -68,7 +68,14 @@
 <script setup lang="ts">
 import { type MyEvent } from '~/types/event';
 
-const upcomingEvents: MyEvent[] = [];
+const upcomingEvents: MyEvent[] = [
+	{
+		name: 'Vermoddelte Turnstunde',
+		date: '21.02.2025',
+		location: 'TV Lemberg',
+		image: '/VermoddelteTurnstunde.png',
+	},
+];
 
 const pastEvents: MyEvent[] = [
 	{
