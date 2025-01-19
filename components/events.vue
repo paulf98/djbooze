@@ -11,7 +11,7 @@
 		</div>
 		<div>
 			<div
-				class="container flex flex-col md:flex-row items-center justify-center gap-8 max-w-5xl mx-auto py-8 flex-wrap">
+				class="container flex flex-col md:flex-row items-stretch justify-center gap-8 max-w-5xl mx-auto py-8 flex-wrap">
 				<Event
 					v-if="upcomingEvents && upcomingEvents.length"
 					v-for="event in upcomingEvents"
@@ -69,6 +69,12 @@
 import { type MyEvent } from '~/types/event';
 
 const upcomingEvents: MyEvent[] = [
+	{
+		name: 'Friday Night Revival',
+		date: '31.01.2025',
+		location: 'MaTriX Pirmasens',
+		image: '/friday-night.JPEG',
+	},
 	{
 		name: 'Vermoddelte Turnstunde',
 		date: '21.02.2025',
