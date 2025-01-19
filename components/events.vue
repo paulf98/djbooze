@@ -81,6 +81,12 @@ const upcomingEvents: MyEvent[] = [
 		location: 'TV Lemberg',
 		image: '/VermoddelteTurnstunde.png',
 	},
+	{
+		name: 'Bad Taste Party',
+		date: '28.02.2025',
+		location: 'Next Level Pirmasens',
+		image: '/bad-taste.JPEG',
+	},
 ];
 
 const pastEvents: MyEvent[] = [
