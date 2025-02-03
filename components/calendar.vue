@@ -33,11 +33,11 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-01-31',
+		key: '2025-02-08',
 		highlight: true,
-		dates: ['2025-01-31'],
+		dates: ['2025-02-08'],
 		popover: {
-			label: 'Friday Night - MaTriX',
+			label: 'Ladies Night - MaTriX',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
@@ -60,6 +60,17 @@ const attributes: any = ref([
 		dates: ['2025-02-28'],
 		popover: {
 			label: 'Next Level - Bad Taste Party',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-03-01',
+		highlight: true,
+		dates: ['2025-03-01'],
+		popover: {
+			label: 'Faschingsparty - MaTriX',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
@@ -91,6 +102,17 @@ const attributes: any = ref([
 		key: '2025-05-16',
 		highlight: true,
 		dates: ['2025-05-16'],
+		popover: {
+			label: 'Private Veranstaltung',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-07-05',
+		highlight: true,
+		dates: ['2025-07-05'],
 		popover: {
 			label: 'Private Veranstaltung',
 			color: 'red',
