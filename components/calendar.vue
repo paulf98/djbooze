@@ -33,17 +33,6 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-02-08',
-		highlight: true,
-		dates: ['2025-02-08'],
-		popover: {
-			label: 'Ladies Night - MaTriX',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
 		key: '2025-02-21',
 		highlight: true,
 		dates: ['2025-02-21'],
@@ -77,6 +66,17 @@ const attributes: any = ref([
 		},
 	},
 	{
+		key: '2025-03-29',
+		highlight: true,
+		dates: ['2025-03-29'],
+		popover: {
+			label: 'Next Level',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
 		key: '2025-04-12',
 		highlight: true,
 		dates: ['2025-04-12'],
@@ -104,6 +104,17 @@ const attributes: any = ref([
 		dates: ['2025-05-16'],
 		popover: {
 			label: 'Private Veranstaltung',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-06-21',
+		highlight: true,
+		dates: ['2025-06-19', '2025-06-20', '2025-06-21', '2025-06-22'],
+		popover: {
+			label: 'Privat',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',

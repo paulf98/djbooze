@@ -2,12 +2,6 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
-		name: 'Ladies Night',
-		date: '08.02.2025',
-		location: 'MaTriX Pirmasens',
-		image: '/ladies-night.jpg',
-	},
-	{
 		name: 'Vermoddelte Turnstunde',
 		date: '21.02.2025',
 		location: 'TV Lemberg',
@@ -19,9 +13,21 @@ export const upcomingEvents: MyEvent[] = [
 		location: 'Next Level Pirmasens',
 		image: '/bad-taste.jpg',
 	},
+	{
+		name: 'Faschingsparty',
+		date: '01.03.2025',
+		location: 'MaTriX Pirmasens',
+		image: '/fasching25.jpg',
+	},
 ];
 
 export const pastEvents: MyEvent[] = [
+	{
+		name: 'Ladies Night',
+		date: '08.02.2025',
+		location: 'MaTriX Pirmasens',
+		image: '/ladies-night.jpg',
+	},
 	{
 		name: 'Friday Night Revival',
 		date: '31.01.2025',
