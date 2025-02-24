@@ -2,12 +2,6 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
-		name: 'Vermoddelte Turnstunde',
-		date: '21.02.2025',
-		location: 'TV Lemberg',
-		image: '/VermoddelteTurnstunde.JPG',
-	},
-	{
 		name: 'Bad Taste Party',
 		date: '28.02.2025',
 		location: 'Next Level Pirmasens',
@@ -22,6 +16,12 @@ export const upcomingEvents: MyEvent[] = [
 ];
 
 export const pastEvents: MyEvent[] = [
+	{
+		name: 'Vermoddelte Turnstunde',
+		date: '21.02.2025',
+		location: 'TV Lemberg',
+		image: '/VermoddelteTurnstunde.JPG',
+	},
 	{
 		name: 'Ladies Night',
 		date: '08.02.2025',
@@ -40,16 +40,16 @@ export const pastEvents: MyEvent[] = [
 		location: 'Messehalle Pirmasens',
 		image: '/wgw25.jpg',
 	},
+];
+
+export const archivedEvents: MyEvent[] = [
+	...pastEvents,
 	{
 		name: 'Driving Home for Christmas',
 		date: '21.12.2024',
 		location: 'Next Level Pirmasens',
 		image: '/driving-home-for-christmas.JPEG',
 	},
-];
-
-export const archivedEvents: MyEvent[] = [
-	...pastEvents,
 	{
 		name: 'Icedisco Belznickelmarkt',
 		date: '13.12.2024',

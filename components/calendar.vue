@@ -33,17 +33,6 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-02-21',
-		highlight: true,
-		dates: ['2025-02-21'],
-		popover: {
-			label: 'Vermoddelte Turnstunde - TV Lemberg',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
 		key: '2025-02-28',
 		highlight: true,
 		dates: ['2025-02-28'],
@@ -60,6 +49,17 @@ const attributes: any = ref([
 		dates: ['2025-03-01'],
 		popover: {
 			label: 'Faschingsparty - MaTriX',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-03-28',
+		highlight: true,
+		dates: ['2025-03-28'],
+		popover: {
+			label: 'Private Veranstaltung',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
