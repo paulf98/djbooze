@@ -13,6 +13,12 @@ export const upcomingEvents: MyEvent[] = [
 		location: 'MaTriX Pirmasens',
 		image: '/fasching25.jpg',
 	},
+	{
+		name: 'The Heavy Booze Experience',
+		date: '29.03.2025',
+		location: 'Next Level Pirmasens',
+		image: '/HeavyBooze.png',
+	},
 ];
 
 export const pastEvents: MyEvent[] = [
