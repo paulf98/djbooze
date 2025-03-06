@@ -143,6 +143,17 @@ const attributes: any = ref([
 		},
 	},
 	{
+		key: '2025-08-23',
+		highlight: true,
+		dates: ['2025-08-23'],
+		popover: {
+			label: '60 Jahre HKS',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
 		key: '2025-09-06',
 		highlight: true,
 		dates: ['2025-09-06'],

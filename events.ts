@@ -2,6 +2,15 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'The Heavy Booze Experience',
+		date: '29.03.2025',
+		location: 'Next Level Pirmasens',
+		image: '/HeavyBooze.png',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'Bad Taste Party',
 		date: '28.02.2025',
 		location: 'Next Level Pirmasens',
@@ -13,15 +22,6 @@ export const upcomingEvents: MyEvent[] = [
 		location: 'MaTriX Pirmasens',
 		image: '/fasching25.jpg',
 	},
-	{
-		name: 'The Heavy Booze Experience',
-		date: '29.03.2025',
-		location: 'Next Level Pirmasens',
-		image: '/HeavyBooze.png',
-	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Vermoddelte Turnstunde',
 		date: '21.02.2025',
