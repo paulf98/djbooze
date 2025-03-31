@@ -2,14 +2,26 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Bad Bunny Beats',
+		date: '17.04.2025',
+		location: 'MATRIX Pirmasens',
+		image: '/bunny-beats-matrix-2025.jpg',
+	},
+	{
+		name: 'Bunny Beats',
+		date: '20.04.2025',
+		location: 'Sportheim Gersbach',
+		image: '/bunny-beats-gersbach-2025.JPG',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'The Heavy Booze Experience',
 		date: '29.03.2025',
 		location: 'Next Level Pirmasens',
 		image: '/HeavyBooze.png',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Bad Taste Party',
 		date: '28.02.2025',

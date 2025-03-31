@@ -33,53 +33,31 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-02-28',
+		key: '2025-04-17',
 		highlight: true,
-		dates: ['2025-02-28'],
+		dates: ['2025-04-17'],
 		popover: {
-			label: 'Next Level - Bad Taste Party',
+			label: 'Bad Bunny Beats - MaTriX',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
 		},
 	},
 	{
-		key: '2025-03-01',
+		key: '2025-04-20',
 		highlight: true,
-		dates: ['2025-03-01'],
+		dates: ['2025-04-20'],
 		popover: {
-			label: 'Faschingsparty - MaTriX',
+			label: 'Bunny Beats Gersbach',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
 		},
 	},
 	{
-		key: '2025-03-28',
+		key: '2025-04-26',
 		highlight: true,
-		dates: ['2025-03-28'],
-		popover: {
-			label: 'Private Veranstaltung',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-03-29',
-		highlight: true,
-		dates: ['2025-03-29'],
-		popover: {
-			label: 'Next Level',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-04-12',
-		highlight: true,
-		dates: ['2025-04-12'],
+		dates: ['2025-04-26'],
 		popover: {
 			label: 'Private Veranstaltung',
 			color: 'red',
@@ -104,6 +82,17 @@ const attributes: any = ref([
 		dates: ['2025-05-16'],
 		popover: {
 			label: 'Private Veranstaltung',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-05-31',
+		highlight: true,
+		dates: ['2025-05-31'],
+		popover: {
+			label: 'After Kubb Party - Dahn',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
