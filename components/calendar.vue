@@ -33,28 +33,6 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-04-17',
-		highlight: true,
-		dates: ['2025-04-17'],
-		popover: {
-			label: 'Bad Bunny Beats - MaTriX',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-04-20',
-		highlight: true,
-		dates: ['2025-04-20'],
-		popover: {
-			label: 'Bunny Beats Gersbach',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
 		key: '2025-04-26',
 		highlight: true,
 		dates: ['2025-04-26'],
@@ -99,6 +77,17 @@ const attributes: any = ref([
 		},
 	},
 	{
+		key: '2025-06-06',
+		highlight: true,
+		dates: ['2025-06-06'],
+		popover: {
+			label: 'Pfingstfest - Dahn',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
 		key: '2025-06-21',
 		highlight: true,
 		dates: ['2025-06-19', '2025-06-20', '2025-06-21', '2025-06-22'],
@@ -132,6 +121,80 @@ const attributes: any = ref([
 		},
 	},
 	{
+		key: '2025-07-13',
+		highlight: true,
+		dates: ['2025-07-13'],
+		popover: {
+			label: 'Dorfmeisterschaft - SV Lemberg',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-07-18',
+		highlight: true,
+		dates: ['2025-07-18'],
+		popover: {
+			label: 'Afterwork Malleparty mit DJ Danny Malle - Next Level',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-07-19',
+		highlight: true,
+		dates: ['2025-07-19'],
+		popover: {
+			label: 'Private Veranstaltung',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-07-21',
+		highlight: true,
+		dates: [
+			'2025-07-21',
+			'2025-07-22',
+			'2025-07-23',
+			'2025-07-24',
+			'2025-07-25',
+			'2025-07-26',
+			'2025-07-27',
+		],
+		popover: {
+			label: 'Nicht verfügbar',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-08-01',
+		highlight: true,
+		dates: ['2025-08-01'],
+		popover: {
+			label: 'SchlabbeflickerFESTival - Pirmasens',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-08-02',
+		highlight: true,
+		dates: ['2025-08-02'],
+		popover: {
+			label: 'SchlabbeflickerFESTival - Pirmasens',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
 		key: '2025-08-23',
 		highlight: true,
 		dates: ['2025-08-23'],
@@ -146,6 +209,17 @@ const attributes: any = ref([
 		key: '2025-09-06',
 		highlight: true,
 		dates: ['2025-09-06'],
+		popover: {
+			label: 'Private Veranstaltung',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2026-06-06',
+		highlight: true,
+		dates: ['2026-06-06'],
 		popover: {
 			label: 'Private Veranstaltung',
 			color: 'red',

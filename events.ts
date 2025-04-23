@@ -2,6 +2,15 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Hexentour',
+		date: '30.04.2025',
+		location: 'Next Level Pirmasens',
+		image: '/hexentour25.jpg',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'Bad Bunny Beats',
 		date: '17.04.2025',
 		location: 'MATRIX Pirmasens',
@@ -13,9 +22,6 @@ export const upcomingEvents: MyEvent[] = [
 		location: 'Sportheim Gersbach',
 		image: '/bunny-beats-gersbach-2025.JPG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'The Heavy Booze Experience',
 		date: '29.03.2025',
