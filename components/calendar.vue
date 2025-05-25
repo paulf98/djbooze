@@ -33,39 +33,6 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-04-26',
-		highlight: true,
-		dates: ['2025-04-26'],
-		popover: {
-			label: 'Private Veranstaltung',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-04-30',
-		highlight: true,
-		dates: ['2025-04-30'],
-		popover: {
-			label: 'Bärmesenser Hexentour @Next Level',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-05-16',
-		highlight: true,
-		dates: ['2025-05-16'],
-		popover: {
-			label: 'Private Veranstaltung',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
 		key: '2025-05-31',
 		highlight: true,
 		dates: ['2025-05-31'],
@@ -82,6 +49,17 @@ const attributes: any = ref([
 		dates: ['2025-06-06'],
 		popover: {
 			label: 'Pfingstfest - Dahn',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-06-07',
+		highlight: true,
+		dates: ['2025-06-07'],
+		popover: {
+			label: 'Private Veranstaltung',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
@@ -195,6 +173,17 @@ const attributes: any = ref([
 		},
 	},
 	{
+		key: '2025-08-09',
+		highlight: true,
+		dates: ['2025-08-09'],
+		popover: {
+			label: 'Feuerwehrfest Lemberg',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
 		key: '2025-08-23',
 		highlight: true,
 		dates: ['2025-08-23'],
@@ -209,6 +198,17 @@ const attributes: any = ref([
 		key: '2025-09-06',
 		highlight: true,
 		dates: ['2025-09-06'],
+		popover: {
+			label: 'Private Veranstaltung',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2026-04-11',
+		highlight: true,
+		dates: ['2025-04-11'],
 		popover: {
 			label: 'Private Veranstaltung',
 			color: 'red',
