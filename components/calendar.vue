@@ -198,9 +198,31 @@ const attributes: any = ref([
 		},
 	},
 	{
+		key: '2025-10-18',
+		highlight: true,
+		dates: ['2025-10-18'],
+		popover: {
+			label: 'Kerwe Lemberg',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-10-31',
+		highlight: true,
+		dates: ['2025-10-31'],
+		popover: {
+			label: 'Halloween Partyteam Dahn',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
 		key: '2026-04-11',
 		highlight: true,
-		dates: ['2025-04-11'],
+		dates: ['2026-04-11'],
 		popover: {
 			label: 'Private Veranstaltung',
 			color: 'red',
