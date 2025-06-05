@@ -1,25 +1,17 @@
 <template>
 	<div class="py-8 flex flex-col items-center gap-4 justify-center">
-		<Heading
-			class="mb-16"
-			text="Dates →"
-			v-motion-slide-visible-bottom
-			:duration="800" />
+		<Heading class="mb-16" text="Dates →" v-motion-slide-visible-bottom :duration="800" />
 		<div
 			class="flex justify-center items-center py-4"
 			v-motion-slide-visible-bottom
 			:duration="800">
-			<VCalendar
-				v-model="date"
-				:min-date="date"
-				:color="color"
-				:attributes="attributes" />
+			<VCalendar v-model="date" :min-date="date" :color="color" :attributes="attributes" />
 		</div>
 		<p class="text-center" v-motion-slide-visible-bottom :duration="800">
 			Du hast Interesse und willst dir deinen eigenen Termin mit mir sichern?
 			<br />
-			Schreibe mir einfach eine Nachricht über das Kontaktformular oder
-			Instagram. Wir klären alle Details persönlich.
+			Schreibe mir einfach eine Nachricht über das Kontaktformular oder Instagram. Wir klären alle
+			Details persönlich.
 		</p>
 		<NuxtLink to="#contact" v-motion-slide-visible-bottom :duration="800">
 			<Button> Jetzt Anfrage senden </Button>
@@ -32,17 +24,6 @@ const date = useState('date', () => new Date());
 const color = ref('red');
 
 const attributes: any = ref([
-	{
-		key: '2025-05-31',
-		highlight: true,
-		dates: ['2025-05-31'],
-		popover: {
-			label: 'After Kubb Party - Dahn',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
 	{
 		key: '2025-06-06',
 		highlight: true,
@@ -178,6 +159,17 @@ const attributes: any = ref([
 		dates: ['2025-08-09'],
 		popover: {
 			label: 'Feuerwehrfest Lemberg',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-08-22',
+		highlight: true,
+		dates: ['2025-08-22'],
+		popover: {
+			label: 'Private Veranstaltung',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',

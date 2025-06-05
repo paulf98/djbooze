@@ -1,15 +1,14 @@
 import { type MyEvent } from '~/types/event';
 
-export const upcomingEvents: MyEvent[] = [
+export const upcomingEvents: MyEvent[] = [];
+
+export const pastEvents: MyEvent[] = [
 	{
 		name: 'After Kubb',
 		date: '31.05.2025',
 		location: 'Dahn (Reichenbach)',
 		image: '/AfterKubb25.JPEG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Hexentour',
 		date: '30.04.2025',
