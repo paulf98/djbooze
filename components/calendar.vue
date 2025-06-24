@@ -25,33 +25,11 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-06-06',
+		key: '2025-07-04',
 		highlight: true,
-		dates: ['2025-06-06'],
+		dates: ['2025-07-04'],
 		popover: {
-			label: 'Pfingstfest - Dahn',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-06-07',
-		highlight: true,
-		dates: ['2025-06-07'],
-		popover: {
-			label: 'Private Veranstaltung',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-06-21',
-		highlight: true,
-		dates: ['2025-06-19', '2025-06-20', '2025-06-21', '2025-06-22'],
-		popover: {
-			label: 'Privat',
+			label: 'Teen Disco - MaTriX',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
@@ -116,13 +94,14 @@ const attributes: any = ref([
 		key: '2025-07-21',
 		highlight: true,
 		dates: [
-			'2025-07-21',
-			'2025-07-22',
-			'2025-07-23',
 			'2025-07-24',
 			'2025-07-25',
 			'2025-07-26',
 			'2025-07-27',
+			'2025-07-28',
+			'2025-07-29',
+			'2025-07-30',
+			'2025-07-31',
 		],
 		popover: {
 			label: 'Nicht verfügbar',
@@ -190,6 +169,17 @@ const attributes: any = ref([
 		key: '2025-09-06',
 		highlight: true,
 		dates: ['2025-09-06'],
+		popover: {
+			label: 'Private Veranstaltung',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-09-19',
+		highlight: true,
+		dates: ['2025-09-19'],
 		popover: {
 			label: 'Private Veranstaltung',
 			color: 'red',
