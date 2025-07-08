@@ -20,6 +20,25 @@ yarn install
 bun install
 ```
 
+## Environment Variables
+
+Create a `.env` file in the root directory with the following variables:
+
+```bash
+# Google Calendar API Configuration
+GOOGLE_CALENDAR_ID=your_calendar_id_here
+GOOGLE_CALENDAR_API_KEY=your_api_key_here
+```
+
+### Setting up Google Calendar API
+
+1. Go to the [Google Cloud Console](https://console.cloud.google.com/)
+2. Create a new project or select an existing one
+3. Enable the Google Calendar API
+4. Create credentials (API Key)
+5. Get your Calendar ID from Google Calendar settings
+6. Add the credentials to your `.env` file
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
