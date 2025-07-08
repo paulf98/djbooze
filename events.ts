@@ -2,12 +2,6 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
-		name: 'Teen Disco',
-		date: '04.07.2025',
-		location: 'MaTriX Pirmasens',
-		image: '/teendisco-juli-25.JPEG',
-	},
-	{
 		name: 'Malle After Work Party',
 		date: '18.07.2025',
 		location: 'Next Level Pirmasens',

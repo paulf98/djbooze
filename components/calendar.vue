@@ -25,28 +25,6 @@ const color = ref('red');
 
 const attributes: any = ref([
 	{
-		key: '2025-07-04',
-		highlight: true,
-		dates: ['2025-07-04'],
-		popover: {
-			label: 'Teen Disco - MaTriX',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
-		key: '2025-07-05',
-		highlight: true,
-		dates: ['2025-07-05'],
-		popover: {
-			label: 'Private Veranstaltung',
-			color: 'red',
-			placement: 'bottom',
-			visibility: 'click',
-		},
-	},
-	{
 		key: '2025-07-12',
 		highlight: true,
 		dates: ['2025-07-12'],
@@ -138,6 +116,17 @@ const attributes: any = ref([
 		dates: ['2025-08-09'],
 		popover: {
 			label: 'Feuerwehrfest Lemberg',
+			color: 'red',
+			placement: 'bottom',
+			visibility: 'click',
+		},
+	},
+	{
+		key: '2025-08-15',
+		highlight: true,
+		dates: ['2025-08-15'],
+		popover: {
+			label: 'Private Veranstaltung',
 			color: 'red',
 			placement: 'bottom',
 			visibility: 'click',
