@@ -2,14 +2,42 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'SchlabbeflickerFESTival',
+		date: '01.08.2025',
+		description: 'von 18:00 - 00:00 Uhr',
+		location: 'Münzplatz Pirmasens',
+		image: '/schlabbeflicker-freitag-25.jpg',
+	},
+	{
+		name: 'Players Night',
+		date: '02.08.2025',
+		location: 'TC Erlenbrunn',
+		description: '17:00 - 22:00 Uhr',
+		image: '/players-night.JPEG',
+	},
+	{
+		name: 'SchlabbeflickerFESTival',
+		date: '02.08.2025',
+		location: 'MaTriX Pirmasens',
+		description: 'ab 23:00 Uhr',
+		image: '/schlabbeflicker-samstag-25.JPEG',
+	},
+	{
+		name: 'Feuerwehrfest Lemberg',
+		date: '09.08.2025',
+		location: 'Feuerwache Lemberg',
+		description: '20:00 bis 01:00 Uhr',
+		image: '/feuerwehrfest-25.JPEG',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'Malle After Work Party',
 		date: '18.07.2025',
 		location: 'Next Level Pirmasens',
 		image: '/malleparty-juli-25.JPG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'After Kubb',
 		date: '31.05.2025',
