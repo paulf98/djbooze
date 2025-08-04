@@ -2,6 +2,23 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Feuerwehrfest Lemberg',
+		date: '09.08.2025',
+		location: 'Feuerwache Lemberg',
+		description: '20:00 bis 01:00 Uhr',
+		image: '/feuerwehrfest-25.JPEG',
+	},
+	{
+		name: 'Trulwer Kerb',
+		date: '16.08.2025',
+		location: 'Sportheim SV Trulben',
+		description: '21:00 bis 01:00 Uhr',
+		image: '/trulwer-kerwe-25.JPEG',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'SchlabbeflickerFESTival',
 		date: '01.08.2025',
 		description: 'von 18:00 - 00:00 Uhr',
@@ -22,16 +39,6 @@ export const upcomingEvents: MyEvent[] = [
 		description: 'ab 23:00 Uhr',
 		image: '/schlabbeflicker-samstag-25.JPEG',
 	},
-	{
-		name: 'Feuerwehrfest Lemberg',
-		date: '09.08.2025',
-		location: 'Feuerwache Lemberg',
-		description: '20:00 bis 01:00 Uhr',
-		image: '/feuerwehrfest-25.JPEG',
-	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Malle After Work Party',
 		date: '18.07.2025',
