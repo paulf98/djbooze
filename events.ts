@@ -2,6 +2,15 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Horbacher Kerb',
+		date: '30.08.2025',
+		location: 'Horbach (Schulhof)',
+		image: '/horbacher-kerb-2025.JPEG',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'Feuerwehrfest Lemberg',
 		date: '09.08.2025',
 		location: 'Feuerwache Lemberg',
@@ -15,9 +24,6 @@ export const upcomingEvents: MyEvent[] = [
 		description: '21:00 bis 01:00 Uhr',
 		image: '/trulwer-kerwe-25.JPEG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'SchlabbeflickerFESTival',
 		date: '01.08.2025',
