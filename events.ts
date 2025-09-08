@@ -2,14 +2,20 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Rimschweiler Kerb',
+		date: '13.09.2025',
+		location: 'Sportheim Rimschweiler',
+		image: '/kerb-rimschweiler-2025.JPEG',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'Horbacher Kerb',
 		date: '30.08.2025',
 		location: 'Horbach (Schulhof)',
 		image: '/horbacher-kerb-2025.JPEG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Feuerwehrfest Lemberg',
 		date: '09.08.2025',
