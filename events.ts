@@ -2,14 +2,32 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Doppeldecker Opening',
+		date: '20.09.2025',
+		location: 'MaTriX Pirmasens',
+		image: '/matrix-doppel-decker-25.JPEG',
+	},
+	{
+		name: 'KneipenKULTOUR',
+		date: '02.10.2025',
+		location: 'Next Level Pirmasens',
+		image: '/kneipentour-25.JPEG',
+	},
+	{
+		name: 'Lemberger Kerweparty',
+		date: '18.10.2025',
+		location: 'Freizeithalle Lemberg',
+		image: '/lemberger-kerweparty-25.JPEG',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'Rimschweiler Kerb',
 		date: '13.09.2025',
 		location: 'Sportheim Rimschweiler',
 		image: '/kerb-rimschweiler-2025.JPEG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Horbacher Kerb',
 		date: '30.08.2025',
