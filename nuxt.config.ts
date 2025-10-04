@@ -51,7 +51,7 @@ export default defineNuxtConfig({
 		},
 		public: {
 			posthogKey: process.env.POSTHOG_KEY,
-			posthogHost: process.env.POSTHOG_HOST || 'https://app.posthog.com',
+			posthogHost: process.env.POSTHOG_HOST || 'https://eu.i.posthog.com',
 		},
 	},
 
