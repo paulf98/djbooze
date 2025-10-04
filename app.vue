@@ -10,6 +10,36 @@
 </template>
 
 <script setup>
+// PostHog analytics
+const { track, isAvailable } = usePosthog();
+
+// Track page views
+onMounted(() => {
+	if (isAvailable()) {
+		track('page_viewed', {
+			page: useRoute().path,
+			title: document.title,
+			url: window.location.href,
+		});
+	}
+});
+
+// Track route changes
+const route = useRoute();
+watch(
+	() => route.path,
+	(newPath, oldPath) => {
+		if (isAvailable() && newPath !== oldPath) {
+			track('page_viewed', {
+				page: newPath,
+				title: document.title,
+				url: window.location.href,
+				previous_page: oldPath,
+			});
+		}
+	}
+);
+
 useHead({
 	htmlAttrs: {
 		lang: 'de-DE',

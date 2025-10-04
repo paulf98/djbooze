@@ -49,6 +49,10 @@ export default defineNuxtConfig({
 		turnstile: {
 			secretKey: process.env.TURNSTILE_SECRET_KEY,
 		},
+		public: {
+			posthogKey: process.env.POSTHOG_KEY,
+			posthogHost: process.env.POSTHOG_HOST || 'https://app.posthog.com',
+		},
 	},
 
 	app: {
