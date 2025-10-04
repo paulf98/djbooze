@@ -2,8 +2,8 @@
 	<section class="py-16 md:py-32 bg-black text-white" id="services">
 		<div class="container max-w-6xl mx-auto px-8">
 			<div v-motion-slide-visible-top :duration="800" class="text-center mb-16">
-				<Heading text="Mein Service" class="mb-8" />
-				<p class="text-xl text-neutral-400 max-w-3xl mx-auto">
+				<Heading text="Mein Service" />
+				<p class="text-xl text-neutral-400 mt-16 max-w-3xl mx-auto">
 					Von der romantischen Trauung bis zur ausgelassenen Tanzparty – ich sorge für die perfekte
 					musikalische Untermalung eures besonderen Tages.
 				</p>
@@ -57,7 +57,7 @@
 					<ul class="space-y-2 text-sm text-neutral-300">
 						<li class="flex items-center gap-2">
 							<span class="text-green-400">•</span>
-							Professionelle DJ-Anlage
+							Professionelle PA-Anlage
 						</li>
 						<li class="flex items-center gap-2">
 							<span class="text-green-400">•</span>
@@ -177,7 +177,7 @@
 					<ul class="space-y-2 text-sm text-neutral-300">
 						<li class="flex items-center gap-2">
 							<span class="text-green-400">•</span>
-							Weitere Ideen für die Feier
+							Ideen für die Feier
 						</li>
 						<li class="flex items-center gap-2">
 							<span class="text-green-400">•</span>

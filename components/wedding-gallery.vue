@@ -2,8 +2,8 @@
 	<section class="py-16 md:py-32 bg-neutral-900 text-white">
 		<div class="container max-w-6xl mx-auto px-8">
 			<div v-motion-slide-visible-top :duration="800" class="text-center mb-16">
-				<Heading text="Meine Hochzeiten" class="mb-8" />
-				<p class="text-xl text-neutral-400 max-w-3xl mx-auto">
+				<Heading text="Galerie" class="mb-8" />
+				<p class="text-xl text-neutral-400 max-w-3xl mt-16 mx-auto">
 					Ein Blick auf einige meiner bisherigen Hochzeiten – von romantischen Trauungen bis zu
 					ausgelassenen Feiern.
 				</p>

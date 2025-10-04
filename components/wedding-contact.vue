@@ -2,7 +2,7 @@
 	<section class="py-16 md:py-32 bg-black text-white" id="contact">
 		<div class="container max-w-6xl mx-auto px-8">
 			<div v-motion-slide-visible-top :duration="800" class="text-center mb-16">
-				<Heading text="Kontaktieren Sie mich" />
+				<Heading text="Kontakt" />
 				<p class="text-xl text-neutral-400 mt-16 max-w-3xl mx-auto">
 					Bereit für Ihre Traumhochzeit? Lassen Sie uns gemeinsam den perfekten musikalischen Rahmen
 					für Ihren besonderen Tag schaffen.
