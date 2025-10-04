@@ -1,11 +1,14 @@
 <template>
-	<main>
-		<WeddingHero />
-		<WeddingAbout />
-		<WeddingServices />
-		<WeddingGallery />
-		<WeddingContact />
-	</main>
+	<div>
+		<WeddingNavbar />
+		<main>
+			<WeddingHero />
+			<WeddingAbout />
+			<WeddingServices />
+			<WeddingGallery />
+			<WeddingContact />
+		</main>
+	</div>
 </template>
 
 <script setup>

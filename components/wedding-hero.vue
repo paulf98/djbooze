@@ -1,6 +1,6 @@
 <template>
 	<section
-		class="w-full bg-gradient-to-br from-black via-neutral-900 to-black text-white py-16 relative overflow-hidden">
+		class="w-full bg-gradient-to-br from-black via-neutral-900 to-black text-white pt-32 pb-16 relative overflow-hidden">
 		<!-- Background decoration -->
 		<div class="absolute inset-0 opacity-10">
 			<div class="absolute top-10 left-10 w-32 h-32 bg-white rounded-full blur-3xl"></div>
