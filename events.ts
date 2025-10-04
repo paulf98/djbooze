@@ -2,12 +2,6 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
-		name: 'KneipenKULTOUR',
-		date: '02.10.2025',
-		location: 'Next Level Pirmasens',
-		image: '/kneipentour-25.JPEG',
-	},
-	{
 		name: 'Lemberger Kerweparty',
 		date: '18.10.2025',
 		location: 'Freizeithalle Lemberg',
@@ -16,6 +10,12 @@ export const upcomingEvents: MyEvent[] = [
 ];
 
 export const pastEvents: MyEvent[] = [
+	{
+		name: 'KneipenKULTOUR',
+		date: '02.10.2025',
+		location: 'Next Level Pirmasens',
+		image: '/kneipentour-25.JPEG',
+	},
 	{
 		name: 'Doppeldecker Opening',
 		date: '20.09.2025',
