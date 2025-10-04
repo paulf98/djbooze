@@ -75,7 +75,7 @@
 								v-model="form.location"
 								type="text"
 								class="w-full px-4 py-3 bg-neutral-800 border border-neutral-600 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition-colors"
-								placeholder="z.B. Schloss Hotel, Pirmasens" />
+								placeholder="z.B. Feiersaal Pirmasens" />
 						</div>
 
 						<div>
@@ -99,13 +99,15 @@
 								v-model="form.message"
 								rows="4"
 								class="w-full px-4 py-3 bg-neutral-800 border border-neutral-600 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition-colors resize-none"
-								placeholder="Erzählen Sie mir mehr über Ihre Traumhochzeit..."></textarea>
+								placeholder="Erzählt mir mehr über eure Traumhochzeit..."></textarea>
 						</div>
+
+						<NuxtTurnstile v-model="token" :options="{ theme: 'dark' }" class="self-center mb-4" />
 
 						<Button
 							type="submit"
-							:disabled="isSubmitting"
-							class="w-full bg-white text-black hover:bg-neutral-200 transition-colors disabled:opacity-50">
+							:disabled="isSubmitting || !form.name || !form.email || !token"
+							class="w-full bg-white text-black hover:text-white hover:bg-neutral-200 transition-colors disabled:opacity-50">
 							<span v-if="isSubmitting">Wird gesendet...</span>
 							<span v-else>Kostenlose Beratung anfordern</span>
 						</Button>
@@ -204,7 +206,14 @@
 	</section>
 </template>
 
-<script setup>
+<script setup lang="ts">
+import { z } from 'zod';
+
+const mail = useMail();
+const toast = useToast();
+
+const token = ref<string | undefined>(undefined);
+
 const form = ref({
 	name: '',
 	email: '',
@@ -217,20 +226,77 @@ const form = ref({
 
 const isSubmitting = ref(false);
 
+const schema = z.object({
+	name: z.string().min(2, 'Name muss mindestens 2 Zeichen haben'),
+	email: z.string().email('Bitte geben Sie eine gültige E-Mail-Adresse ein'),
+	phone: z.string().optional(),
+	weddingDate: z.string().optional(),
+	location: z.string().optional(),
+	guests: z.string().optional(),
+	message: z.string().optional(),
+});
+
+const validate = (state: any) => {
+	const errors = [];
+	if (!state.name || state.name.length < 2)
+		errors.push({ path: 'name', message: 'Name ist ein Pflichtfeld' });
+	if (!state.email) errors.push({ path: 'email', message: 'E-Mail ist ein Pflichtfeld' });
+	return errors;
+};
+
 const submitForm = async () => {
+	if (!mail || !token.value) {
+		toast.add({
+			title: 'Fehler',
+			description: 'Ihre Anfrage konnte nicht versendet werden. Bitte versuchen Sie es erneut.',
+			color: 'red',
+		});
+		return;
+	}
+
 	isSubmitting.value = true;
 
 	try {
-		// Here you would typically send the form data to your backend
-		// For now, we'll just simulate a submission
-		await new Promise((resolve) => setTimeout(resolve, 2000));
+		// Validate form data
+		const validationErrors = validate(form.value);
+		if (validationErrors.length > 0) {
+			toast.add({
+				title: 'Validierungsfehler',
+				description: 'Bitte füllen Sie alle Pflichtfelder aus.',
+				color: 'red',
+			});
+			return;
+		}
 
-		// Show success message
-		const toast = useToast();
+		// Prepare email content
+		const emailContent = `
+Neue Hochzeitsanfrage von ${form.value.name}
+
+Kontaktdaten:
+- Name: ${form.value.name}
+- E-Mail: ${form.value.email}
+${form.value.phone ? `- Telefon: ${form.value.phone}` : ''}
+
+Hochzeitsdetails:
+${form.value.weddingDate ? `- Datum: ${form.value.weddingDate}` : ''}
+${form.value.location ? `- Location: ${form.value.location}` : ''}
+${form.value.guests ? `- Anzahl Gäste: ${form.value.guests}` : ''}
+
+Nachricht:
+${form.value.message || 'Keine zusätzliche Nachricht'}
+		`;
+
+		await mail.send({
+			from: form.value.email,
+			subject: `Hochzeitsanfrage von ${form.value.name}`,
+			text: emailContent,
+		});
+
 		toast.add({
-			title: 'Anfrage gesendet!',
-			description: 'Vielen Dank für Ihre Anfrage. Ich melde mich schnellstmöglich bei Ihnen.',
+			title: 'Nachricht gesendet!',
+			description: 'Vielen Dank für die Anfrage. Ich melde mich schnellstmöglich bei Euch.',
 			color: 'green',
+			timeout: 4000,
 		});
 
 		// Reset form
@@ -243,8 +309,11 @@ const submitForm = async () => {
 			guests: '',
 			message: '',
 		};
+
+		// Reset token
+		token.value = undefined;
 	} catch (error) {
-		const toast = useToast();
+		console.error('Error sending email:', error);
 		toast.add({
 			title: 'Fehler',
 			description: 'Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
