@@ -18,8 +18,8 @@
 					class="bg-neutral-900 p-8 rounded-xl border border-neutral-700">
 					<h3 class="text-2xl font-bold mb-6">Kostenlose Beratung anfordern</h3>
 					<p class="text-neutral-400 mb-8">
-						Erzählen Sie mir von Ihrer geplanten Hochzeit und ich erstelle Ihnen ein individuelles
-						Angebot für Ihren besonderen Tag.
+						Erzählt mir von Eurer geplanten Hochzeit und ich erstelle euch ein individuelles Angebot
+						für Euren besonderen Tag.
 					</p>
 
 					<form @submit.prevent="submitForm" class="space-y-6">
@@ -295,7 +295,7 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 		toast.add({
 			title: 'Nachricht gesendet!',
 			description: 'Vielen Dank für die Anfrage. Ich melde mich schnellstmöglich bei Euch.',
-			color: 'green',
+			color: 'red',
 			timeout: 4000,
 		});
 

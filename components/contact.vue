@@ -3,14 +3,13 @@
 		<div
 			class="container max-w-5xl mx-auto flex flex-col md:flex-row justify-between items-center gap-16">
 			<div class="flex flex-col" v-motion-slide-visible-left :duration="800">
-				<div
-					class="container flex flex-col items-center max-w-5xl mx-auto mb-8">
+				<div class="container flex flex-col items-center max-w-5xl mx-auto mb-8">
 					<Heading text="Kontakt" />
 				</div>
 				<p class="max-w-md text-justify mb-4">
-					Du möchtest mich für deine Veranstaltung buchen? Dann schreib mir
-					einfach eine Nachricht über das Kontaktformular. Alternativ freue ich
-					mich auch über eine Nachricht auf Instagram.
+					Du möchtest mich für deine Veranstaltung buchen? Dann schreib mir einfach eine Nachricht
+					über das Kontaktformular. Alternativ freue ich mich auch über eine Nachricht auf
+					Instagram.
 				</p>
 
 				<a
@@ -29,21 +28,12 @@
 				@submit="submit"
 				v-motion-slide-visible-right
 				:duration="800">
-				<div
-					class="container flex flex-col items-stretch gap-4 max-w-xl mx-auto py-8">
+				<div class="container flex flex-col items-stretch gap-4 max-w-xl mx-auto py-8">
 					<UFormGroup label="Name" name="name" eager-validation>
-						<UInput
-							v-model="state.name"
-							placeholder="Name"
-							variant="outline"
-							color="green" />
+						<UInput v-model="state.name" placeholder="Name" variant="outline" color="green" />
 					</UFormGroup>
 					<UFormGroup label="Email" name="email" eager-validation>
-						<UInput
-							v-model="state.email"
-							placeholder="Email"
-							variant="outline"
-							color="green" />
+						<UInput v-model="state.email" placeholder="Email" variant="outline" color="green" />
 					</UFormGroup>
 					<UFormGroup label="Nachricht" name="message" eager-validation>
 						<UTextarea
@@ -52,15 +42,10 @@
 							variant="outline"
 							color="green" />
 					</UFormGroup>
-					<Button
-						type="submit"
-						:disabled="!state.name || !state.email || !state.message || !token"
+					<Button type="submit" :disabled="!state.name || !state.email || !state.message || !token"
 						>Senden</Button
 					>
-					<NuxtTurnstile
-						v-model="token"
-						:options="{ theme: 'dark' }"
-						class="self-center" />
+					<NuxtTurnstile v-model="token" :options="{ theme: 'dark' }" class="self-center" />
 				</div>
 			</UForm>
 		</div>
@@ -78,12 +63,9 @@ const token = ref<string | undefined>(undefined);
 
 const validate = (state: any): FormError[] => {
 	const errors = [];
-	if (!state.name)
-		errors.push({ path: 'name', message: 'Name ist ein Pflichtfeld' });
-	if (!state.email)
-		errors.push({ path: 'email', message: 'Email ist ein Pflichtfeld' });
-	if (!state.message)
-		errors.push({ path: 'message', message: 'Nachricht ist ein Pflichtfeld' });
+	if (!state.name) errors.push({ path: 'name', message: 'Name ist ein Pflichtfeld' });
+	if (!state.email) errors.push({ path: 'email', message: 'Email ist ein Pflichtfeld' });
+	if (!state.message) errors.push({ path: 'message', message: 'Nachricht ist ein Pflichtfeld' });
 	return errors;
 };
 
@@ -110,7 +92,7 @@ function submit() {
 			toast.add({
 				title: 'Anfrage versendet',
 				description: 'Ihre Anfrage wurde erfolgreich versendet.',
-				color: 'green',
+				color: 'red',
 				timeout: 4000,
 			});
 		})

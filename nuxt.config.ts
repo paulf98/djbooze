@@ -33,6 +33,7 @@ export default defineNuxtConfig({
 		notifications: {
 			// Show toasts at the top right of the screen
 			position: 'top-0 bottom-auto',
+			class: 'bg-gray-800 border-red-600 text-white',
 		},
 	},
 
