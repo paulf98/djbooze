@@ -194,6 +194,11 @@ import { ref, computed, onMounted, onUnmounted } from 'vue';
 // Wedding gallery images with descriptions
 const images = ref([
 	{
+		src: '/wedding/wedding-dj-heckenaschbacherhof-2025.jpeg',
+		location: 'Heckenaschbacherhof, Contwig',
+		description: 'Setup in der Bauernstube',
+	},
+	{
 		src: '/wedding/wedding-dj-falkenstein-2.jpg',
 		location: 'Eventlocation, Falkenstein',
 		description: 'Eine wunderschöne Aussicht hinter dem DJ-Pult',
