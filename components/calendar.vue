@@ -11,7 +11,13 @@
 			<div v-else-if="error" class="text-center text-red-500">
 				<p>Error loading calendar events. Please try again later.</p>
 			</div>
-			<VCalendar v-else v-model="date" :min-date="date" :color="color" :attributes="attributes" />
+			<VCalendar
+				v-else
+				v-model="date"
+				:min-date="date"
+				:color="color"
+				:attributes="attributes"
+				locale="de-DE" />
 		</div>
 		<p class="text-center" v-motion-slide-visible-bottom :duration="800">
 			Du hast Interesse und willst dir deinen eigenen Termin mit mir sichern?
