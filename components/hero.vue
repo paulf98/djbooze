@@ -21,9 +21,8 @@
 			</div>
 			<div class="flex-1" v-motion-slide-visible-right :duration="800">
 				<NuxtImg
-					src="hero-image.jpg"
+					src="Variante_2_Transparent-3.png"
 					alt="DJ Booze"
-					style="border-radius: 79% 21% 25% 75% / 30% 42% 58% 70%"
 					class="w-full h-auto max-w-md mx-auto"
 					fit="contain" />
 			</div>

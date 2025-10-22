@@ -126,7 +126,7 @@
 								</div>
 								<div>
 									<div class="font-semibold">E-Mail</div>
-									<div class="text-neutral-400">paulfaass@gmail.com</div>
+									<div class="text-neutral-400">booking@djbooze.de</div>
 								</div>
 							</div>
 							<div class="flex items-center gap-4">

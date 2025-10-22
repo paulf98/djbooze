@@ -9,24 +9,19 @@
 					class="flex flex-col items-center gap-16 max-w-5xl mx-auto mb-8 md:mb-16">
 					<Heading text="About" />
 				</div>
-				<div
-					class="text-justify flex flex-col gap-4"
-					v-motion-slide-visible-right
-					:duration="800">
+				<div class="text-justify flex flex-col gap-4" v-motion-slide-visible-right :duration="800">
 					<p class="text-2xl font-bold">Hi, ich bin Paul 👋🏻</p>
 					<p>
 						... und ich bin Open-Format DJ aus Leidenschaft. <br />
-						Schon immer war ich als Partygast auf privaten Feiern für die Musik
-						verantwortlich. Zur Kerweparty in meiner Heimat, wollte ich nicht
-						länger nur "Spotify DJ" sein, sondern eine professionellere
-						musikalische Abendgestaltung bieten. <br />
+						Schon immer war ich als Partygast auf privaten Feiern für die Musik verantwortlich. Zur
+						Kerweparty in meiner Heimat, wollte ich nicht länger nur "Spotify DJ" sein, sondern eine
+						professionellere musikalische Abendgestaltung bieten. <br />
 						DJ Booze war geboren 🎉
 					</p>
 					<p>
-						Seitdem begeistere ich regelmäßig auf privaten und öffentlichen
-						Feierlichkeiten Menschen mit Musik. Dabei bin ich musikalisch sehr
-						flexibel. Ob Hip-Hop und R&B, House, Schlager und Mallorca-Hits,
-						oder doch die klassischen Dance-Dauerbrenner - ich finde für jeden
+						Seitdem begeistere ich regelmäßig auf privaten und öffentlichen Feierlichkeiten Menschen
+						mit Musik. Dabei bin ich musikalisch sehr flexibel. Ob Hip-Hop und R&B, House, Schlager
+						und Mallorca-Hits, oder doch die klassischen Dance-Dauerbrenner - ich finde für jeden
 						Anlass die passende Musik.
 					</p>
 				</div>
@@ -35,9 +30,9 @@
 				<LazyNuxtImg
 					v-motion-slide-visible-left
 					:duration="800"
-					class="rounded-full w-full h-auto max-w-sm"
+					class="w-full h-auto max-w-sm"
 					fit="contain"
-					src="/DJBooze-DarkPortrait.png"
+					src="/Variante_3_Transparent-Mit_Logo.png"
 					alt="Portrait von Paul Faass"
 					loading="lazy" />
 			</div>

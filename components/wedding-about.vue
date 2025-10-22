@@ -31,7 +31,7 @@
 					:duration="800"
 					class="rounded-2xl w-full h-auto max-w-48 m-auto"
 					fit="contain"
-					src="/DJBooze-DarkPortrait.png"
+					src="/Variante_3_Transparent-Mit_Logo.png"
 					alt="DJ Booze - Ihr Hochzeits-DJ"
 					loading="lazy" />
 				<div class="bg-neutral-800 p-6 rounded-lg border border-neutral-700 mt-6">
