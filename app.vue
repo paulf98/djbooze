@@ -1,5 +1,6 @@
 <template>
 	<div style="background-color: black; max-width: 100%; overflow-x: hidden">
+		<Banner v-if="$route.path !== '/hochzeit'" />
 		<Navbar v-if="$route.path !== '/hochzeit'" />
 		<div>
 			<NuxtPage />
