@@ -2,13 +2,7 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
-		name: 'Halloween Party',
-		date: '31.10.2025',
-		location: 'Dahn (Reichenbach)',
-		image: '/halloween-2025.JPEG',
-	},
-	{
-		name: '900er Party',
+		name: '90er Party',
 		date: '15.11.2025',
 		location: 'MaTriX Pirmasens',
 		image: '/matrix-90er-party.JPEG',
@@ -17,16 +11,22 @@ export const upcomingEvents: MyEvent[] = [
 
 export const pastEvents: MyEvent[] = [
 	{
-		name: 'Ladies Night',
-		date: '24.10.2025',
-		location: 'Next Level',
-		image: '/ladies-night-next-level-2025.JPEG',
+		name: 'Halloween Party',
+		date: '31.10.2025',
+		location: 'Dahn (Reichenbach)',
+		image: '/halloween-2025.JPEG',
 	},
 	{
 		name: 'Rumbacher Kerweparty',
 		date: '25.10.2025',
 		location: 'Sportheim TuS Rumbach',
 		image: '/kerwe-rumbach-2025.JPEG',
+	},
+	{
+		name: 'Ladies Night',
+		date: '24.10.2025',
+		location: 'Next Level',
+		image: '/ladies-night-next-level-2025.JPEG',
 	},
 	{
 		name: 'Lemberger Kerweparty',
