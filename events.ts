@@ -2,14 +2,32 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Icedisco Belznickelmarkt',
+		date: '05.12.2025',
+		location: 'Schloßplatz Pirmasens',
+		image: '/Icedisco-2025.jpg',
+	},
+	{
+		name: 'Bakery Beats',
+		date: '06.12.2025',
+		location: 'Café Faass',
+		image: '/bakery-beats-2025.JPEG',
+	},
+	{
+		name: 'Icedisco Belznickelmarkt',
+		date: '19.12.2025',
+		location: 'Schloßplatz Pirmasens',
+		image: '/Icedisco-2025.jpg',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: '90er Party',
 		date: '15.11.2025',
 		location: 'MaTriX Pirmasens',
 		image: '/matrix-90er-party.JPEG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Halloween Party',
 		date: '31.10.2025',
