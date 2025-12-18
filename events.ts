@@ -2,12 +2,6 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
-		name: '90s and 2000s Party',
-		date: '13.12.2025',
-		location: 'Next Level',
-		image: '/90s-and-20s-2025.JPEG',
-	},
-	{
 		name: 'Icedisco Belznickelmarkt',
 		date: '19.12.2025',
 		location: 'Schloßplatz Pirmasens',
@@ -19,9 +13,21 @@ export const upcomingEvents: MyEvent[] = [
 		location: 'Next Level',
 		image: '/heiligabend-2025.JPEG',
 	},
+	{
+		name: 'Die erste Party des Jahres',
+		date: '10.01.2026',
+		location: 'Messehalle Pirmasens',
+		image: '/2026/die-erste-party-2026.jpeg',
+	},
 ];
 
 export const pastEvents: MyEvent[] = [
+	{
+		name: '90s and 2000s Party',
+		date: '13.12.2025',
+		location: 'Next Level',
+		image: '/90s-and-20s-2025.JPEG',
+	},
 	{
 		name: 'Bakery Beats',
 		date: '06.12.2025',
