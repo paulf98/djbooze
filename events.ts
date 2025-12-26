@@ -34,6 +34,10 @@ export const pastEvents: MyEvent[] = [
 		location: 'Café Faass',
 		image: '/bakery-beats-2025.JPEG',
 	},
+];
+
+export const archivedEvents: MyEvent[] = [
+	...pastEvents,
 	{
 		name: 'Icedisco Belznickelmarkt',
 		date: '05.12.2025',
@@ -201,10 +205,6 @@ export const pastEvents: MyEvent[] = [
 		location: 'Messehalle Pirmasens',
 		image: '/wgw25.jpg',
 	},
-];
-
-export const archivedEvents: MyEvent[] = [
-	...pastEvents,
 	{
 		name: 'Driving Home for Christmas',
 		date: '21.12.2024',
