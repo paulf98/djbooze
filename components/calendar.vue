@@ -3,72 +3,7 @@
 		<Heading class="mb-8" text="Dates →" v-motion-slide-visible-bottom :duration="800" />
 
 		<div class="w-full flex flex-col gap-4 px-4 mt-4 md:mt-8" v-motion-slide-visible-bottom :duration="800">
-			<!-- Upcoming List Section -->
-			<div
-				class="w-full sm:max-w-lg mx-auto bg-neutral-900 rounded-2xl p-4 border border-white/10 shadow-xl flex flex-col">
-				<h3 class="text-xl font-bold text-white mb-4">Anstehende Events</h3>
 
-				<div class="flex flex-col gap-2">
-					<div v-if="pending" class="text-neutral-500 py-4 text-center">
-						Events werden geladen...
-					</div>
-					<div v-else-if="!nextEvents.length" class="text-neutral-500 py-4 text-center">
-						Kein anstehenden Events gefunden.
-					</div>
-
-					<div v-for="event in nextEvents" :key="event.id"
-						class="flex items-center gap-3 group p-2 rounded-xl bg-black/20 hover:cursor-default hover:bg-white/5 transition-all border border-transparent hover:border-white/5">
-						<div
-							class="flex flex-col items-center justify-center bg-black/40 rounded-lg p-1.5 min-w-[3rem] border border-white/5 group-hover:border-white/10 transition-colors">
-							<span class="text-[0.6rem] text-red-400 uppercase font-bold tracking-wider">{{
-								format(getEventDate(event), 'MMM', { locale: de })
-							}}</span>
-							<span class="text-lg font-bold text-white leading-none mt-0.5">{{
-								format(getEventDate(event), 'dd', { locale: de })
-							}}</span>
-						</div>
-						<div class="flex-1 min-w-0">
-							<h4 class="font-bold text-sm md:text-base text-white mb-0.5 group-hover:text-red-400 transition-colors"
-								:title="event.summary">
-								{{ event.summary }}
-							</h4>
-							<div class="flex flex-wrap gap-4 text-sm text-neutral-400">
-								<span v-if="event.location" class="flex items-start gap-1.5 text-xs md:text-sm">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-										class="w-4 h-4 text-red-500 shrink-0 mt-0 md:mt-0.5">
-										<path fill-rule="evenodd"
-											d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
-											clip-rule="evenodd" />
-									</svg>
-									{{ event.location }}
-								</span>
-								<span v-if="event.start.dateTime" class="flex items-center gap-1.5">
-									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
-										class="w-4 h-4 text-red-500 shrink-0">
-										<path fill-rule="evenodd"
-											d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z"
-											clip-rule="evenodd" />
-									</svg>
-									Beginn: {{ format(new Date(event.start.dateTime), 'HH:mm', { locale: de }) }} Uhr
-								</span>
-							</div>
-						</div>
-						<div class="hidden sm:block">
-							<span
-								class="i-heroicons-chevron-right-20-solid text-neutral-600 group-hover:text-white transition-colors text-xl"></span>
-						</div>
-					</div>
-				</div>
-
-				<div class="mt-8 pt-4 border-t border-white/5 text-center">
-					<NuxtLink to="/archiv"
-						class="text-sm text-neutral-400 hover:text-white transition-colors flex items-center justify-center gap-2 group/link">
-						Vergangene Events im Archiv
-						<span
-							class="i-heroicons-arrow-right-20-solid group-hover/link:translate-x-1 transition-transform"></span>
-					</NuxtLink>
-				</div>
-			</div>
 
 			<!-- Calendar Section -->
 			<div class="w-full sm:max-w-lg mx-auto bg-neutral-900 rounded-2xl p-4 border border-white/10 shadow-xl">
@@ -156,6 +91,73 @@
 							</div>
 						</div>
 					</template>
+				</div>
+			</div>
+
+			<!-- Upcoming List Section -->
+			<div
+				class="w-full sm:max-w-lg mx-auto bg-neutral-900 rounded-2xl p-4 border border-white/10 shadow-xl flex flex-col">
+				<h3 class="text-xl font-bold text-white mb-4">Anstehende Events</h3>
+
+				<div class="flex flex-col gap-2">
+					<div v-if="pending" class="text-neutral-500 py-4 text-center">
+						Events werden geladen...
+					</div>
+					<div v-else-if="!nextEvents.length" class="text-neutral-500 py-4 text-center">
+						Kein anstehenden Events gefunden.
+					</div>
+
+					<div v-for="event in nextEvents" :key="event.id"
+						class="flex items-center gap-3 group p-2 rounded-xl bg-black/20 hover:cursor-default hover:bg-white/5 transition-all border border-transparent hover:border-white/5">
+						<div
+							class="flex flex-col items-center justify-center bg-black/40 rounded-lg p-1.5 min-w-[3rem] border border-white/5 group-hover:border-white/10 transition-colors">
+							<span class="text-[0.6rem] text-red-400 uppercase font-bold tracking-wider">{{
+								format(getEventDate(event), 'MMM', { locale: de })
+							}}</span>
+							<span class="text-lg font-bold text-white leading-none mt-0.5">{{
+								format(getEventDate(event), 'dd', { locale: de })
+							}}</span>
+						</div>
+						<div class="flex-1 min-w-0">
+							<h4 class="font-bold text-sm md:text-base text-white mb-0.5 group-hover:text-red-400 transition-colors"
+								:title="event.summary">
+								{{ event.summary }}
+							</h4>
+							<div class="flex flex-wrap gap-4 text-sm text-neutral-400">
+								<span v-if="event.location" class="flex items-start gap-1.5 text-xs md:text-sm">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+										class="w-4 h-4 text-red-500 shrink-0 mt-0 md:mt-0.5">
+										<path fill-rule="evenodd"
+											d="M11.54 22.351l.07.04.028.016a.76.76 0 00.723 0l.028-.015.071-.041a16.975 16.975 0 001.144-.742 19.58 19.58 0 002.683-2.282c1.944-1.99 3.963-4.98 3.963-8.827a8.25 8.25 0 00-16.5 0c0 3.846 2.02 6.837 3.963 8.827a19.58 19.58 0 002.682 2.282 16.975 16.975 0 001.145.742zM12 13.5a3 3 0 100-6 3 3 0 000 6z"
+											clip-rule="evenodd" />
+									</svg>
+									{{ event.location }}
+								</span>
+								<span v-if="event.start.dateTime" class="flex items-center gap-1.5">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+										class="w-4 h-4 text-red-500 shrink-0">
+										<path fill-rule="evenodd"
+											d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25zM12.75 6a.75.75 0 00-1.5 0v6c0 .414.336.75.75.75h4.5a.75.75 0 000-1.5h-3.75V6z"
+											clip-rule="evenodd" />
+									</svg>
+									Beginn: {{ format(new Date(event.start.dateTime), 'HH:mm', { locale: de }) }} Uhr
+								</span>
+							</div>
+						</div>
+						<div class="hidden sm:block">
+							<span
+								class="i-heroicons-chevron-right-20-solid text-neutral-600 group-hover:text-white transition-colors text-xl"></span>
+						</div>
+					</div>
+				</div>
+
+				<div class="mt-8 pt-4 border-t border-white/5 text-center">
+					<NuxtLink to="/archiv"
+						class="text-sm text-neutral-400 hover:text-white transition-colors flex items-center justify-center gap-2 group/link">
+						Vergangene Events im Archiv
+						<span
+							class="i-heroicons-arrow-right-20-solid group-hover/link:translate-x-1 transition-transform"></span>
+					</NuxtLink>
 				</div>
 			</div>
 		</div>
