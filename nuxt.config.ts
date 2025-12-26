@@ -65,7 +65,23 @@ export default defineNuxtConfig({
 		name: 'DJ Booze',
 		description:
 			'DJ Booze - Pirmasens und Umgebung. Egal ob Club, Hochzeit oder Event - DJ Booze hat immer die richtigen Tracks dabei.',
-		defaultLocale: 'de-DE', // not needed if you have @nuxtjs/i18n installed
+		defaultLocale: 'de-DE',
 		indexable: true,
+	},
+
+	// SEO Configuration
+	seo: {
+		redirectToCanonicalSiteUrl: true,
+	},
+
+	// Sitemap Configuration (part of @nuxtjs/seo)
+	sitemap: {
+		enabled: true,
+	},
+
+	// Robots.txt Configuration (part of @nuxtjs/seo)
+	robots: {
+		enabled: true,
+		disallow: ['/admin', '/private'],
 	},
 });
