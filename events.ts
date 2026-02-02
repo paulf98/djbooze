@@ -2,6 +2,27 @@ import { type MyEvent } from '~/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{
+		name: 'Altweiber Fasching',
+		date: '12.02.2026',
+		location: 'Jugendheim Kirchenarmbach',
+		image: '/2026/fasching-26-kirchenarnbach.JPEG',
+	},
+	{
+		name: 'Prunksitzung TVP',
+		date: '14.02.2026',
+		location: 'Turnhalle TVP',
+		image: '/2026/fasching-26-TVP.jpg',
+	},
+	{
+		name: 'Sense of Summer - Vibras de Verano',
+		date: '28.03.2026',
+		location: 'Bodega Estacion',
+		image: '/2026/sense-of-summer-26.JPEG',
+	},
+];
+
+export const pastEvents: MyEvent[] = [
+	{
 		name: 'Die erste Party des Jahres',
 		date: '10.01.2026',
 		location: 'Messehalle Pirmasens',
@@ -9,7 +30,8 @@ export const upcomingEvents: MyEvent[] = [
 	},
 ];
 
-export const pastEvents: MyEvent[] = [
+export const archivedEvents: MyEvent[] = [
+	...pastEvents,
 	{
 		name: 'Icedisco Belznickelmarkt',
 		date: '19.12.2025',
@@ -34,10 +56,6 @@ export const pastEvents: MyEvent[] = [
 		location: 'Café Faass',
 		image: '/bakery-beats-2025.JPEG',
 	},
-];
-
-export const archivedEvents: MyEvent[] = [
-	...pastEvents,
 	{
 		name: 'Icedisco Belznickelmarkt',
 		date: '05.12.2025',
