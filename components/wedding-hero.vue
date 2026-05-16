@@ -33,11 +33,11 @@
 							Kostenloses Beratungsgespräch
 						</Button>
 					</NuxtLink>
-					<NuxtLink to="#services">
+					<NuxtLink to="#setup">
 						<Button
 							variant="outline"
 							class="border-white text-white hover:bg-white hover:text-black">
-							Leistungen ansehen
+							Ausstattung ansehen
 						</Button>
 					</NuxtLink>
 				</div>

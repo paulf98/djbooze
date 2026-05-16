@@ -3,6 +3,7 @@
 		<WeddingNavbar />
 		<main>
 			<WeddingHero />
+			<WeddingSetup />
 			<WeddingAbout />
 			<WeddingServices />
 			<WeddingGallery />

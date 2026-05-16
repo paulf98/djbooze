@@ -4,7 +4,7 @@
 			<div v-motion-slide-visible-top :duration="800" class="text-center mb-16">
 				<Heading text="Mein Service" />
 				<p class="text-xl text-neutral-400 mt-16 max-w-3xl mx-auto">
-					Von der romantischen Trauung bis zur ausgelassenen Tanzparty – ich sorge für die perfekte
+					Von der romantischen Trauung bis zur ausgelassenen Tanzparty - ich sorge für die perfekte
 					musikalische Untermalung eures besonderen Tages.
 				</p>
 			</div>

@@ -82,7 +82,7 @@
 			<strong>Nationale Datenschutzregelungen in Deutschland: </strong>Zusätzlich zu den
 			Datenschutzregelungen der DSGVO gelten nationale Regelungen zum Datenschutz in Deutschland.
 			Hierzu gehört insbesondere das Gesetz zum Schutz vor Missbrauch personenbezogener Daten bei
-			der Datenverarbeitung (Bundesdatenschutzgesetz – BDSG). Das BDSG enthält insbesondere
+			der Datenverarbeitung (Bundesdatenschutzgesetz - BDSG). Das BDSG enthält insbesondere
 			Spezialregelungen zum Recht auf Auskunft, zum Recht auf Löschung, zum Widerspruchsrecht, zur
 			Verarbeitung besonderer Kategorien personenbezogener Daten, zur Verarbeitung für andere Zwecke
 			und zur Übermittlung sowie automatisierten Entscheidungsfindung im Einzelfall einschließlich

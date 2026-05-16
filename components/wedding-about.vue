@@ -19,7 +19,7 @@
 					</p>
 					<p>
 						Meine Leidenschaft ist Musik und die perfekte Atmosphäre. Von der romantischen Trauung
-						bis zur ausgelassenen Tanzparty – ich sorge dafür, dass jeder Moment eurer Hochzeit mit
+						bis zur ausgelassenen Tanzparty - ich sorge dafür, dass jeder Moment eurer Hochzeit mit
 						der passenden Musik untermalt wird. Dabei berücksichtige ich eure persönlichen Wünsche
 						und schaffe eine einzigartige musikalische Reise durch euren besonderen Tag.
 					</p>

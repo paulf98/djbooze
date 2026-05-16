@@ -4,7 +4,7 @@
 			<div v-motion-slide-visible-top :duration="800" class="text-center mb-16">
 				<Heading text="Galerie" class="mb-8" />
 				<p class="text-xl text-neutral-400 max-w-3xl mt-16 mx-auto">
-					Ein Blick auf einige meiner bisherigen Hochzeiten – von romantischen Trauungen bis zu
+					Ein Blick auf einige meiner bisherigen Hochzeiten - von romantischen Trauungen bis zu
 					ausgelassenen Feiern.
 				</p>
 			</div>
@@ -193,6 +193,11 @@ import { ref, computed, onMounted, onUnmounted } from 'vue';
 
 // Wedding gallery images with descriptions
 const images = ref([
+	{
+		src: '/wedding/wedding-setup-premium.jpg',
+		location: 'Premium Setup',
+		description: 'Weiße Ausstattung mit Ambientebeleuchtung - elegant und unaufdringlich.',
+	},
 	{
 		src: '/wedding/wedding-dj-heckenaschbacherhof-2025.jpeg',
 		location: 'Heckenaschbacherhof, Contwig',
