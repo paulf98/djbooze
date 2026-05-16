@@ -7,7 +7,7 @@
 				:duration="800"
 				class="flex flex-1 flex-col items-center sm:items-start justify-center gap-8">
 				<NuxtImg
-					src="djbooze-dark.png"
+					src="/djbooze-dark.png"
 					alt="DJ Booze Logo"
 					class="max-w-60 md:max-w-80 w-full"
 					fit="contain" />
@@ -21,7 +21,7 @@
 			</div>
 			<div class="flex-1" v-motion-slide-visible-right :duration="800">
 				<NuxtImg
-					src="Variante_2_Transparent-3.png"
+					src="/Variante_2_Transparent-3.png"
 					alt="DJ Booze"
 					class="w-full h-auto max-w-md mx-auto"
 					fit="contain" />

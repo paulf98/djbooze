@@ -7,7 +7,7 @@
 			class="container max-w-5xl mx-auto flex flex-col md:flex-row items-center justify-between gap-8">
 			<div>
 				<NuxtImg
-					src="djbooze-dark.png"
+					src="/djbooze-dark.png"
 					alt="DJ Booze Logo"
 					class="max-w-40"
 					loading="lazy" />
@@ -19,7 +19,7 @@
 					target="_blank"
 					rel="noopener noreferrer">
 					<NuxtImg
-						src="instagram.png"
+						src="/instagram.png"
 						alt="Instagram Logo"
 						class="max-w-10"
 						loading="lazy" />

@@ -28,6 +28,12 @@ export default defineNuxtConfig({
 		'@vueuse/motion/nuxt',
 	],
 
+	image: {
+		// Vercel: native image optimizer. Local: serve /public files directly (avoids IPX/sharp 500s).
+		provider: process.env.VERCEL ? 'vercel' : 'none',
+		format: ['webp'],
+	},
+
 	ui: {
 		// @ts-expect-error Somehow the typing for this is wrong
 		notifications: {
