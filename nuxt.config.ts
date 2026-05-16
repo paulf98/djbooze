@@ -49,12 +49,12 @@ export default defineNuxtConfig({
 	},
 
 	turnstile: {
-		siteKey: process.env.TURNSTILE_SITE_KEY,
+		siteKey: process.env.NUXT_PUBLIC_TURNSTILE_SITE_KEY || '',
 	},
 
 	runtimeConfig: {
 		turnstile: {
-			secretKey: process.env.TURNSTILE_SECRET_KEY,
+			secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY || '',
 		},
 		public: {
 			posthogKey: process.env.POSTHOG_KEY,

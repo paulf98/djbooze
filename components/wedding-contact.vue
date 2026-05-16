@@ -104,9 +104,14 @@
 
 						<ClientOnly>
 							<NuxtTurnstile
+								ref="turnstileRef"
 								v-model="token"
-								:options="{ theme: 'dark' }"
+								:options="{ theme: 'dark', language: 'de' }"
 								class="self-center mb-4" />
+							<template #fallback>
+								<div
+									class="h-[65px] w-[300px] self-center mb-4 rounded bg-neutral-800 animate-pulse" />
+							</template>
 						</ClientOnly>
 
 						<Button
@@ -228,6 +233,7 @@ const mail = useMail();
 const toast = useToast();
 
 const token = ref<string | undefined>(undefined);
+const turnstileRef = ref<{ reset: () => void } | null>(null);
 
 const form = ref({
 	name: '',
@@ -305,6 +311,7 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 			from: form.value.email,
 			subject: `Hochzeitsanfrage von ${form.value.name}`,
 			text: emailContent,
+			turnstileToken: token.value,
 		});
 
 		toast.add({
@@ -314,7 +321,6 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 			timeout: 4000,
 		});
 
-		// Reset form
 		form.value = {
 			name: '',
 			email: '',
@@ -325,8 +331,8 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 			message: '',
 		};
 
-		// Reset token
 		token.value = undefined;
+		turnstileRef.value?.reset();
 	} catch (error) {
 		console.error('Error sending email:', error);
 		toast.add({
@@ -334,6 +340,8 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 			description: 'Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
 			color: 'red',
 		});
+		turnstileRef.value?.reset();
+		token.value = undefined;
 	} finally {
 		isSubmitting.value = false;
 	}

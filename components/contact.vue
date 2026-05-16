@@ -43,7 +43,14 @@
 							color="green" />
 					</UFormGroup>
 					<ClientOnly>
-						<NuxtTurnstile v-model="token" :options="{ theme: 'dark' }" class="self-center" />
+						<NuxtTurnstile
+							ref="turnstileRef"
+							v-model="token"
+							:options="{ theme: 'dark', language: 'de' }"
+							class="self-center" />
+						<template #fallback>
+							<div class="h-[65px] w-[300px] self-center rounded bg-neutral-800 animate-pulse" />
+						</template>
 					</ClientOnly>
 					<Button
 						type="submit"
@@ -64,6 +71,7 @@ const mail = useMail();
 const toast = useToast();
 
 const token = ref<string | undefined>(undefined);
+const turnstileRef = ref<{ reset: () => void } | null>(null);
 
 const validate = (state: any): FormError[] => {
 	const errors = [];
@@ -91,6 +99,7 @@ function submit() {
         Nachricht:
         ${state.message}
         `,
+			turnstileToken: token.value,
 		})
 		.then(() => {
 			toast.add({
@@ -99,14 +108,15 @@ function submit() {
 				color: 'red',
 				timeout: 4000,
 			});
+			Object.assign(state, defaultState);
+			token.value = undefined;
+			turnstileRef.value?.reset();
 		})
 		.catch(() => {
 			alert('Ihre Anfrage konnte nicht versendet werden.');
+			turnstileRef.value?.reset();
+			token.value = undefined;
 		});
-
-	// Reset form
-	Object.assign(state, defaultState);
-	token.value = undefined;
 }
 
 const schema = z.object({
