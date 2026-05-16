@@ -102,7 +102,12 @@
 								placeholder="Erzählt mir mehr über eure Traumhochzeit..."></textarea>
 						</div>
 
-						<NuxtTurnstile v-model="token" :options="{ theme: 'dark' }" class="self-center mb-4" />
+						<ClientOnly>
+							<NuxtTurnstile
+								v-model="token"
+								:options="{ theme: 'dark' }"
+								class="self-center mb-4" />
+						</ClientOnly>
 
 						<Button
 							type="submit"

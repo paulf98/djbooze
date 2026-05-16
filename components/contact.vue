@@ -42,10 +42,14 @@
 							variant="outline"
 							color="green" />
 					</UFormGroup>
-					<Button type="submit" :disabled="!state.name || !state.email || !state.message || !token"
-						>Senden</Button
-					>
-					<NuxtTurnstile v-model="token" :options="{ theme: 'dark' }" class="self-center" />
+					<ClientOnly>
+						<NuxtTurnstile v-model="token" :options="{ theme: 'dark' }" class="self-center" />
+					</ClientOnly>
+					<Button
+						type="submit"
+						:disabled="!state.name || !state.email || !state.message || !token">
+						Senden
+					</Button>
 				</div>
 			</UForm>
 		</div>
@@ -70,7 +74,7 @@ const validate = (state: any): FormError[] => {
 };
 
 function submit() {
-	if (!mail || !token) {
+	if (!mail || !token.value) {
 		alert('Ihre Anmeldung konnte nicht versendet werden.');
 		return;
 	}
@@ -102,6 +106,7 @@ function submit() {
 
 	// Reset form
 	Object.assign(state, defaultState);
+	token.value = undefined;
 }
 
 const schema = z.object({
