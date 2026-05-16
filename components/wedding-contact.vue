@@ -207,7 +207,17 @@
 </template>
 
 <script setup lang="ts">
+import { format, parseISO } from 'date-fns';
+import { de } from 'date-fns/locale';
 import { z } from 'zod';
+
+function formatGermanDate(isoDate: string): string {
+	try {
+		return format(parseISO(isoDate), 'EEEE, d. MMMM yyyy', { locale: de });
+	} catch {
+		return isoDate;
+	}
+}
 
 const mail = useMail();
 const toast = useToast();
@@ -278,7 +288,7 @@ Kontaktdaten:
 ${form.value.phone ? `- Telefon: ${form.value.phone}` : ''}
 
 Hochzeitsdetails:
-${form.value.weddingDate ? `- Datum: ${form.value.weddingDate}` : ''}
+${form.value.weddingDate ? `- Datum: ${formatGermanDate(form.value.weddingDate)}` : ''}
 ${form.value.location ? `- Location: ${form.value.location}` : ''}
 ${form.value.guests ? `- Anzahl Gäste: ${form.value.guests}` : ''}
 
