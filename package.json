@@ -3,10 +3,21 @@
 	"private": true,
 	"type": "module",
 	"pnpm": {
-		"onlyBuiltDependencies": ["sharp", "esbuild", "@parcel/watcher"],
+		"onlyBuiltDependencies": [
+			"sharp",
+			"esbuild",
+			"@parcel/watcher"
+		],
 		"supportedArchitectures": {
-			"os": ["current", "linux"],
-			"cpu": ["current", "x64", "arm64"]
+			"os": [
+				"current",
+				"linux"
+			],
+			"cpu": [
+				"current",
+				"x64",
+				"arm64"
+			]
 		}
 	},
 	"scripts": {
@@ -22,6 +33,7 @@
 		"@nuxtjs/seo": "5.1.3",
 		"@samk-dev/nuxt-vcalendar": "1.0.4",
 		"nuxt": "3.21.5",
+		"nuxt-security": "^2.6.0",
 		"vue": "3.5.34",
 		"vue-router": "4.6.4"
 	},

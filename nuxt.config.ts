@@ -3,6 +3,7 @@ export default defineNuxtConfig({
 	devtools: { enabled: process.env.NODE_ENV === 'development' },
 
 	modules: [
+		'nuxt-security',
 		'@nuxt/ui',
 		'@nuxt/image',
 		'@nuxtjs/turnstile',
@@ -89,5 +90,34 @@ export default defineNuxtConfig({
 	robots: {
 		enabled: true,
 		disallow: ['/admin', '/private'],
+	},
+
+	// Strict CSP with nonces for Nuxt inline scripts; allowlisted third-party scripts
+	security: {
+		nonce: true,
+		headers: {
+			contentSecurityPolicy: {
+				'img-src': ["'self'", 'data:', 'https:', 'blob:'],
+				'script-src': [
+					"'self'",
+					"'nonce-{{nonce}}'",
+					"'strict-dynamic'",
+					"'unsafe-eval'",
+					'https://eu.i.posthog.com',
+					'https://eu-assets.i.posthog.com',
+					'https://va.vercel-scripts.com',
+					'https://challenges.cloudflare.com',
+				],
+				'connect-src': [
+					"'self'",
+					'https://eu.i.posthog.com',
+					'https://eu-assets.i.posthog.com',
+					'https://va.vercel-scripts.com',
+					'https://vitals.vercel-insights.com',
+					'https://challenges.cloudflare.com',
+				],
+				'frame-src': ["'self'", 'https://w.soundcloud.com', 'https://challenges.cloudflare.com'],
+			},
+		},
 	},
 });
