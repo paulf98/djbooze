@@ -1,7 +1,11 @@
 <template>
-	<section id="setup" class="relative overflow-hidden bg-black text-white py-16 md:py-28">
-		<div
-			class="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top,_rgba(212,175,55,0.12),_transparent_55%)]" />
+	<section
+		id="setup"
+		class="relative overflow-hidden bg-gradient-to-b from-black via-neutral-900 to-neutral-900 text-white py-16 md:py-32">
+		<div class="pointer-events-none absolute inset-0 opacity-10">
+			<div class="absolute top-16 left-1/4 h-40 w-40 rounded-full bg-white blur-3xl" />
+			<div class="absolute bottom-16 right-1/4 h-56 w-56 rounded-full bg-white blur-3xl" />
+		</div>
 
 		<div class="container relative z-10 max-w-6xl mx-auto px-8">
 			<div v-motion-slide-visible-top :duration="800" class="text-center mb-12 md:mb-16">
@@ -18,7 +22,7 @@
 				:delay="150"
 				class="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-3 md:gap-8">
 				<figure
-					class="relative aspect-[9/16] w-full overflow-hidden rounded-2xl border border-amber-500/20 shadow-2xl shadow-amber-950/30">
+					class="relative aspect-[9/16] w-full overflow-hidden rounded-2xl border border-neutral-700 shadow-2xl shadow-black/40">
 					<LazyNuxtImg
 						src="/wedding/wedding-setup-premium.jpg"
 						alt="Weißes Hochzeits-DJ-Setup mit Ambientebeleuchtung in einer Weinkeller-Location"
@@ -28,7 +32,7 @@
 						fetchpriority="high" />
 					<figcaption
 						class="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/90 via-black/50 to-transparent p-6 md:p-8">
-						<p class="text-xs uppercase tracking-[0.2em] text-amber-300/90 mb-2">Aktuelles Setup</p>
+						<p class="text-xs uppercase tracking-[0.2em] text-neutral-400 mb-2">Aktuelles Setup</p>
 						<h3 class="text-2xl md:text-3xl font-bold mb-2">Elegant &amp; unaufdringlich</h3>
 						<p class="text-neutral-300 text-sm md:text-base leading-relaxed">
 							Weiße Lautsprecher, DJ-Pult und Lichttechnik - perfekt für stilvolle Locations wie
@@ -54,8 +58,8 @@
 				<li
 					v-for="highlight in highlights"
 					:key="highlight.title"
-					class="rounded-xl border border-neutral-800 bg-neutral-900/80 px-5 py-4">
-					<p class="text-amber-300 text-sm font-medium mb-1">{{ highlight.title }}</p>
+					class="rounded-xl border border-neutral-700 bg-neutral-800/50 backdrop-blur-sm px-5 py-4">
+					<p class="text-white text-sm font-medium mb-1">{{ highlight.title }}</p>
 					<p class="text-neutral-400 text-sm leading-relaxed">{{ highlight.text }}</p>
 				</li>
 			</ul>
