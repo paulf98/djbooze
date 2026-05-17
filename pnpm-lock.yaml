@@ -48,9 +48,6 @@ importers:
       '@nuxtjs/seo':
         specifier: 5.1.3
         version: 5.1.3(602266a2589a9acd54cc542640edb76a)
-      '@samk-dev/nuxt-vcalendar':
-        specifier: 1.0.4
-        version: 1.0.4(magicast@0.5.3)(rollup@4.60.4)(vue@3.5.34(typescript@5.9.3))(webpack-sources@3.2.3)
       nuxt:
         specifier: 3.21.5
         version: 3.21.5(@parcel/watcher@2.5.6)(@vue/compiler-sfc@3.5.34)(cac@6.7.14)(db0@0.3.4)(ioredis@5.10.1)(lightningcss@1.32.0)(magicast@0.5.3)(rollup-plugin-visualizer@7.0.1(rollup@4.60.4))(rollup@4.60.4)(terser@5.36.0)(tsx@4.19.2)(typescript@5.9.3)(vite@7.3.3(jiti@2.7.0)(lightningcss@1.32.0)(terser@5.36.0)(tsx@4.19.2)(yaml@2.9.0))(yaml@2.9.0)
@@ -235,10 +232,6 @@ packages:
     engines: {node: '>=6.9.0'}
     peerDependencies:
       '@babel/core': ^7.0.0-0
-
-  '@babel/runtime@7.26.0':
-    resolution: {integrity: sha512-FDSOghenHTiToteC/QRlv2q3DhPZ/oOXTBoirfWNx1Cx3TMVcGWQtMMmQcSvb/JjpNeGzx8Pq/b4fKEJuWm1sw==}
-    engines: {node: '>=6.9.0'}
 
   '@babel/standalone@7.26.2':
     resolution: {integrity: sha512-i2VbegsRfwa9yq3xmfDX3tG2yh9K0cCqwpSyVG2nPxifh0EOnucAZUeO/g4lW2Zfg03aPJNtPfxQbDHzXc7H+w==}
@@ -2527,9 +2520,6 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@samk-dev/nuxt-vcalendar@1.0.4':
-    resolution: {integrity: sha512-vl2VzELpqSheJmuG1ZehggieEb2E8YRkw+DDVl2UrLBj6z1ll3CHL0Kjrjg5Bg1UylmQO3yBdpTyjESP/tSj/Q==}
-
   '@shikijs/core@4.0.2':
     resolution: {integrity: sha512-hxT0YF4ExEqB8G/qFdtJvpmHXBYJ2lWW7qTHDarVkIudPFE6iCIrqdgWxGn5s+ppkGXI0aEGlibI0PAyzP3zlw==}
     engines: {node: '>=20'}
@@ -2966,17 +2956,11 @@ packages:
   '@types/hast@3.0.4':
     resolution: {integrity: sha512-WPs+bbQw5aCj+x6laNGWLH3wviHtoCv/P3+otBhbOhJgG8qtpdAMlTCxLtsTWA7LH1Oh/bFCHsBn0TPS5m30EQ==}
 
-  '@types/lodash@4.17.13':
-    resolution: {integrity: sha512-lfx+dftrEZcdBPczf9d0Qv0x+j/rfNCMuC6OcfXmO8gkfeNAY88PgKUbvG56whcN23gc27yenwF6oJZXGFpYxg==}
-
   '@types/mdast@4.0.4':
     resolution: {integrity: sha512-kGaNbPh1k7AFzgpud/gMdvIm5xuECykRR+JnWKQno9TAXVa6WIVCGTPvYGekIDL4uwCZQSYbUxNBSb1aUo79oA==}
 
   '@types/node@22.9.0':
     resolution: {integrity: sha512-vuyHg81vvWA1Z1ELfvLko2c8f34gyA0zaic0+Rllc5lbCnbSyuvb2Oxpm6TAUAC/2xZN3QGqxBNggD1nNR2AfQ==}
-
-  '@types/resize-observer-browser@0.1.11':
-    resolution: {integrity: sha512-cNw5iH8JkMkb3QkCoe7DaZiawbDQEUX8t7iuQaRTyLOyQCR2h+ibBD4GJt7p5yhUHrlOeL7ZtbxNHeipqNsBzQ==}
 
   '@types/resolve@1.20.2':
     resolution: {integrity: sha512-60BCwRFOZCQhDncwQdxxeOEEkbc5dIMccYLwbxsS4TUNeVECQ/pBJ0j09mrHOl/JJvpRPGwO9SvE4nR2Nb/a4Q==}
@@ -3833,15 +3817,6 @@ packages:
   culori@4.0.2:
     resolution: {integrity: sha512-1+BhOB8ahCn4O0cep0Sh2l9KCOfOdY+BXJnKMHFFzDEouSr/el18QwXEMRlOj9UY5nCeA8UN3a/82rUWRBeyBw==}
     engines: {node: ^12.20.0 || ^14.13.1 || >=16.0.0}
-
-  date-fns-tz@2.0.1:
-    resolution: {integrity: sha512-fJCG3Pwx8HUoLhkepdsP7Z5RsucUi+ZBOxyM5d0ZZ6c4SdYustq0VMmOu6Wf7bli+yS/Jwp91TOCqn9jMcVrUA==}
-    peerDependencies:
-      date-fns: 2.x
-
-  date-fns@2.30.0:
-    resolution: {integrity: sha512-fnULvOpxnC5/Vg3NCiWelDsLiUc9bRwAPs/+LfTLNvetFCtCTN+yQz15C/fs4AwX1R9K5GLtLfn8QW+dWisaAw==}
-    engines: {node: '>=0.11'}
 
   date-fns@4.1.0:
     resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
@@ -6030,9 +6005,6 @@ packages:
     resolution: {integrity: sha512-DJnGAeenTdpMEH6uAJRK/uiyEIH9WVsUmoLwzudwGJUwZPp80PDBWPHXSAGNPwNvIXAbe7MSUB1zQFugFml66A==}
     engines: {node: '>=4'}
 
-  regenerator-runtime@0.14.1:
-    resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==}
-
   regex-recursion@6.0.2:
     resolution: {integrity: sha512-0YCaSCq2VRIebiaUviZNs0cBz1kg5kVS2UKUfNIx8YVs1cN3AV7NTctO5FOKBA+UT2BPJIWZauYHPqJODG50cg==}
 
@@ -6879,12 +6851,6 @@ packages:
     resolution: {integrity: sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==}
     engines: {node: '>= 0.4.0'}
 
-  v-calendar@3.1.2:
-    resolution: {integrity: sha512-QDWrnp4PWCpzUblctgo4T558PrHgHzDtQnTeUNzKxfNf29FkCeFpwGd9bKjAqktaa2aJLcyRl45T5ln1ku34kg==}
-    peerDependencies:
-      '@popperjs/core': ^2.0.0
-      vue: ^3.2.0
-
   valibot@1.4.0:
     resolution: {integrity: sha512-iC/x7fVcSyOwlm/VSt7RlHnzNGLGvR9GnxdifUeWoCJo0q4ZZvrVkIHC6faTlkxG47I2Y4UrFquPuVHCrOnrLg==}
     peerDependencies:
@@ -7044,11 +7010,6 @@ packages:
     resolution: {integrity: sha512-Hz9q5sa33Yhduglwz6g9skT8OBPii+4bFn88w6J+J4MfEo4KRRpmiNG/hHHkdbRFlLBOqxN8y8gf2Fb0MTUgVg==}
     peerDependencies:
       vue: ^3.5.0
-
-  vue-screen-utils@1.0.0-beta.13:
-    resolution: {integrity: sha512-EJ/8TANKhFj+LefDuOvZykwMr3rrLFPLNb++lNBqPOpVigT2ActRg6icH9RFQVm4nHwlHIHSGm5OY/Clar9yIg==}
-    peerDependencies:
-      vue: ^3.2.0
 
   vue@3.5.34:
     resolution: {integrity: sha512-WdLBG9gm02OgJIG9axd5Hpx0TFLdzVgfG2evFFu8Rur5O/IoGc5cMjnjh3tPL6GnRGsYvUhBSKVPYVcxRKpMCA==}
@@ -7436,10 +7397,6 @@ snapshots:
       '@babel/plugin-syntax-typescript': 7.28.6(@babel/core@7.29.0)
     transitivePeerDependencies:
       - supports-color
-
-  '@babel/runtime@7.26.0':
-    dependencies:
-      regenerator-runtime: 0.14.1
 
   '@babel/standalone@7.26.2': {}
 
@@ -9779,18 +9736,6 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.60.4':
     optional: true
 
-  '@samk-dev/nuxt-vcalendar@1.0.4(magicast@0.5.3)(rollup@4.60.4)(vue@3.5.34(typescript@5.9.3))(webpack-sources@3.2.3)':
-    dependencies:
-      '@nuxt/kit': 3.14.159(magicast@0.5.3)(rollup@4.60.4)(webpack-sources@3.2.3)
-      '@popperjs/core': 2.11.8
-      v-calendar: 3.1.2(@popperjs/core@2.11.8)(vue@3.5.34(typescript@5.9.3))
-    transitivePeerDependencies:
-      - magicast
-      - rollup
-      - supports-color
-      - vue
-      - webpack-sources
-
   '@shikijs/core@4.0.2':
     dependencies:
       '@shikijs/primitive': 4.0.2
@@ -10211,8 +10156,6 @@ snapshots:
     dependencies:
       '@types/unist': 3.0.3
 
-  '@types/lodash@4.17.13': {}
-
   '@types/mdast@4.0.4':
     dependencies:
       '@types/unist': 3.0.3
@@ -10220,8 +10163,6 @@ snapshots:
   '@types/node@22.9.0':
     dependencies:
       undici-types: 6.19.8
-
-  '@types/resize-observer-browser@0.1.11': {}
 
   '@types/resolve@1.20.2': {}
 
@@ -11153,14 +11094,6 @@ snapshots:
   csstype@3.2.3: {}
 
   culori@4.0.2: {}
-
-  date-fns-tz@2.0.1(date-fns@2.30.0):
-    dependencies:
-      date-fns: 2.30.0
-
-  date-fns@2.30.0:
-    dependencies:
-      '@babel/runtime': 7.26.0
 
   date-fns@4.1.0: {}
 
@@ -14082,8 +14015,6 @@ snapshots:
     dependencies:
       redis-errors: 1.2.0
 
-  regenerator-runtime@0.14.1: {}
-
   regex-recursion@6.0.2:
     dependencies:
       regex-utilities: 2.3.0
@@ -15099,17 +15030,6 @@ snapshots:
 
   utils-merge@1.0.1: {}
 
-  v-calendar@3.1.2(@popperjs/core@2.11.8)(vue@3.5.34(typescript@5.9.3)):
-    dependencies:
-      '@popperjs/core': 2.11.8
-      '@types/lodash': 4.17.13
-      '@types/resize-observer-browser': 0.1.11
-      date-fns: 2.30.0
-      date-fns-tz: 2.0.1(date-fns@2.30.0)
-      lodash: 4.17.21
-      vue: 3.5.34(typescript@5.9.3)
-      vue-screen-utils: 1.0.0-beta.13(vue@3.5.34(typescript@5.9.3))
-
   valibot@1.4.0(typescript@5.9.3):
     optionalDependencies:
       typescript: 5.9.3
@@ -15239,10 +15159,6 @@ snapshots:
   vue-router@4.6.4(vue@3.5.34(typescript@5.9.3)):
     dependencies:
       '@vue/devtools-api': 6.6.4
-      vue: 3.5.34(typescript@5.9.3)
-
-  vue-screen-utils@1.0.0-beta.13(vue@3.5.34(typescript@5.9.3)):
-    dependencies:
       vue: 3.5.34(typescript@5.9.3)
 
   vue@3.5.34(typescript@5.9.3):

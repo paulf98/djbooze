@@ -31,6 +31,6 @@ useSeoMeta({
 		'Professioneller Hochzeits-DJ in Pirmasens und Umgebung. Hochwertige Ausstattung, maßgeschneiderte Musik und unvergessliche Momente für Ihre Traumhochzeit.',
 	ogDescription:
 		'Professioneller Hochzeits-DJ in Pirmasens und Umgebung. Hochwertige Ausstattung, maßgeschneiderte Musik und unvergessliche Momente für Ihre Traumhochzeit.',
-	ogImage: 'https://www.djbooze.de/_vercel/image?url=/djbooze-dark.png&w=1536&q=100',
+	ogImage: 'https://www.djbooze.de/_vercel/image?url=/djbooze-dark.png&w=1200&q=75',
 });
 </script>

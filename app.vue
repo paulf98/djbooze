@@ -32,7 +32,7 @@ useSeoMeta({
 		'DJ Booze - Pirmasens und Umgebung. Egal ob Club, Hochzeit oder Event - DJ Booze hat immer die richtigen Tracks dabei.',
 	ogDescription:
 		'DJ Booze - Pirmasens und Umgebung. Egal ob Club, Hochzeit oder Event - DJ Booze hat immer die richtigen Tracks dabei.',
-	ogImage: 'https://www.djbooze.de/_vercel/image?url=/djbooze-dark.png&w=1536&q=100',
+	ogImage: 'https://www.djbooze.de/_vercel/image?url=/djbooze-dark.png&w=1200&q=75',
 });
 </script>
 

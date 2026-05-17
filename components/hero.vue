@@ -10,6 +10,10 @@
 					src="/djbooze-dark.png"
 					alt="DJ Booze Logo"
 					class="max-w-60 md:max-w-80 w-full"
+					width="320"
+					height="120"
+					sizes="(max-width: 768px) 240px, 320px"
+					fetchpriority="high"
 					fit="contain" />
 				<p class="dark:text-white text-xl md:text-3xl font-thin tracking-wider">
 					DJ für Clubs & Events <br />
@@ -24,6 +28,10 @@
 					src="/Variante_2_Transparent-3.png"
 					alt="DJ Booze"
 					class="w-full h-auto max-w-md mx-auto"
+					width="448"
+					height="448"
+					sizes="(max-width: 768px) 280px, 448px"
+					loading="lazy"
 					fit="contain" />
 			</div>
 		</div>

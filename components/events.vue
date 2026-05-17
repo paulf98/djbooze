@@ -45,7 +45,7 @@
 			<div
 				class="container flex flex-col md:flex-row items-stretch justify-center gap-8 max-w-5xl mx-auto py-8 flex-wrap">
 				<Event
-					v-for="event in pastEvents"
+					v-for="event in displayedPastEvents"
 					:key="event.name"
 					:name="event.name"
 					:description="event.description"
@@ -66,6 +66,8 @@
 </template>
 
 <script setup lang="ts">
-import { pastEvents } from '~/events';
-import { upcomingEvents } from '~/events';
+import { pastEvents, upcomingEvents } from '~/events';
+
+const PAST_EVENTS_HOME_LIMIT = 8;
+const displayedPastEvents = computed(() => pastEvents.slice(0, PAST_EVENTS_HOME_LIMIT));
 </script>

@@ -23,7 +23,6 @@ export default defineNuxtConfig({
 				},
 			},
 		],
-		'@samk-dev/nuxt-vcalendar',
 		'@nuxt/scripts',
 		'@nuxtjs/seo',
 		'@vueuse/motion/nuxt',

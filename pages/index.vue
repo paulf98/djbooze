@@ -10,9 +10,9 @@ useSeoMeta({
 	<main>
 		<Hero />
 		<About />
-		<Events />
-		<SoundcloudList />
-		<Veranstaltung />
-		<Contact />
+		<LazyEvents />
+		<LazySoundcloudList />
+		<LazyVeranstaltung />
+		<LazyContact />
 	</main>
 </template>

@@ -204,7 +204,9 @@ useHead({
 	],
 });
 
-const { data: calendarData, pending, error } = await useFetch<GoogleCalendarResponse>('/api/gigs');
+const { data: calendarData, pending, error } = useFetch<GoogleCalendarResponse>('/api/gigs', {
+	lazy: true,
+});
 
 const prevMonth = () => {
 	currentMonth.value = subMonths(currentMonth.value, 1);
