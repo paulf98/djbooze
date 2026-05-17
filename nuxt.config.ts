@@ -56,10 +56,6 @@ export default defineNuxtConfig({
 		turnstile: {
 			secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY || '',
 		},
-		public: {
-			posthogKey: process.env.POSTHOG_KEY,
-			posthogHost: process.env.POSTHOG_HOST || 'https://eu.i.posthog.com',
-		},
 	},
 
 	app: {
@@ -103,19 +99,9 @@ export default defineNuxtConfig({
 					"'nonce-{{nonce}}'",
 					"'strict-dynamic'",
 					"'unsafe-eval'",
-					'https://eu.i.posthog.com',
-					'https://eu-assets.i.posthog.com',
-					'https://va.vercel-scripts.com',
 					'https://challenges.cloudflare.com',
 				],
-				'connect-src': [
-					"'self'",
-					'https://eu.i.posthog.com',
-					'https://eu-assets.i.posthog.com',
-					'https://va.vercel-scripts.com',
-					'https://vitals.vercel-insights.com',
-					'https://challenges.cloudflare.com',
-				],
+				'connect-src': ["'self'", 'https://challenges.cloudflare.com'],
 				'frame-src': ["'self'", 'https://w.soundcloud.com', 'https://challenges.cloudflare.com'],
 			},
 		},
