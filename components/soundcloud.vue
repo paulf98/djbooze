@@ -1,12 +1,18 @@
 <template>
-	<div ref="root" v-motion-pop-visible :duration="800" class="min-h-[300px] w-full">
+	<div
+		ref="root"
+		v-motion-pop-visible
+		:duration="800"
+		class="w-full min-h-[166px] bg-neutral-900 p-2 rounded border-2 border-neutral-700 shadow overflow-hidden">
 		<iframe
 			v-if="visible"
-			width="100%"
-			height="300"
+			class="w-full"
+			height="166"
 			scrolling="no"
 			frameborder="no"
-			allow="autoplay"
+			allow="autoplay; encrypted-media"
+			loading="lazy"
+			referrerpolicy="strict-origin-when-cross-origin"
 			:title="`SoundCloud Player: ${url}`"
 			:src="playerSrc" />
 	</div>
@@ -22,7 +28,7 @@ const visible = ref(false);
 
 const playerSrc = computed(
 	() =>
-		`https://w.soundcloud.com/player/?url=${encodeURIComponent(props.url)}&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true`,
+		`https://w.soundcloud.com/player/?url=${encodeURIComponent(props.url)}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false`,
 );
 
 onMounted(() => {

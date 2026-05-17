@@ -16,7 +16,7 @@
 			</p>
 		</div>
 		<div
-			class="container flex flex-col md:flex-row items-center justify-center gap-8 mx-auto py-8 flex-wrap">
+			class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 max-w-7xl mx-auto py-8 px-4">
 			<Soundcloud
 				v-for="soundcloud in soundclouds"
 				:key="soundcloud.id"
