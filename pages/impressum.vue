@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto py-16 md:py-32 px-8 prose text-white break-words">
+    <div class="container mx-auto max-w-4xl py-16 md:py-32 px-8 prose prose-invert text-white break-words">
         <h1>IMPRESSUM</h1>
         <h2>WEBSEITENBETREIBER</h2>
         <p>Paul Faass</p>

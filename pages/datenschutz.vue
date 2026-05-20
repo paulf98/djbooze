@@ -1,5 +1,7 @@
 <template>
-	<div class="container text-justify mx-auto py-16 md:py-32 px-8 prose text-white break-words">
+	<div
+		class="container text-justify mx-auto max-w-4xl py-16 md:py-32 px-8 prose prose-invert text-white break-words"
+	>
 		<h1>Datenschutzerklärung</h1>
 		<p>Stand: 20. Mai 2026</p>
 		<h2>Inhaltsübersicht</h2>
@@ -27,7 +29,10 @@
 		</ul>
 		<h2 id="m3">Verantwortlicher</h2>
 		<p>Paul Faass<br />Hauptstraße 31<br />66969 Lemberg, DE</p>
-		E-Mail-Adresse: <a href="mailto:booking@djbooze.de">booking@djbooze.de</a>
+		<p>
+			E-Mail-Adresse:
+			<a href="mailto:booking@djbooze.de">booking@djbooze.de</a>
+		</p>
 
 		<h2 id="mOverview">Übersicht der Verarbeitungen</h2>
 		<p>

@@ -9,7 +9,10 @@
 		<p class="text-center mb-4 font-bold" v-motion-slide-visible-bottom :duration="800">
 			🎧 Dein Event, Dein Sound - mit Deinem mobilen DJ! 🎉
 		</p>
-		<p class="text-center prose text-white mx-auto" v-motion-slide-visible-bottom :duration="800">
+		<p
+			class="text-center prose prose-invert text-white mx-auto"
+			v-motion-slide-visible-bottom
+			:duration="800">
 			Egal ob Hochzeit, Geburtstag, Jubiläum oder private Feier - ich bringe den passenden
 			Soundtrack für Deine unvergesslichen Momente. Mit professionellem Equipment, einem flexiblen
 			Musikrepertoire und Leidenschaft sorge ich dafür, dass Deine Gäste tanzen und Dein Event in
@@ -26,7 +29,7 @@
 			<TimelineItem :step="1">
 				<Card heading="📨 Kontaktaufnahme">
 					<div>
-						<p class="prose text-white mb-4">
+						<p class="prose prose-invert text-white mb-4">
 							Nimm Kontakt mit mir auf und wir besprechen Deine Wünsche und Vorstellungen. Sich
 							kennenlernen und Fragen klären ist mir wichtig.
 						</p>
