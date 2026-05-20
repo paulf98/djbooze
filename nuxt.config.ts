@@ -55,6 +55,15 @@ export default defineNuxtConfig({
 		turnstile: {
 			secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY || '',
 		},
+		public: {
+			/** Umami (https://umami.is/) — set NUXT_PUBLIC_UMAMI_WEBSITE_ID to enable */
+			umami: {
+				websiteId: process.env.NUXT_PUBLIC_UMAMI_WEBSITE_ID || '',
+				/** Collector base URL; default matches Umami Cloud script origin. Override via NUXT_PUBLIC_UMAMI_HOST_URL (add origin to CSP connect-src if needed). */
+				hostUrl:
+					process.env.NUXT_PUBLIC_UMAMI_HOST_URL || 'https://cloud.umami.is',
+			},
+		},
 	},
 
 	app: {
@@ -102,7 +111,11 @@ export default defineNuxtConfig({
 					"'unsafe-eval'",
 					'https://challenges.cloudflare.com',
 				],
-				'connect-src': ["'self'", 'https://challenges.cloudflare.com'],
+				'connect-src': [
+					"'self'",
+					'https://challenges.cloudflare.com',
+					'https://cloud.umami.is',
+				],
 				'frame-src': [
 					"'self'",
 					'https://w.soundcloud.com',

@@ -39,6 +39,18 @@ GOOGLE_CALENDAR_API_KEY=your_api_key_here
 5. Get your Calendar ID from Google Calendar settings
 6. Add the credentials to your `.env` file
 
+### Umami Analytics (optional)
+
+Set a website ID from [Umami Cloud](https://cloud.umami.is/) (or self-hosted) to load the tracker globally via `@nuxt/scripts` (`useScriptUmamiAnalytics`). If the variable is unset, no script is injected.
+
+```bash
+NUXT_PUBLIC_UMAMI_WEBSITE_ID=your-website-id
+# Optional: override collector base URL (default: https://cloud.umami.is — same origin as the bundled Umami Cloud script)
+# NUXT_PUBLIC_UMAMI_HOST_URL=https://analytics.example.com
+```
+
+If you point `NUXT_PUBLIC_UMAMI_HOST_URL` at another origin, add that origin to `security.headers.contentSecurityPolicy['connect-src']` in `nuxt.config.ts` so pageviews can be sent.
+
 ## Development Server
 
 Start the development server on `http://localhost:3000`:

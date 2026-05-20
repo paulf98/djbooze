@@ -1,7 +1,7 @@
 <template>
 	<div class="container text-justify mx-auto py-16 md:py-32 px-8 prose text-white break-words">
 		<h1>Datenschutzerklärung</h1>
-		<p>Stand: 10. Januar 2024</p>
+		<p>Stand: 20. Mai 2026</p>
 		<h2>Inhaltsübersicht</h2>
 		<ul class="index">
 			<li><a class="index-link" href="#m3">Verantwortlicher</a></li>
@@ -11,6 +11,9 @@
 			<li><a class="index-link" href="#m24">Internationale Datentransfers</a></li>
 			<li><a class="index-link" href="#m10">Rechte der betroffenen Personen</a></li>
 			<li><a class="index-link" href="#m134">Einsatz von Cookies</a></li>
+			<li>
+				<a class="index-link" href="#mUmami">Webanalyse mit Umami (ohne Cookies)</a>
+			</li>
 			<li>
 				<a class="index-link" href="#m225">Bereitstellung des Onlineangebotes und Webhosting</a>
 			</li>
@@ -49,6 +52,7 @@
 			<li>Kontaktanfragen und Kommunikation.</li>
 			<li>Sicherheitsmaßnahmen.</li>
 			<li>Reichweitenmessung.</li>
+			<li>Webanalyse (cookiefrei mit Umami).</li>
 			<li>Tracking.</li>
 			<li>Feedback.</li>
 			<li>Marketing.</li>
@@ -222,18 +226,30 @@
 			Besucherströme.
 		</p>
 		<p>
-			<strong>Hinweise zur Einwilligung: </strong>Wir setzen Cookies im Einklang mit den
-			gesetzlichen Vorschriften ein. Daher holen wir von den Nutzern eine vorhergehende Einwilligung
-			ein, außer wenn diese gesetzlich nicht gefordert ist. Eine Einwilligung ist insbesondere nicht
-			notwendig, wenn das Speichern und das Auslesen der Informationen, also auch von Cookies,
-			unbedingt erforderlich sind, um dem den Nutzern einen von ihnen ausdrücklich gewünschten
-			Telemediendienst (also unser Onlineangebot) zur Verfügung zu stellen. Zu den unbedingt
-			erforderlichen Cookies gehören in der Regel Cookies mit Funktionen, die der Anzeige und
-			Lauffähigkeit des Onlineangebotes , dem Lastausgleich, der Sicherheit, der Speicherung der
-			Präferenzen und Auswahlmöglichkeiten der Nutzer oder ähnlichen mit der Bereitstellung der
-			Haupt- und Nebenfunktionen des von den Nutzern angeforderten Onlineangebotes zusammenhängenden
-			Zwecken dienen. Die widerrufliche Einwilligung wird gegenüber den Nutzern deutlich
-			kommuniziert und enthält die Informationen zu der jeweiligen Cookie-Nutzung.
+			<strong>Reichweitenmessung ohne Cookies auf dieser Website: </strong>Für die statistische
+			Auswertung unseres öffentlichen Webauftritts setzen wir den Analysedienst
+			<strong>Umami</strong> ein. Dabei werden <strong>keine Cookies</strong> auf Ihrem Endgerät
+			gespeichert und es werden durch Umami auch
+			<strong>keine vergleichbaren Technologien</strong> eingesetzt, für die nach dem
+			Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG) eine vorherige Einwilligung
+			erforderlich wäre. Deshalb ist für diese Webanalyse
+			<strong>kein Cookie-Banner</strong> erforderlich. Ausführliche Informationen finden Sie unter
+			<a class="index-link" href="#mUmami">Webanalyse mit Umami (ohne Cookies)</a>.
+		</p>
+		<p>
+			<strong>Hinweise zur Einwilligung: </strong>Soweit wir Cookies einsetzen, tun wir dies im
+			Einklang mit den gesetzlichen Vorschriften. In diesen Fällen holen wir von den Nutzern eine
+			vorhergehende Einwilligung ein, außer wenn diese gesetzlich nicht gefordert ist. Eine
+			Einwilligung ist insbesondere nicht notwendig, wenn das Speichern und das Auslesen der
+			Informationen, also auch von Cookies, unbedingt erforderlich sind, um dem den Nutzern einen
+			von ihnen ausdrücklich gewünschten Telemediendienst (also unser Onlineangebot) zur Verfügung
+			zu stellen. Zu den unbedingt erforderlichen Cookies gehören in der Regel Cookies mit
+			Funktionen, die der Anzeige und Lauffähigkeit des Onlineangebotes , dem Lastausgleich, der
+			Sicherheit, der Speicherung der Präferenzen und Auswahlmöglichkeiten der Nutzer oder ähnlichen
+			mit der Bereitstellung der Haupt- und Nebenfunktionen des von den Nutzern angeforderten
+			Onlineangebotes zusammenhängenden Zwecken dienen. Die widerrufliche Einwilligung wird
+			gegenüber den Nutzern deutlich kommuniziert und enthält die Informationen zu der jeweiligen
+			Cookie-Nutzung.
 		</p>
 		<p>
 			<strong>Hinweise zu datenschutzrechtlichen Rechtsgrundlagen: </strong>Auf welcher
@@ -287,6 +303,79 @@
 				DSGVO).
 			</li>
 		</ul>
+
+		<h2 id="mUmami">Webanalyse mit Umami (ohne Cookies)</h2>
+		<p>
+			Wir nutzen den Analysedienst <strong>Umami</strong> (Angebot insbesondere unter
+			<a href="https://cloud.umami.is" target="_blank" rel="noopener noreferrer">cloud.umami.is</a>;
+			Anbieter: <strong>Umami Software, Inc.</strong>, im Folgenden „Umami“), um die Nutzung unseres
+			Onlineangebots statistisch auszuwerten (Reichweitenmessung) und unser Angebot sachgerecht
+			weiterzuentwickeln. Die Messung erfolgt <strong>ohne Einsatz von Cookies</strong>
+			und ohne vergleichbare Speicherung von Informationen in Ihrem Browser zu Werbe- oder
+			Tracking-Zwecken, für die nach dem Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG)
+			eine vorherige Einwilligung erforderlich wäre. Ein
+			<strong>Cookie-Banner allein wegen Umami</strong> ist daher nicht erforderlich.
+		</p>
+		<p>
+			Mit Umami haben wir einen <strong>Auftragsverarbeitungsvertrag (AVV)</strong> gemäß Art. 28
+			DSGVO geschlossen; Umami verarbeitet die Daten in diesem Rahmen in unserem Auftrag.
+		</p>
+		<ul class="m-elements">
+			<li>
+				<strong>Zwecke der Verarbeitung:</strong> Reichweitenmessung; statistische Auswertung des
+				Nutzungsverhaltens auf unserer Website; Verbesserung und Gewährleistung der
+				Benutzerfreundlichkeit unseres Onlineangebots.
+			</li>
+			<li>
+				<strong>Verarbeitete Datenkategorien:</strong> Nutzungs- und Metadaten, etwa die aufgerufene
+				Seite (URL), Referrer, Datum und Uhrzeit des Zugriffs, technische Angaben zu Browser,
+				Betriebssystem bzw. Endgerät sowie – je nach technischer Ausgestaltung des Dienstes – eine
+				verkürzte oder pseudonymisierte IP-Adresse. Eine unmittelbare Identifizierung Ihrer Person
+				ist weder Ziel der Auswertung noch in der Regel möglich.
+			</li>
+			<li>
+				<strong>Betroffene Personen:</strong> Nutzer unseres Onlineangebots (z.&nbsp;B.
+				Webseitenbesucher).
+			</li>
+			<li>
+				<strong>Rechtsgrundlage:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)
+				an einer datensparsamen, transparenten Reichweitenmessung unseres öffentlichen Webauftritts.
+			</li>
+			<li>
+				<strong>Internationale Übermittlung:</strong> Je nach technischer Infrastruktur des
+				Anbieters können Verarbeitungen auch außerhalb der Europäischen Union oder des Europäischen
+				Wirtschaftsraums stattfinden. Soweit erforderlich, stellen wir ein den Vorgaben der DSGVO
+				entsprechendes Schutzniveau sicher (u.&nbsp;a. durch den mit Umami vereinbarten AVV und die
+				dort vereinbarten Garantien); näheres entnehmen Sie bitte den Datenschutzhinweisen von
+				Umami.
+			</li>
+			<li>
+				<strong>Speicherdauer:</strong> richtet sich nach den Vorgaben bzw. den technischen
+				Einstellungen von Umami in der jeweils geltenden Fassung (in der Regel begrenzte
+				Aufbewahrung aggregierter Zugriffsdaten).
+			</li>
+		</ul>
+		<p>
+			<strong>Weitere Informationen des Anbieters:</strong>
+			<a href="https://umami.is/privacy" target="_blank" rel="noopener noreferrer"
+				>Datenschutzerklärung von Umami</a
+			>
+			sowie die technische Dokumentation unter
+			<a href="https://umami.is/docs" target="_blank" rel="noopener noreferrer"
+				>https://umami.is/docs</a
+			>.
+		</p>
+		<p>
+			<strong>Widerspruch und Betroffenenrechte:</strong> Sie können der Verarbeitung aus Gründen,
+			die sich aus Ihrer besonderen Situation ergeben, nach Art. 21 DSGVO widersprechen. Darüber
+			hinaus stehen Ihnen die in dieser Datenschutzerklärung genannten Rechte (u.&nbsp;A. Auskunft,
+			Löschung, Berichtigung, Datenübertragbarkeit, Beschwerde bei einer Aufsichtsbehörde) zu.
+			Soweit Umami Ihnen eigene Einstellungen anbietet (z.&nbsp;B. zu „Do Not Track“), können Sie
+			diese zusätzlich nutzen. Betroffenenrechte im Zusammenhang mit der Umami-Verarbeitung können
+			Sie – neben uns – auch gegenüber Umami geltend machen, soweit dies sachdienlich ist (Kontakt
+			u.&nbsp;a. über die Angaben in der Datenschutzerklärung von Umami).
+		</p>
+
 		<h2 id="m225">Bereitstellung des Onlineangebotes und Webhosting</h2>
 		<p>
 			Wir verarbeiten die Daten der Nutzer, um ihnen unsere Online-Dienste zur Verfügung stellen zu
