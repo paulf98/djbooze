@@ -104,7 +104,7 @@
 						Events werden geladen...
 					</div>
 					<div v-else-if="!nextEvents.length" class="text-neutral-500 py-4 text-center">
-						Kein anstehenden Events gefunden.
+						Keine anstehenden Events gefunden.
 					</div>
 
 					<div v-for="event in nextEvents" :key="event.id"
@@ -191,7 +191,7 @@ import {
 	startOfDay,
 } from 'date-fns';
 import { de } from 'date-fns/locale';
-import type { GoogleCalendarResponse, GoogleCalendarEvent } from '~/types/google-calendar';
+import type { GoogleCalendarResponse, GoogleCalendarEvent } from '#shared/types/google-calendar';
 
 const currentMonth = ref(new Date());
 
@@ -230,7 +230,7 @@ const eventsByDate = computed(() => {
 		let dates: string[] = [];
 
 		if (event.start.dateTime) {
-			dates = [event.start.dateTime.split('T')[0]];
+			dates = [event.start.dateTime.slice(0, 10)];
 		} else if (event.start.date) {
 			dates = [event.start.date];
 		}
@@ -240,7 +240,7 @@ const eventsByDate = computed(() => {
 			const e = new Date(event.end.dateTime);
 			const current = new Date(s);
 			while (current <= e) {
-				dates.push(current.toISOString().split('T')[0]);
+				dates.push(current.toISOString().slice(0, 10));
 				current.setDate(current.getDate() + 1);
 			}
 		} else if (event.end.date && event.start.date) {
@@ -248,7 +248,7 @@ const eventsByDate = computed(() => {
 			const e = new Date(event.end.date);
 			const current = new Date(s);
 			while (current < e) {
-				dates.push(current.toISOString().split('T')[0]);
+				dates.push(current.toISOString().slice(0, 10));
 				current.setDate(current.getDate() + 1);
 			}
 		}

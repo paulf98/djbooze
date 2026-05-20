@@ -1,4 +1,4 @@
-import type { GoogleCalendarResponse } from '~/types/google-calendar'; // or wherever you place it
+import type { GoogleCalendarResponse } from '#shared/types/google-calendar';
 
 export default defineEventHandler(async (): Promise<GoogleCalendarResponse> => {
 	const calendarId = process.env.GOOGLE_CALENDAR_ID;
@@ -8,14 +8,14 @@ export default defineEventHandler(async (): Promise<GoogleCalendarResponse> => {
 	if (!calendarId) {
 		throw createError({
 			statusCode: 500,
-			statusMessage: 'GOOGLE_CALENDAR_ID environment variable is not set',
+			statusMessage: 'Umgebungsvariable GOOGLE_CALENDAR_ID ist nicht gesetzt.',
 		});
 	}
 
 	if (!apiKey) {
 		throw createError({
 			statusCode: 500,
-			statusMessage: 'GOOGLE_CALENDAR_API_KEY environment variable is not set',
+			statusMessage: 'Umgebungsvariable GOOGLE_CALENDAR_API_KEY ist nicht gesetzt.',
 		});
 	}
 
@@ -29,7 +29,7 @@ export default defineEventHandler(async (): Promise<GoogleCalendarResponse> => {
 		console.error('Error fetching Google Calendar events:', error);
 		throw createError({
 			statusCode: 500,
-			statusMessage: 'Failed to fetch calendar events from Google Calendar API',
+			statusMessage: 'Kalendertermine konnten nicht geladen werden.',
 		});
 	}
 });

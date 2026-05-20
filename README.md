@@ -1,6 +1,6 @@
-# Nuxt 3 Minimal Starter
+# DJ Booze (Nuxt 4)
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Vue-App unter [`app/`](./app/), Server unter [`server/`](./server/), gemeinsame Typen unter [`shared/types/`](./shared/types/) (Import-Alias `#shared/...`). Siehe [Nuxt 4 – Verzeichnisstruktur](https://nuxt.com/docs/guide/directory-structure).
 
 ## Setup
 
@@ -28,7 +28,18 @@ Create a `.env` file in the root directory with the following variables:
 # Google Calendar API Configuration
 GOOGLE_CALENDAR_ID=your_calendar_id_here
 GOOGLE_CALENDAR_API_KEY=your_api_key_here
+
+# Kontaktformular (nuxt-mail + SMTP)
+EMAIL_APP_EMAIL=booking@example.com
+EMAIL_APP_HOST=smtp.example.com
+EMAIL_APP_PASSWORD=your_smtp_password
+
+# Cloudflare Turnstile (Pflicht für POST /mail/send)
+NUXT_PUBLIC_TURNSTILE_SITE_KEY=your_site_key
+NUXT_TURNSTILE_SECRET_KEY=your_secret_key
 ```
+
+Die Absender-Adresse im Browser ist nur noch `Reply-To`; der SMTP-Header `From` entspricht `EMAIL_APP_EMAIL`, damit gängige Provider den Versand nicht ablehnen.
 
 ### Setting up Google Calendar API
 

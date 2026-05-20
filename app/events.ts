@@ -1,4 +1,4 @@
-import { type MyEvent } from '~/types/event';
+import type { MyEvent } from '#shared/types/event';
 
 export const upcomingEvents: MyEvent[] = [
 	{

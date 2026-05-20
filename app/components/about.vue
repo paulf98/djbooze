@@ -1,5 +1,5 @@
 <template>
-	<section class="py-16 md:py-32 bg-neutral-900 text-white" id="about">
+	<section class="py-16 md:py-32 bg-neutral-950 text-white" id="about">
 		<div
 			class="container flex flex-col items-center md:flex-row-reverse justify-between gap-16 max-w-5xl mx-auto p-8">
 			<div class="flex-1">

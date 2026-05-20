@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
+import { defineNuxtConfig } from 'nuxt/config';
+
 export default defineNuxtConfig({
+	// Nuxt 4 Standard: Vue-App unter ./app (Alias ~ und @ zeigen hierher)
+	srcDir: 'app',
+
 	devtools: { enabled: process.env.NODE_ENV === 'development' },
 
 	modules: [
@@ -7,40 +12,23 @@ export default defineNuxtConfig({
 		'@nuxt/ui',
 		'@nuxt/image',
 		'@nuxtjs/turnstile',
-		[
-			'nuxt-mail',
-			{
-				message: {
-					to: process.env.EMAIL_APP_EMAIL,
-				},
-				smtp: {
-					host: process.env.EMAIL_APP_HOST,
-					port: 587,
-					auth: {
-						user: process.env.EMAIL_APP_EMAIL,
-						pass: process.env.EMAIL_APP_PASSWORD,
-					},
-				},
-			},
-		],
 		'@nuxt/scripts',
 		'@nuxtjs/seo',
 		'@vueuse/motion/nuxt',
 	],
 
+	vite: {
+		optimizeDeps: {
+			include: ['@vue/devtools-core', '@vue/devtools-kit', 'date-fns', 'date-fns/locale', 'zod'],
+		},
+	},
+
+	css: ['~/assets/css/main.css'],
+
 	image: {
 		// Vercel: native image optimizer. Local: serve /public files directly (avoids IPX/sharp 500s).
 		provider: process.env.VERCEL ? 'vercel' : 'none',
 		format: ['webp'],
-	},
-
-	ui: {
-		// @ts-expect-error Somehow the typing for this is wrong
-		notifications: {
-			// Show toasts at the top right of the screen
-			position: 'top-0 bottom-auto',
-			class: 'bg-gray-800 border-red-600 text-white',
-		},
 	},
 
 	colorMode: {
@@ -52,6 +40,21 @@ export default defineNuxtConfig({
 	},
 
 	runtimeConfig: {
+		mail: {
+			message: {
+				to: process.env.EMAIL_APP_EMAIL,
+				/** Must match SMTP auth; visitor address goes in replyTo from the form body. */
+				from: process.env.EMAIL_APP_EMAIL,
+			},
+			smtp: {
+				host: process.env.EMAIL_APP_HOST,
+				port: 587,
+				auth: {
+					user: process.env.EMAIL_APP_EMAIL,
+					pass: process.env.EMAIL_APP_PASSWORD,
+				},
+			},
+		},
 		turnstile: {
 			secretKey: process.env.NUXT_TURNSTILE_SECRET_KEY || '',
 		},
@@ -60,8 +63,7 @@ export default defineNuxtConfig({
 			umami: {
 				websiteId: process.env.NUXT_PUBLIC_UMAMI_WEBSITE_ID || '',
 				/** Collector base URL; default matches Umami Cloud script origin. Override via NUXT_PUBLIC_UMAMI_HOST_URL (add origin to CSP connect-src if needed). */
-				hostUrl:
-					process.env.NUXT_PUBLIC_UMAMI_HOST_URL || 'https://cloud.umami.is',
+				hostUrl: process.env.NUXT_PUBLIC_UMAMI_HOST_URL || 'https://cloud.umami.is',
 			},
 		},
 	},
@@ -70,7 +72,7 @@ export default defineNuxtConfig({
 		pageTransition: { name: 'page', mode: 'out-in' },
 	},
 
-	compatibilityDate: '2024-07-06',
+	compatibilityDate: '2026-01-01',
 	site: {
 		url: 'https://www.djbooze.de',
 		name: 'DJ Booze',
@@ -111,11 +113,7 @@ export default defineNuxtConfig({
 					"'unsafe-eval'",
 					'https://challenges.cloudflare.com',
 				],
-				'connect-src': [
-					"'self'",
-					'https://challenges.cloudflare.com',
-					'https://cloud.umami.is',
-				],
+				'connect-src': ["'self'", 'https://challenges.cloudflare.com', 'https://cloud.umami.is'],
 				'frame-src': [
 					"'self'",
 					'https://w.soundcloud.com',

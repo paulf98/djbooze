@@ -260,8 +260,8 @@ const schema = z.object({
 const validate = (state: any) => {
 	const errors = [];
 	if (!state.name || state.name.length < 2)
-		errors.push({ path: 'name', message: 'Name ist ein Pflichtfeld' });
-	if (!state.email) errors.push({ path: 'email', message: 'E-Mail ist ein Pflichtfeld' });
+		errors.push({ name: 'name', message: 'Name ist ein Pflichtfeld' });
+	if (!state.email) errors.push({ name: 'email', message: 'E-Mail ist ein Pflichtfeld' });
 	return errors;
 };
 
@@ -270,7 +270,7 @@ const submitForm = async () => {
 		toast.add({
 			title: 'Fehler',
 			description: 'Ihre Anfrage konnte nicht versendet werden. Bitte versuchen Sie es erneut.',
-			color: 'red',
+			color: 'error',
 		});
 		return;
 	}
@@ -284,7 +284,7 @@ const submitForm = async () => {
 			toast.add({
 				title: 'Validierungsfehler',
 				description: 'Bitte füllen Sie alle Pflichtfelder aus.',
-				color: 'red',
+				color: 'error',
 			});
 			return;
 		}
@@ -308,7 +308,7 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 		`;
 
 		await mail.send({
-			from: form.value.email,
+			replyTo: form.value.email,
 			subject: `Hochzeitsanfrage von ${form.value.name}`,
 			text: emailContent,
 			turnstileToken: token.value,
@@ -317,8 +317,8 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 		toast.add({
 			title: 'Nachricht gesendet!',
 			description: 'Vielen Dank für die Anfrage. Ich melde mich schnellstmöglich bei Euch.',
-			color: 'red',
-			timeout: 4000,
+			color: 'primary',
+			duration: 4000,
 		});
 
 		form.value = {
@@ -335,10 +335,14 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 		turnstileRef.value?.reset();
 	} catch (error) {
 		console.error('Error sending email:', error);
+		const description =
+			error instanceof Error && error.message
+				? error.message
+				: 'Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.';
 		toast.add({
 			title: 'Fehler',
-			description: 'Es ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.',
-			color: 'red',
+			description,
+			color: 'error',
 		});
 		turnstileRef.value?.reset();
 		token.value = undefined;

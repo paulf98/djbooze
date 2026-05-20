@@ -32,7 +32,7 @@
 </template>
 
 <script setup lang="ts">
-import { type MyEvent } from '~/types/event';
+import type { MyEvent } from '#shared/types/event';
 
 const props = withDefaults(defineProps<MyEvent>(), {
 	name: 'Event',
