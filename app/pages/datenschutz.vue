@@ -1,9 +1,8 @@
 <template>
 	<div
-		class="container text-justify mx-auto max-w-4xl py-16 md:py-32 px-8 prose prose-invert text-white break-words"
-	>
+		class="container text-justify mx-auto max-w-4xl py-16 md:py-32 px-8 prose prose-invert text-white break-words">
 		<h1>Datenschutzerklärung</h1>
-		<p>Stand: 20. Mai 2026</p>
+		<p>Stand: 4. Juni 2026</p>
 		<h2>Inhaltsübersicht</h2>
 		<ul class="index">
 			<li><a class="index-link" href="#m3">Verantwortlicher</a></li>
@@ -19,12 +18,12 @@
 			<li>
 				<a class="index-link" href="#m225">Bereitstellung des Onlineangebotes und Webhosting</a>
 			</li>
-			<li><a class="index-link" href="#m264">Onlinemarketing</a></li>
+			<li><a class="index-link" href="#mContact">Kontaktformular</a></li>
 			<li>
-				<a class="index-link" href="#m136">Präsenzen in sozialen Netzwerken (Social Media)</a>
+				<a class="index-link" href="#mLinks">Externe Links (Instagram)</a>
 			</li>
 			<li>
-				<a class="index-link" href="#m328">Plugins und eingebettete Funktionen sowie Inhalte</a>
+				<a class="index-link" href="#m328">Eingebettete Inhalte und Drittanbieter</a>
 			</li>
 		</ul>
 		<h2 id="m3">Verantwortlicher</h2>
@@ -41,12 +40,10 @@
 		</p>
 		<h3>Arten der verarbeiteten Daten</h3>
 		<ul>
-			<li>Bestandsdaten.</li>
-			<li>Standortdaten.</li>
-			<li>Kontaktdaten.</li>
-			<li>Inhaltsdaten.</li>
-			<li>Nutzungsdaten.</li>
-			<li>Meta-, Kommunikations- und Verfahrensdaten.</li>
+			<li>Kontaktdaten (z.&nbsp;B. Name, E-Mail-Adresse, Telefonnummer).</li>
+			<li>Inhaltsdaten (z.&nbsp;B. Nachrichten im Kontaktformular).</li>
+			<li>Nutzungsdaten (z.&nbsp;B. besuchte Seiten, Zugriffszeiten).</li>
+			<li>Meta-, Kommunikations- und Verfahrensdaten (z.&nbsp;B. IP-Adresse, Browsertyp).</li>
 		</ul>
 		<h3>Kategorien betroffener Personen</h3>
 		<ul>
@@ -54,16 +51,12 @@
 		</ul>
 		<h3>Zwecke der Verarbeitung</h3>
 		<ul>
-			<li>Kontaktanfragen und Kommunikation.</li>
-			<li>Sicherheitsmaßnahmen.</li>
-			<li>Reichweitenmessung.</li>
-			<li>Webanalyse (cookiefrei mit Umami).</li>
-			<li>Tracking.</li>
-			<li>Feedback.</li>
-			<li>Marketing.</li>
-			<li>Profile mit nutzerbezogenen Informationen.</li>
 			<li>Bereitstellung unseres Onlineangebotes und Nutzerfreundlichkeit.</li>
-			<li>Informationstechnische Infrastruktur.</li>
+			<li>Informationstechnische Infrastruktur (Webhosting, Server-Logfiles).</li>
+			<li>Kontaktanfragen und Kommunikation (Kontaktformular).</li>
+			<li>Sicherheitsmaßnahmen (z.&nbsp;B. Bot-Schutz beim Kontaktformular).</li>
+			<li>Reichweitenmessung und Webanalyse (cookiefrei mit Umami).</li>
+			<li>Anzeige von Terminen und eingebetteten Inhalten (SoundCloud, Google Kalender).</li>
 		</ul>
 		<h2 id="m2427">Maßgebliche Rechtsgrundlagen</h2>
 		<p>
@@ -79,6 +72,14 @@
 				<strong>Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO)</strong> - Die betroffene Person hat
 				ihre Einwilligung in die Verarbeitung der sie betreffenden personenbezogenen Daten für einen
 				spezifischen Zweck oder mehrere bestimmte Zwecke gegeben.
+			</li>
+			<li>
+				<strong
+					>Vertragserfüllung und vorvertragliche Maßnahmen (Art. 6 Abs. 1 S. 1 lit. b)
+					DSGVO)</strong
+				>
+				– Verarbeitung, die für die Bearbeitung Ihrer Kontaktanfrage oder zur Anbahnung eines
+				Vertragsverhältnisses erforderlich ist.
 			</li>
 			<li>
 				<strong>Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)</strong> - Die
@@ -98,19 +99,6 @@
 			Profiling. Ferner können Landesdatenschutzgesetze der einzelnen Bundesländer zur Anwendung
 			gelangen.
 		</p>
-		<p>
-			<strong>Hinweis auf Geltung DSGVO und Schweizer DSG: </strong>Diese Datenschutzhinweise dienen
-			sowohl der Informationserteilung nach dem schweizerischen Bundesgesetz über den Datenschutz
-			(Schweizer DSG) als auch nach der Datenschutzgrundverordnung (DSGVO). Aus diesem Grund bitten
-			wir Sie zu beachten, dass aufgrund der breiteren räumlichen Anwendung und Verständlichkeit die
-			Begriffe der DSGVO verwendet werden. Insbesondere statt der im Schweizer DSG verwendeten
-			Begriffe „Bearbeitung" von „Personendaten", "überwiegendes Interesse" und "besonders
-			schützenswerte Personendaten" werden die in der DSGVO verwendeten Begriffe „Verarbeitung" von
-			„personenbezogenen Daten" sowie "berechtigtes Interesse" und "besondere Kategorien von Daten"
-			verwendet. Die gesetzliche Bedeutung der Begriffe wird jedoch im Rahmen der Geltung des
-			Schweizer DSG weiterhin nach dem Schweizer DSG bestimmt.
-		</p>
-
 		<h2 id="m27">Sicherheitsmaßnahmen</h2>
 		<p>
 			Wir treffen nach Maßgabe der gesetzlichen Vorgaben unter Berücksichtigung des Stands der
@@ -222,92 +210,33 @@
 
 		<h2 id="m134">Einsatz von Cookies</h2>
 		<p>
-			Cookies sind kleine Textdateien, bzw. sonstige Speichervermerke, die Informationen auf
-			Endgeräten speichern und Informationen aus den Endgeräten auslesen. Z. B. um den Login-Status
-			in einem Nutzerkonto, einen Warenkorbinhalt in einem E-Shop, die aufgerufenen Inhalte oder
-			verwendete Funktionen eines Onlineangebotes speichern. Cookies können ferner zu
-			unterschiedlichen Zwecken eingesetzt werden, z. B. zu Zwecken der Funktionsfähigkeit,
-			Sicherheit und Komfort von Onlineangeboten sowie der Erstellung von Analysen der
-			Besucherströme.
+			Cookies sind kleine Textdateien oder vergleichbare Speichervermerke auf Ihrem Endgerät. Wir
+			setzen auf dieser Website
+			<strong>keine Cookies zu Reichweitenmessung, Profilbildung oder Werbung</strong> ein und
+			verwenden keinen Cookie-Banner zu diesem Zweck.
 		</p>
 		<p>
-			<strong>Reichweitenmessung ohne Cookies auf dieser Website: </strong>Für die statistische
-			Auswertung unseres öffentlichen Webauftritts setzen wir den Analysedienst
-			<strong>Umami</strong> ein. Dabei werden <strong>keine Cookies</strong> auf Ihrem Endgerät
-			gespeichert und es werden durch Umami auch
-			<strong>keine vergleichbaren Technologien</strong> eingesetzt, für die nach dem
-			Telekommunikation-Telemedien-Datenschutz-Gesetz (TTDSG) eine vorherige Einwilligung
-			erforderlich wäre. Deshalb ist für diese Webanalyse
-			<strong>kein Cookie-Banner</strong> erforderlich. Ausführliche Informationen finden Sie unter
-			<a class="index-link" href="#mUmami">Webanalyse mit Umami (ohne Cookies)</a>.
+			Für die statistische Auswertung nutzen wir <strong>Umami</strong> ohne Cookies (siehe
+			<a class="index-link" href="#mUmami">Webanalyse mit Umami (ohne Cookies)</a>).
 		</p>
 		<p>
-			<strong>Hinweise zur Einwilligung: </strong>Soweit wir Cookies einsetzen, tun wir dies im
-			Einklang mit den gesetzlichen Vorschriften. In diesen Fällen holen wir von den Nutzern eine
-			vorhergehende Einwilligung ein, außer wenn diese gesetzlich nicht gefordert ist. Eine
-			Einwilligung ist insbesondere nicht notwendig, wenn das Speichern und das Auslesen der
-			Informationen, also auch von Cookies, unbedingt erforderlich sind, um dem den Nutzern einen
-			von ihnen ausdrücklich gewünschten Telemediendienst (also unser Onlineangebot) zur Verfügung
-			zu stellen. Zu den unbedingt erforderlichen Cookies gehören in der Regel Cookies mit
-			Funktionen, die der Anzeige und Lauffähigkeit des Onlineangebotes , dem Lastausgleich, der
-			Sicherheit, der Speicherung der Präferenzen und Auswahlmöglichkeiten der Nutzer oder ähnlichen
-			mit der Bereitstellung der Haupt- und Nebenfunktionen des von den Nutzern angeforderten
-			Onlineangebotes zusammenhängenden Zwecken dienen. Die widerrufliche Einwilligung wird
-			gegenüber den Nutzern deutlich kommuniziert und enthält die Informationen zu der jeweiligen
-			Cookie-Nutzung.
+			Beim Absenden des <strong>Kontaktformulars</strong> kann der Dienst
+			<strong>Cloudflare Turnstile</strong> technisch erforderliche Informationen verarbeiten, um
+			automatisierte Eingaben zu erkennen (siehe
+			<a class="index-link" href="#mContact">Kontaktformular</a>). Dabei können je nach
+			Browsereinstellung auch Cookies oder vergleichbare Technologien des Anbieters zum Einsatz
+			kommen; diese dienen dem Bot-Schutz, nicht Marketing.
 		</p>
 		<p>
-			<strong>Hinweise zu datenschutzrechtlichen Rechtsgrundlagen: </strong>Auf welcher
-			datenschutzrechtlichen Rechtsgrundlage wir die personenbezogenen Daten der Nutzer mit Hilfe
-			von Cookies verarbeiten, hängt davon ab, ob wir Nutzer um eine Einwilligung bitten. Falls die
-			Nutzer einwilligen, ist die Rechtsgrundlage der Verarbeitung Ihrer Daten die erklärte
-			Einwilligung. Andernfalls werden die mithilfe von Cookies verarbeiteten Daten auf Grundlage
-			unserer berechtigten Interessen (z. B. an einem betriebswirtschaftlichen Betrieb unseres
-			Onlineangebotes und Verbesserung seiner Nutzbarkeit) verarbeitet oder, wenn dies im Rahmen der
-			Erfüllung unserer vertraglichen Pflichten erfolgt, wenn der Einsatz von Cookies erforderlich
-			ist, um unsere vertraglichen Verpflichtungen zu erfüllen. Zu welchen Zwecken die Cookies von
-			uns verarbeitet werden, darüber klären wir im Laufe dieser Datenschutzerklärung oder im Rahmen
-			von unseren Einwilligungs- und Verarbeitungsprozessen auf.
+			<strong>Eingebettete SoundCloud-Player</strong> können beim Abspielen oder Laden Cookies oder
+			vergleichbare Technologien des Anbieters setzen (siehe
+			<a class="index-link" href="#m328">Eingebettete Inhalte und Drittanbieter</a>).
 		</p>
 		<p>
-			<strong>Speicherdauer: </strong>Im Hinblick auf die Speicherdauer werden die folgenden Arten
-			von Cookies unterschieden:
+			Sie können Cookies in Ihren Browsereinstellungen einschränken oder löschen; dadurch können
+			einzelne Funktionen (z.&nbsp;B. eingebettete Player oder das Kontaktformular) beeinträchtigt
+			werden.
 		</p>
-		<ul>
-			<li>
-				<strong>Temporäre Cookies (auch: Session- oder Sitzungs-Cookies):</strong> Temporäre Cookies
-				werden spätestens gelöscht, nachdem ein Nutzer ein Online-Angebot verlassen und sein
-				Endgerät (z. B. Browser oder mobile Applikation) geschlossen hat.
-			</li>
-			<li>
-				<strong>Permanente Cookies:</strong> Permanente Cookies bleiben auch nach dem Schließen des
-				Endgerätes gespeichert. So können beispielsweise der Login-Status gespeichert oder
-				bevorzugte Inhalte direkt angezeigt werden, wenn der Nutzer eine Website erneut besucht.
-				Ebenso können die mit Hilfe von Cookies erhobenen Daten der Nutzer zur Reichweitenmessung
-				verwendet werden. Sofern wir Nutzern keine expliziten Angaben zur Art und Speicherdauer von
-				Cookies mitteilen (z. B. im Rahmen der Einholung der Einwilligung), sollten Nutzer davon
-				ausgehen, dass Cookies permanent sind und die Speicherdauer bis zu zwei Jahre betragen kann.
-			</li>
-		</ul>
-		<p>
-			<strong>Allgemeine Hinweise zum Widerruf und Widerspruch (sog. "Opt-Out"): </strong>Nutzer
-			können die von ihnen abgegebenen Einwilligungen jederzeit widerrufen und der Verarbeitung
-			entsprechend den gesetzlichen Vorgaben widersprechen. Hierzu können Nutzer unter anderem die
-			Verwendung von Cookies in den Einstellungen ihres Browsers einschränken (wobei dadurch auch
-			die Funktionalität unseres Onlineangebotes eingeschränkt sein kann). Ein Widerspruch gegen die
-			Verwendung von Cookies zu Online-Marketing-Zwecken kann auch über die Websites
-			<a href="https://optout.aboutads.info/" target="_new">https://optout.aboutads.info</a> und
-			<a href="https://www.youronlinechoices.com/" target="_new"
-				>https://www.youronlinechoices.com/</a
-			>
-			erklärt werden.
-		</p>
-		<ul class="m-elements">
-			<li class="">
-				<strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-				DSGVO).
-			</li>
-		</ul>
 
 		<h2 id="mUmami">Webanalyse mit Umami (ohne Cookies)</h2>
 		<p>
@@ -413,406 +342,149 @@
 		<p><strong>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</strong></p>
 		<ul class="m-elements">
 			<li>
-				<strong>Bereitstellung Onlineangebot auf gemietetem Speicherplatz: </strong>Für die
-				Bereitstellung unseres Onlineangebotes nutzen wir Speicherplatz, Rechenkapazität und
-				Software, die wir von einem entsprechenden Serveranbieter (auch "Webhoster" genannt) mieten
-				oder anderweitig beziehen;
-				<span class=""
+				<strong>Webhosting mit Vercel: </strong>Unser Onlineangebot wird bei
+				<strong>Vercel Inc.</strong>, 440 N Barranca Ave #4133, Covina, CA 91723, USA, gehostet.
+				Dabei werden Speicherplatz, Rechenkapazität und technische Infrastruktur bereitgestellt; der
+				Abruf der Website erfolgt über Vercel-Server. Soweit erforderlich, stellen wir ein
+				angemessenes Datenschutzniveau für Übermittlungen in die USA sicher (u.&nbsp;a. über den
+				EU-US Data Privacy Framework, sofern der Anbieter zertifiziert ist, sowie
+				Standardvertragsklauseln);
+				<span
 					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
 					DSGVO).</span
 				>
+				<strong>Datenschutzerklärung:</strong>
+				<a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener noreferrer"
+					>https://vercel.com/legal/privacy-policy</a
+				>.
 			</li>
 			<li>
 				<strong>Erhebung von Zugriffsdaten und Logfiles: </strong>Der Zugriff auf unser
-				Onlineangebot wird in Form von so genannten "Server-Logfiles" protokolliert. Zu den
-				Serverlogfiles können die Adresse und Name der abgerufenen Webseiten und Dateien, Datum und
-				Uhrzeit des Abrufs, übertragene Datenmengen, Meldung über erfolgreichen Abruf, Browsertyp
-				nebst Version, das Betriebssystem des Nutzers, Referrer URL (die zuvor besuchte Seite) und
-				im Regelfall IP-Adressen und der anfragende Provider gehören. Die Serverlogfiles können zum
-				einen zu Zwecken der Sicherheit eingesetzt werden, z. B., um eine Überlastung der Server zu
-				vermeiden (insbesondere im Fall von missbräuchlichen Angriffen, sogenannten DDoS-Attacken)
-				und zum anderen, um die Auslastung der Server und ihre Stabilität sicherzustellen;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-					DSGVO). </span
-				><strong>Löschung von Daten:</strong> Logfile-Informationen werden für die Dauer von maximal
-				30 Tagen gespeichert und danach gelöscht oder anonymisiert. Daten, deren weitere
-				Aufbewahrung zu Beweiszwecken erforderlich ist, sind bis zur endgültigen Klärung des
-				jeweiligen Vorfalls von der Löschung ausgenommen.
-			</li>
-			<li>
-				<strong>E-Mail-Versand und -Hosting: </strong>Die von uns in Anspruch genommenen
-				Webhosting-Leistungen umfassen ebenfalls den Versand, den Empfang sowie die Speicherung von
-				E-Mails. Zu diesen Zwecken werden die Adressen der Empfänger sowie Absender als auch weitere
-				Informationen betreffend den E-Mailversand (z. B. die beteiligten Provider) sowie die
-				Inhalte der jeweiligen E-Mails verarbeitet. Die vorgenannten Daten können ferner zu Zwecken
-				der Erkennung von SPAM verarbeitet werden. Wir bitten darum, zu beachten, dass E-Mails im
-				Internet grundsätzlich nicht verschlüsselt versendet werden. Im Regelfall werden E-Mails
-				zwar auf dem Transportweg verschlüsselt, aber (sofern kein sogenanntes
-				Ende-zu-Ende-Verschlüsselungsverfahren eingesetzt wird) nicht auf den Servern, von denen sie
-				abgesendet und empfangen werden. Wir können daher für den Übertragungsweg der E-Mails
-				zwischen dem Absender und dem Empfang auf unserem Server keine Verantwortung übernehmen;
-				<span class=""
+				Onlineangebot wird in Form von Server-Logfiles protokolliert. Dazu können die abgerufene
+				Seite, Datum und Uhrzeit, übertragene Datenmenge, Browsertyp, Betriebssystem, Referrer-URL
+				und IP-Adresse gehören. Die Daten dienen der Sicherheit (z.&nbsp;B. Abwehr von Angriffen)
+				und der Stabilität des Betriebs;
+				<span
 					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
 					DSGVO).</span
 				>
+				<strong>Speicherdauer:</strong> Logdaten werden bei unserem Hoster in der Regel für maximal
+				30 Tage gespeichert und danach gelöscht oder anonymisiert, sofern keine längere Aufbewahrung
+				zu Beweiszwecken erforderlich ist.
+			</li>
+			<li>
+				<strong>Bildoptimierung: </strong>Zur performanten Auslieferung von Bildern nutzen wir die
+				auf Vercel integrierte Bildoptimierung (Nuxt Image). Dabei werden Bilder über unsere Domain
+				ausgeliefert; es erfolgt keine Einbindung externer Bild-CDNs zu Werbezwecken.
 			</li>
 		</ul>
-		<h2 id="m264">Onlinemarketing</h2>
+
+		<h2 id="mContact">Kontaktformular</h2>
 		<p>
-			Wir verarbeiten personenbezogene Daten zu Zwecken des Onlinemarketings, worunter insbesondere
-			die Vermarktung von Werbeflächen oder Darstellung von werbenden und sonstigen Inhalten
-			(zusammenfassend als "Inhalte" bezeichnet) anhand potentieller Interessen der Nutzer sowie die
-			Messung ihrer Effektivität fallen kann.
-		</p>
-		<p>
-			Zu diesen Zwecken werden sogenannte Nutzerprofile angelegt und in einer Datei (sogenanntes
-			"Cookie") gespeichert oder es werden ähnliche Verfahren genutzt, mittels derer die für die
-			Darstellung der vorgenannten Inhalte relevante Angaben zum Nutzer gespeichert werden. Zu
-			diesen Angaben können z. B. betrachtete Inhalte, besuchte Webseiten, genutzte Onlinenetzwerke,
-			aber auch Kommunikationspartner und technische Angaben, wie der verwendete Browser, das
-			verwendete Computersystem sowie Angaben zu Nutzungszeiten und genutzten Funktionen gehören.
-			Sofern Nutzer in die Erhebung ihrer Standortdaten eingewilligt haben, können auch diese
-			verarbeitet werden.
-		</p>
-		<p>
-			Es werden ebenfalls die IP-Adressen der Nutzer gespeichert. Jedoch nutzen wir zur Verfügung
-			stehende IP-Masking-Verfahren (d. h., Pseudonymisierung durch Kürzung der IP-Adresse) zum
-			Schutz der Nutzer. Generell werden im Rahmen des Onlinemarketingverfahren keine Klardaten der
-			Nutzer (wie z. B. E-Mail-Adressen oder Namen) gespeichert, sondern Pseudonyme. D. h., wir als
-			auch die Anbieter der Onlinemarketingverfahren kennen nicht die tatsächliche Identität der
-			Nutzer, sondern nur die in deren Profilen gespeicherten Angaben.
-		</p>
-		<p>
-			Die Angaben in den Profilen werden im Regelfall in den Cookies oder mittels ähnlicher
-			Verfahren gespeichert. Diese Cookies können später generell auch auf anderen Webseiten die
-			dasselbe Onlinemarketingverfahren einsetzen, ausgelesen und zu Zwecken der Darstellung von
-			Inhalten analysiert als auch mit weiteren Daten ergänzt und auf dem Server des
-			Onlinemarketingverfahrensanbieters gespeichert werden.
-		</p>
-		<p>
-			Ausnahmsweise können Klardaten den Profilen zugeordnet werden. Das ist der Fall, wenn die
-			Nutzer z. B. Mitglieder eines sozialen Netzwerks sind, dessen Onlinemarketingverfahren wir
-			einsetzen und das Netzwerk die Profile der Nutzer mit den vorgenannten Angaben verbindet. Wir
-			bitten darum, zu beachten, dass Nutzer mit den Anbietern zusätzliche Abreden, z. B. durch
-			Einwilligung im Rahmen der Registrierung, treffen können.
-		</p>
-		<p>
-			Wir erhalten grundsätzlich nur Zugang zu zusammengefassten Informationen über den Erfolg
-			unserer Werbeanzeigen. Jedoch können wir im Rahmen sogenannter Konversionsmessungen prüfen,
-			welche unserer Onlinemarketingverfahren zu einer sogenannten Konversion geführt haben, d. h.
-			z. B., zu einem Vertragsschluss mit uns. Die Konversionsmessung wird alleine zur Analyse des
-			Erfolgs unserer Marketingmaßnahmen verwendet.
-		</p>
-		<p>
-			Solange nicht anders angegeben, bitten wir Sie davon auszugehen, dass verwendete Cookies für
-			einen Zeitraum von zwei Jahren gespeichert werden.
+			Über die Kontaktformulare auf der Website (Startseite und Hochzeitsseite) können Sie uns
+			Anfragen senden. Die von Ihnen eingegebenen Daten (z.&nbsp;B. Name, E-Mail-Adresse, Nachricht,
+			optional Telefon, Hochzeitsdatum, Location, Gästeanzahl) werden zur Bearbeitung Ihrer Anfrage
+			verarbeitet.
 		</p>
 		<ul class="m-elements">
 			<li>
-				<strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z. B. besuchte Webseiten, Interesse
-				an Inhalten, Zugriffszeiten); Meta-, Kommunikations- und Verfahrensdaten (z. .B.
-				IP-Adressen, Zeitangaben, Identifikationsnummern, Einwilligungsstatus).
-			</li>
-			<li>
-				<strong>Betroffene Personen:</strong> Nutzer (z. .B. Webseitenbesucher, Nutzer von
-				Onlinediensten).
-			</li>
-			<li>
-				<strong>Zwecke der Verarbeitung:</strong> Reichweitenmessung (z. B. Zugriffsstatistiken,
-				Erkennung wiederkehrender Besucher); Tracking (z. B. interessens-/verhaltensbezogenes
-				Profiling, Nutzung von Cookies); Marketing. Profile mit nutzerbezogenen Informationen
-				(Erstellen von Nutzerprofilen).
-			</li>
-			<li><strong>Sicherheitsmaßnahmen:</strong> IP-Masking (Pseudonymisierung der IP-Adresse).</li>
-			<li>
-				<strong>Widerspruchsmöglichkeit (Opt-Out): </strong>Wir verweisen auf die
-				Datenschutzhinweise der jeweiligen Anbieter und die zu den Anbietern angegebenen
-				Widerspruchsmöglichkeiten (sog. "Opt-Out"). Sofern keine explizite Opt-Out-Möglichkeit
-				angegeben wurde, besteht zum einen die Möglichkeit, dass Sie Cookies in den Einstellungen
-				Ihres Browsers abschalten. Hierdurch können jedoch Funktionen unseres Onlineangebotes
-				eingeschränkt werden. Wir empfehlen daher zusätzlich die folgenden Opt-Out-Möglichkeiten,
-				die zusammenfassend auf jeweilige Gebiete gerichtet angeboten werden: <br /><br />a) Europa:
-				<a href="https://www.youronlinechoices.eu" target="_blank"
-					>https://www.youronlinechoices.eu</a
-				>. <br />b) Kanada:
-				<a href="https://www.youradchoices.ca/choices" target="_blank"
-					>https://www.youradchoices.ca/choices</a
-				>. <br />c) USA:
-				<a href="https://www.aboutads.info/choices" target="_blank"
-					>https://www.aboutads.info/choices</a
-				>. <br />d) Gebietsübergreifend:
-				<a href="https://optout.aboutads.info" target="_blank">https://optout.aboutads.info</a>.
-			</li>
-		</ul>
-		<h2 id="m136">Präsenzen in sozialen Netzwerken (Social Media)</h2>
-		<p>
-			Wir unterhalten Onlinepräsenzen innerhalb sozialer Netzwerke und verarbeiten in diesem Rahmen
-			Daten der Nutzer, um mit den dort aktiven Nutzern zu kommunizieren oder um Informationen über
-			uns anzubieten.
-		</p>
-		<p>
-			Wir weisen darauf hin, dass dabei Daten der Nutzer außerhalb des Raumes der Europäischen Union
-			verarbeitet werden können. Hierdurch können sich für die Nutzer Risiken ergeben, weil so z. B.
-			die Durchsetzung der Rechte der Nutzer erschwert werden könnte.
-		</p>
-		<p>
-			Ferner werden die Daten der Nutzer innerhalb sozialer Netzwerke im Regelfall für
-			Marktforschungs- und Werbezwecke verarbeitet. So können z. B. anhand des Nutzungsverhaltens
-			und sich daraus ergebender Interessen der Nutzer Nutzungsprofile erstellt werden. Die
-			Nutzungsprofile können wiederum verwendet werden, um z. B. Werbeanzeigen innerhalb und
-			außerhalb der Netzwerke zu schalten, die mutmaßlich den Interessen der Nutzer entsprechen. Zu
-			diesen Zwecken werden im Regelfall Cookies auf den Rechnern der Nutzer gespeichert, in denen
-			das Nutzungsverhalten und die Interessen der Nutzer gespeichert werden. Ferner können in den
-			Nutzungsprofilen auch Daten unabhängig der von den Nutzern verwendeten Geräte gespeichert
-			werden (insbesondere, wenn die Nutzer Mitglieder der jeweiligen Plattformen sind und bei
-			diesen eingeloggt sind).
-		</p>
-		<p>
-			Für eine detaillierte Darstellung der jeweiligen Verarbeitungsformen und der
-			Widerspruchsmöglichkeiten (Opt-Out) verweisen wir auf die Datenschutzerklärungen und Angaben
-			der Betreiber der jeweiligen Netzwerke.
-		</p>
-		<p>
-			Auch im Fall von Auskunftsanfragen und der Geltendmachung von Betroffenenrechten weisen wir
-			darauf hin, dass diese am effektivsten bei den Anbietern geltend gemacht werden können. Nur
-			die Anbieter haben jeweils Zugriff auf die Daten der Nutzer und können direkt entsprechende
-			Maßnahmen ergreifen und Auskünfte geben. Sollten Sie dennoch Hilfe benötigen, dann können Sie
-			sich an uns wenden.
-		</p>
-		<ul class="m-elements">
-			<li>
-				<strong>Verarbeitete Datenarten:</strong> Kontaktdaten (z. B. E-Mail, Telefonnummern);
-				Inhaltsdaten (z. B. Eingaben in Onlineformularen); Nutzungsdaten (z. B. besuchte Webseiten,
-				Interesse an Inhalten, Zugriffszeiten); Meta-, Kommunikations- und Verfahrensdaten (z. .B.
-				IP-Adressen, Zeitangaben, Identifikationsnummern, Einwilligungsstatus).
-			</li>
-			<li>
-				<strong>Betroffene Personen:</strong> Nutzer (z. .B. Webseitenbesucher, Nutzer von
-				Onlinediensten).
-			</li>
-			<li>
-				<strong>Zwecke der Verarbeitung:</strong> Kontaktanfragen und Kommunikation; Feedback (z. B.
-				Sammeln von Feedback via Online-Formular). Marketing.
-			</li>
-			<li class="">
-				<strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-				DSGVO).
-			</li>
-		</ul>
-		<p><strong>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</strong></p>
-		<ul class="m-elements">
-			<li>
-				<strong>Instagram: </strong>Soziales Netzwerk; <strong>Dienstanbieter:</strong> Meta
-				Platforms Ireland Limited, Merrion Road, Dublin 4, D04 X2K5, Irland;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-					DSGVO); </span
-				><strong>Website:</strong>
-				<a href="https://www.instagram.com" target="_blank">https://www.instagram.com</a>.
+				<strong>Bot-Schutz mit Cloudflare Turnstile: </strong>Vor dem Absenden prüfen wir Ihre
+				Eingabe mit <strong>Cloudflare Turnstile</strong> (Anbieter: Cloudflare, Inc.). Dabei können
+				technische Daten (z.&nbsp;B. IP-Adresse, Browsermerkmale, Interaktionsdaten) an Cloudflare
+				übermittelt werden, um automatisierte Missbrauch zu verhindern;
+				<strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)
+				an der Sicherheit des Kontaktformulars; ggf. Vertragserfüllung bzw. vorvertragliche
+				Maßnahmen (Art. 6 Abs. 1 lit. b) DSGVO).
 				<strong>Datenschutzerklärung:</strong>
-				<a href="https://instagram.com/about/legal/privacy" target="_blank"
-					>https://instagram.com/about/legal/privacy</a
-				>.
-			</li>
-			<li>
-				<strong>Facebook-Seiten: </strong>Profile innerhalb des sozialen Netzwerks Facebook;
-				<strong>Dienstanbieter:</strong> Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04
-				X2K5, Irland;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-					DSGVO); </span
-				><strong>Website:</strong>
-				<a href="https://www.facebook.com" target="_blank">https://www.facebook.com</a>;
-				<strong>Datenschutzerklärung:</strong>
-				<a href="https://www.facebook.com/about/privacy" target="_blank"
-					>https://www.facebook.com/about/privacy</a
-				>; <strong>Grundlage Drittlandübermittlung:</strong>
-				<span class=""> EU-US Data Privacy Framework (DPF), </span>Standardvertragsklauseln (<a
-					href="https://www.facebook.com/legal/EU_data_transfer_addendum"
+				<a
+					href="https://www.cloudflare.com/privacypolicy/"
 					target="_blank"
-					>https://www.facebook.com/legal/EU_data_transfer_addendum</a
-				>); <strong>Weitere Informationen:</strong> Wir sind gemeinsam mit Meta Platforms Ireland
-				Limited für die Erhebung (jedoch nicht die weitere Verarbeitung) von Daten der Besucher
-				unserer Facebook-Seite (sog. "Fanpage") verantwortlich. Zu diesen Daten gehören
-				Informationen zu den Arten von Inhalten, die Nutzer sich ansehen oder mit denen sie
-				interagieren, oder die von ihnen vorgenommenen Handlungen (siehe unter „Von dir und anderen
-				getätigte und bereitgestellte Dinge" in der Facebook-Datenrichtlinie:
-				<a href="https://www.facebook.com/policy" target="_blank">https://www.facebook.com/policy</a
-				>), sowie Informationen über die von den Nutzern genutzten Geräte (z. B. IP-Adressen,
-				Betriebssystem, Browsertyp, Spracheinstellungen, Cookie-Daten; siehe unter
-				„Geräteinformationen" in der Facebook-Datenrichtlinie:
-				<a href="https://www.facebook.com/policy" target="_blank">https://www.facebook.com/policy</a
-				>). Wie in der Facebook-Datenrichtlinie unter „Wie verwenden wir diese Informationen?"
-				erläutert, erhebt und verwendet Facebook Informationen auch, um Analysedienste, so genannte
-				"Seiten-Insights", für Seitenbetreiber bereitzustellen, damit diese Erkenntnisse darüber
-				erhalten, wie Personen mit ihren Seiten und mit den mit ihnen verbundenen Inhalten
-				interagieren. Wir haben mit Facebook eine spezielle Vereinbarung abgeschlossen
-				("Informationen zu Seiten-Insights",
-				<a href="https://www.facebook.com/legal/terms/page_controller_addendum" target="_blank"
-					>https://www.facebook.com/legal/terms/page_controller_addendum</a
-				>), in der insbesondere geregelt wird, welche Sicherheitsmaßnahmen Facebook beachten muss
-				und in der Facebook sich bereit erklärt hat die Betroffenenrechte zu erfüllen (d. h. Nutzer
-				können z. .B. Auskünfte oder Löschungsanfragen direkt an Facebook richten). Die Rechte der
-				Nutzer (insbesondere auf Auskunft, Löschung, Widerspruch und Beschwerde bei zuständiger
-				Aufsichtsbehörde), werden durch die Vereinbarungen mit Facebook nicht eingeschränkt. Weitere
-				Hinweise finden sich in den "Informationen zu Seiten-Insights" (<a
-					href="https://www.facebook.com/legal/terms/information_about_page_insights_data"
-					target="_blank"
-					>https://www.facebook.com/legal/terms/information_about_page_insights_data</a
-				>). Die gemeinsame Verantwortlichkeit beschränkt sich auf die Erhebung durch und
-				Übermittlung von Daten an Meta Platforms Ireland Limited, ein Unternehmen mit Sitz in der
-				EU. Die weitere Verarbeitung der Daten liegt in der alleinigen Verantwortung von Meta
-				Platforms Ireland Limited, was insbesondere die Übermittlung der Daten an die
-				Muttergesellschaft Meta Platforms, Inc. in den USA betrifft.
-			</li>
-			<li>
-				<strong>TikTok: </strong>Soziales Netzwerk / Video-Plattform;
-				<strong>Dienstanbieter:</strong> TikTok Technology Limited, 10 Earlsfort Terrace, Dublin,
-				D02 T380, Irland und TikTok Information Technologies UK Limited, Kaleidoscope, 4 Lindsey
-				Street, London, United Kingdom, EC1A 9HP;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-					DSGVO); </span
-				><strong>Website:</strong>
-				<a href="https://www.tiktok.com" target="_blank">https://www.tiktok.com</a>.
-				<strong>Datenschutzerklärung:</strong>
-				<a href="https://www.tiktok.com/de/privacy-policy" target="_blank"
-					>https://www.tiktok.com/de/privacy-policy</a
+					rel="noopener noreferrer"
+					>https://www.cloudflare.com/privacypolicy/</a
 				>.
 			</li>
 			<li>
-				<strong>X: </strong>Soziales Netzwerk; <strong>Dienstanbieter:</strong> Twitter
-				International Company, One Cumberland Place, Fenian Street, Dublin 2 D02 AX07, Irland;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-					DSGVO). </span
-				><strong>Datenschutzerklärung:</strong>
-				<a href="https://twitter.com/privacy" target="_blank">https://twitter.com/privacy</a>,
-				(Settings:
-				<a href="https://twitter.com/personalization" target="_blank"
-					>https://twitter.com/personalization</a
-				>).
+				<strong>E-Mail-Versand per SMTP: </strong>Nach erfolgreicher Prüfung leiten wir Ihre Angaben
+				per E-Mail an uns weiter. Der Versand erfolgt über einen von uns betriebenen
+				<strong>SMTP-Dienst</strong> (konfigurierter Mailserver, z.&nbsp;B. Ihr E-Mail-Provider). Es
+				werden die von Ihnen übermittelten Inhalte sowie technische Versanddaten verarbeitet.
+				E-Mails im Internet sind auf dem Transportweg in der Regel verschlüsselt, können auf
+				beteiligten Servern jedoch nicht durchgängig Ende-zu-Ende verschlüsselt vorliegen;
+				<strong>Rechtsgrundlagen:</strong> Vertragserfüllung bzw. vorvertragliche Maßnahmen (Art. 6
+				Abs. 1 lit. b) DSGVO), berechtigte Interessen (Art. 6 Abs. 1 lit. f) DSGVO).
 			</li>
 			<li>
-				<strong>YouTube: </strong>Soziales Netzwerk und Videoplattform;
-				<strong>Dienstanbieter:</strong> Google Ireland Limited, Gordon House, Barrow Street, Dublin
-				4, Irland;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-					DSGVO); </span
-				><strong>Datenschutzerklärung:</strong>
-				<a href="https://policies.google.com/privacy" target="_blank"
-					>https://policies.google.com/privacy</a
-				>; <strong>Grundlage Drittlandübermittlung:</strong>
-				<span class=""> EU-US Data Privacy Framework (DPF)</span>.
-				<strong>Widerspruchsmöglichkeit (Opt-Out):</strong>
-				<a href="https://myadcenter.google.com/personalizationoff" target="_blank"
-					>https://myadcenter.google.com/personalizationoff</a
-				>.
+				<strong>Speicherdauer:</strong> Anfragen löschen wir, sobald sie erledigt sind und keine
+				gesetzlichen Aufbewahrungspflichten entgegenstehen (in der Regel bis zu drei Jahre bei
+				allgemeinen Anfragen, bei Vertragsanbahnung länger gemäß handels- und steuerrechtlichen
+				Fristen).
 			</li>
 		</ul>
-		<h2 id="m328">Plugins und eingebettete Funktionen sowie Inhalte</h2>
+
+		<h2 id="mLinks">Externe Links (Instagram)</h2>
 		<p>
-			Wir binden in unser Onlineangebot Funktions- und Inhaltselemente ein, die von den Servern
-			ihrer jeweiligen Anbieter (nachfolgend bezeichnet als "Drittanbieter") bezogen werden. Dabei
-			kann es sich zum Beispiel um Grafiken, Videos oder Stadtpläne handeln (nachfolgend einheitlich
-			bezeichnet als "Inhalte").
-		</p>
-		<p>
-			Die Einbindung setzt immer voraus, dass die Drittanbieter dieser Inhalte die IP-Adresse der
-			Nutzer verarbeiten, da sie ohne die IP-Adresse die Inhalte nicht an deren Browser senden
-			könnten. Die IP-Adresse ist damit für die Darstellung dieser Inhalte oder Funktionen
-			erforderlich. Wir bemühen uns, nur solche Inhalte zu verwenden, deren jeweilige Anbieter die
-			IP-Adresse lediglich zur Auslieferung der Inhalte verwenden. Drittanbieter können ferner
-			sogenannte Pixel-Tags (unsichtbare Grafiken, auch als "Web Beacons" bezeichnet) für
-			statistische oder Marketingzwecke verwenden. Durch die "Pixel-Tags" können Informationen, wie
-			der Besucherverkehr auf den Seiten dieser Webseite, ausgewertet werden. Die pseudonymen
-			Informationen können ferner in Cookies auf dem Gerät der Nutzer gespeichert werden und unter
-			anderem technische Informationen zum Browser und zum Betriebssystem, zu verweisenden
-			Webseiten, zur Besuchszeit sowie weitere Angaben zur Nutzung unseres Onlineangebotes enthalten
-			als auch mit solchen Informationen aus anderen Quellen verbunden werden.
-		</p>
-		<ul class="m-elements">
-			<li>
-				<strong>Verarbeitete Datenarten:</strong> Nutzungsdaten (z. B. besuchte Webseiten, Interesse
-				an Inhalten, Zugriffszeiten); Meta-, Kommunikations- und Verfahrensdaten (z. B. IP-Adressen,
-				Zeitangaben, Identifikationsnummern, Einwilligungsstatus); Bestandsdaten (z. B. Namen,
-				Adressen); Kontaktdaten (z. B. E-Mail, Telefonnummern); Inhaltsdaten (z. B. Eingaben in
-				Onlineformularen). Standortdaten (Angaben zur geografischen Position eines Gerätes oder
-				einer Person).
-			</li>
-			<li>
-				<strong>Betroffene Personen:</strong> Nutzer (z. .B. Webseitenbesucher, Nutzer von
-				Onlinediensten).
-			</li>
-			<li>
-				<strong>Zwecke der Verarbeitung:</strong> Bereitstellung unseres Onlineangebotes und
-				Nutzerfreundlichkeit.
-			</li>
-			<li class="">
-				<strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO).
-				Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
-			</li>
-		</ul>
-		<p><strong>Weitere Hinweise zu Verarbeitungsprozessen, Verfahren und Diensten:</strong></p>
-		<ul class="m-elements">
-			<li>
-				<strong>Google Fonts (Bereitstellung auf eigenem Server): </strong>Bereitstellung von
-				Schriftarten-Dateien zwecks einer nutzerfreundlichen Darstellung unseres Onlineangebotes;
-				<strong>Dienstanbieter:</strong> Die Google Fonts werden auf unserem Server gehostet, es
-				werden keine Daten an Google übermittelt;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f)
-					DSGVO).</span
-				>
-			</li>
-			<li>
-				<strong>Google Maps: </strong>Wir binden die Landkarten des Dienstes "Google Maps" des
-				Anbieters Google ein. Zu den verarbeiteten Daten können insbesondere IP-Adressen und
-				Standortdaten der Nutzer gehören; <strong>Dienstanbieter:</strong> Google Cloud EMEA
-				Limited, 70 Sir John Rogerson’s Quay, Dublin 2, Irland;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO); </span
-				><strong>Website:</strong>
-				<a href="https://mapsplatform.google.com/" target="_blank"
-					>https://mapsplatform.google.com/</a
-				>; <strong>Datenschutzerklärung:</strong>
-				<a href="https://policies.google.com/privacy" target="_blank"
-					>https://policies.google.com/privacy</a
-				>. <strong>Grundlage Drittlandübermittlung:</strong>
-				<span class=""> EU-US Data Privacy Framework (DPF)</span>.
-			</li>
-			<li>
-				<strong>YouTube-Videos: </strong>Videoinhalte; <strong>Dienstanbieter:</strong> Google
-				Ireland Limited, Gordon House, Barrow Street, Dublin 4, Irland;
-				<span class=""
-					><strong>Rechtsgrundlagen:</strong> Einwilligung (Art. 6 Abs. 1 S. 1 lit. a) DSGVO); </span
-				><strong>Website:</strong>
-				<a href="https://www.youtube.com" target="_blank">https://www.youtube.com</a>;
-				<strong>Datenschutzerklärung:</strong>
-				<a href="https://policies.google.com/privacy" target="_blank"
-					>https://policies.google.com/privacy</a
-				>; <strong>Grundlage Drittlandübermittlung:</strong>
-				<span class=""> EU-US Data Privacy Framework (DPF)</span>.
-				<strong>Widerspruchsmöglichkeit (Opt-Out):</strong> Opt-Out-Plugin:
-				<a href="https://tools.google.com/dlpage/gaoptout?hl=de" target="_blank"
-					>https://tools.google.com/dlpage/gaoptout?hl=de</a
-				>, Einstellungen für die Darstellung von Werbeeinblendungen:
-				<a href="https://myadcenter.google.com/personalizationoff" target="_blank"
-					>https://myadcenter.google.com/personalizationoff</a
-				>.
-			</li>
-		</ul>
-		<p class="seal">
-			<a
-				href="https://datenschutz-generator.de/"
-				title="Rechtstext von Dr. Schwenke - für weitere Informationen bitte anklicken."
+			Auf unserer Website verlinken wir auf unser Instagram-Profil (<a
+				href="https://www.instagram.com/dj.booze"
 				target="_blank"
-				rel="noopener noreferrer nofollow"
-				>Erstellt mit kostenlosem Datenschutz-Generator.de von Dr. Thomas Schwenke</a
-			>
+				rel="noopener noreferrer"
+				>instagram.com/dj.booze</a
+			>). Es werden <strong>keine Social-Media-Plugins</strong> eingebunden; Daten werden erst
+			übermittelt, wenn Sie den Link aktiv anklicken und Instagram (Meta) aufrufen. Dort gelten die
+			Datenschutzbestimmungen des Anbieters.
 		</p>
+		<ul class="m-elements">
+			<li>
+				<strong>Dienstanbieter:</strong> Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04
+				X2K5, Irland.
+			</li>
+			<li>
+				<strong>Datenschutzerklärung:</strong>
+				<a
+					href="https://privacycenter.instagram.com/policy"
+					target="_blank"
+					rel="noopener noreferrer"
+					>https://privacycenter.instagram.com/policy</a
+				>.
+			</li>
+		</ul>
+
+		<h2 id="m328">Eingebettete Inhalte und Drittanbieter</h2>
+		<p>
+			Wir binden Inhalte ein, die von Servern Dritter geladen werden. Dafür ist in der Regel die
+			Übermittlung Ihrer IP-Adresse an den jeweiligen Anbieter technisch erforderlich. Videos auf
+			der Hochzeitsseite werden dagegen von unserem eigenen Hosting bereitgestellt.
+		</p>
+		<ul class="m-elements">
+			<li>
+				<strong>SoundCloud-Player (eingebettet): </strong>Auf der Startseite binden wir Audio-Player
+				von <strong>SoundCloud Global Limited &amp; Co. KG</strong> per iframe ein. Beim Laden oder
+				Abspielen können Nutzungsdaten (z.&nbsp;B. IP-Adresse, Geräteinformationen) an SoundCloud
+				übermittelt werden; der Anbieter kann Cookies setzen.
+				<strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)
+				an der Darstellung von Hörproben.
+				<strong>Datenschutzerklärung:</strong>
+				<a href="https://soundcloud.com/pages/privacy" target="_blank" rel="noopener noreferrer"
+					>https://soundcloud.com/pages/privacy</a
+				>.
+			</li>
+			<li>
+				<strong>Google Kalender (serverseitig): </strong>Für die Anzeige öffentlicher Termine ruft
+				unser Server die Google Calendar API auf. Ihr Browser kontaktiert Google dabei nicht direkt;
+				es werden jedoch Kalenderdaten (z.&nbsp;B. Titel, Datum, Ort von Events) auf unserer Website
+				angezeigt. Technische Zugriffe unseres Servers auf Google können dabei Server-IP und
+				Metadaten übermitteln. <strong>Dienstanbieter:</strong> Google Ireland Limited, Gordon
+				House, Barrow Street, Dublin 4, Irland. <strong>Rechtsgrundlagen:</strong> Berechtigte
+				Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO).
+				<strong>Datenschutzerklärung:</strong>
+				<a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer"
+					>https://policies.google.com/privacy</a
+				>.
+			</li>
+			<li>
+				<strong>Eigene Videos: </strong>Auf der Hochzeitsseite stellen wir Videos aus unserem
+				Hosting bereit (ohne YouTube oder vergleichbare Videoplattformen).
+			</li>
+		</ul>
 	</div>
 </template>
 
