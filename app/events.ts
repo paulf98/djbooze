@@ -1,6 +1,13 @@
 import type { MyEvent } from '#shared/types/event';
 
-export const upcomingEvents: MyEvent[] = [];
+export const upcomingEvents: MyEvent[] = [
+	{
+		name: 'After Work Special',
+		date: '11.06.2026',
+		location: 'Blocksbergstr. 29 -31, 66955 Pirmasens',
+		image: '/2026/after-work-special-26.JPEG',
+	},
+];
 
 export const pastEvents: MyEvent[] = [
 	{
