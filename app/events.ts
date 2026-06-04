@@ -1,15 +1,14 @@
 import type { MyEvent } from '#shared/types/event';
 
-export const upcomingEvents: MyEvent[] = [
+export const upcomingEvents: MyEvent[] = [];
+
+export const pastEvents: MyEvent[] = [
 	{
 		name: 'Sunset Sounds',
 		date: '21.05.2026',
 		location: 'BiergartenSV Lemberg',
 		image: '/2026/sunset-sounds-svl-2026.JPEG',
 	},
-];
-
-export const pastEvents: MyEvent[] = [
 	{
 		name: 'Bärmesenser Hexentour',
 		date: '30.04.2026',
