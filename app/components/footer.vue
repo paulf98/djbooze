@@ -33,9 +33,24 @@
 				>
 			</div>
 		</div>
+
 		<div class="py-8">
 			<p class="text-center text-sm text-white italic">
 				© {{ new Date().getFullYear() }} DJ Booze
+			</p>
+		</div>
+
+		<div class="border-t border-neutral-800 py-4 text-center text-sm text-neutral-500">
+			<p>
+				Website entwickelt von
+				<NuxtLink
+					to="https://www.paulf.dev/"
+					target="_blank"
+					rel="noopener noreferrer"
+					class="text-neutral-300 hover:text-white hover:underline">
+					Paul Faass
+				</NuxtLink>
+				– Webentwicklung & Hosting
 			</p>
 		</div>
 	</footer>
