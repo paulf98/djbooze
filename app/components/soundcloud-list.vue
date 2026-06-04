@@ -10,42 +10,49 @@
 				class="text-center max-w-3xl px-4"
 				v-motion-slide-visible-bottom
 				:duration="800">
-				Hier findest du ein paar Mixe, die ich auf SoundCloud veröffentlicht
-				habe. <br />
+				Hier findest du ein paar Mixe auf SoundCloud. Die Tracks öffnen sich auf soundcloud.com –
+				auf dieser Website werden keine Player eingebunden.
+				<br />
 				Viel Spaß beim Hören! 🎧
 			</p>
 		</div>
 		<div
 			class="container grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-4 max-w-7xl mx-auto py-8 px-4">
 			<Soundcloud
-				v-for="soundcloud in soundclouds"
-				:key="soundcloud.id"
-				:url="soundcloud.url" />
+				v-for="track in tracks"
+				:key="track.id"
+				:url="track.url"
+				:title="track.title" />
 		</div>
 	</section>
 </template>
 
 <script setup lang="ts">
-const soundclouds = [
+const tracks = [
 	{
 		id: 1,
-		url: 'https://soundcloud.com/paul-faass/1-tech-house-weekend-mix?si=fb0a4394e60543f59d5f6dd42d2bb8f2&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+		title: 'Tech House Weekend Mix',
+		url: 'https://soundcloud.com/paul-faass/1-tech-house-weekend-mix',
 	},
 	{
 		id: 2,
-		url: 'https://soundcloud.com/paul-faass/2-hip-hop-weekend-mix?si=76444704975147fea3a9703d7f2abfde&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+		title: 'Hip-Hop Weekend Mix',
+		url: 'https://soundcloud.com/paul-faass/2-hip-hop-weekend-mix',
 	},
 	{
 		id: 3,
-		url: 'https://soundcloud.com/paul-faass/3-00er-10er-remixed-weekend-mix?si=2c74c8fff9654c6f8469c3495fd02a81&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+		title: '00er & 10er Remixed Weekend Mix',
+		url: 'https://soundcloud.com/paul-faass/3-00er-10er-remixed-weekend-mix',
 	},
 	{
 		id: 4,
-		url: 'https://soundcloud.com/paul-faass/4-2000er-hip-hop-rnb-throwback-weekend-mix?si=0eb5a80088ae493caf6a28832226faf3&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+		title: '2000er Hip-Hop & R&B Throwback Weekend Mix',
+		url: 'https://soundcloud.com/paul-faass/4-2000er-hip-hop-rnb-throwback-weekend-mix',
 	},
 	{
 		id: 5,
-		url: 'https://soundcloud.com/paul-faass/5-2010er-throwback-weekend-mix?si=12431807e34d4ba3826c3a72aa7212fc&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing',
+		title: '2010er Throwback Weekend Mix',
+		url: 'https://soundcloud.com/paul-faass/5-2010er-throwback-weekend-mix',
 	},
 ];
 </script>

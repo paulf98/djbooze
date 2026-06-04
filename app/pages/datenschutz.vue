@@ -20,10 +20,10 @@
 			</li>
 			<li><a class="index-link" href="#mContact">Kontaktformular</a></li>
 			<li>
-				<a class="index-link" href="#mLinks">Externe Links (Instagram)</a>
+				<a class="index-link" href="#mLinks">Externe Links (Instagram, SoundCloud)</a>
 			</li>
 			<li>
-				<a class="index-link" href="#m328">Eingebettete Inhalte und Drittanbieter</a>
+				<a class="index-link" href="#m328">Drittanbieter-Dienste (Google Kalender)</a>
 			</li>
 		</ul>
 		<h2 id="m3">Verantwortlicher</h2>
@@ -56,7 +56,7 @@
 			<li>Kontaktanfragen und Kommunikation (Kontaktformular).</li>
 			<li>Sicherheitsmaßnahmen (z.&nbsp;B. Bot-Schutz beim Kontaktformular).</li>
 			<li>Reichweitenmessung und Webanalyse (cookiefrei mit Umami).</li>
-			<li>Anzeige von Terminen und eingebetteten Inhalten (SoundCloud, Google Kalender).</li>
+			<li>Anzeige von Terminen (Google Kalender, serverseitig).</li>
 		</ul>
 		<h2 id="m2427">Maßgebliche Rechtsgrundlagen</h2>
 		<p>
@@ -213,7 +213,8 @@
 			Cookies sind kleine Textdateien oder vergleichbare Speichervermerke auf Ihrem Endgerät. Wir
 			setzen auf dieser Website
 			<strong>keine Cookies zu Reichweitenmessung, Profilbildung oder Werbung</strong> ein und
-			verwenden keinen Cookie-Banner zu diesem Zweck.
+			binden <strong>keine eingebetteten Player</strong> von Drittanbietern ein (z.&nbsp;B. keine
+			SoundCloud-Widgets). Ein <strong>Cookie-Banner ist daher nicht erforderlich</strong>.
 		</p>
 		<p>
 			Für die statistische Auswertung nutzen wir <strong>Umami</strong> ohne Cookies (siehe
@@ -228,14 +229,14 @@
 			kommen; diese dienen dem Bot-Schutz, nicht Marketing.
 		</p>
 		<p>
-			<strong>Eingebettete SoundCloud-Player</strong> können beim Abspielen oder Laden Cookies oder
-			vergleichbare Technologien des Anbieters setzen (siehe
-			<a class="index-link" href="#m328">Eingebettete Inhalte und Drittanbieter</a>).
+			Links zu <strong>Instagram</strong> und <strong>SoundCloud</strong> führen erst nach Ihrem Klick
+			zur jeweiligen Plattform (siehe
+			<a class="index-link" href="#mLinks">Externe Links</a>); bis dahin werden von diesen Anbietern
+			keine Inhalte auf unserer Website geladen.
 		</p>
 		<p>
-			Sie können Cookies in Ihren Browsereinstellungen einschränken oder löschen; dadurch können
-			einzelne Funktionen (z.&nbsp;B. eingebettete Player oder das Kontaktformular) beeinträchtigt
-			werden.
+			Sie können Cookies in Ihren Browsereinstellungen einschränken oder löschen; dadurch kann das
+			Kontaktformular beeinträchtigt werden.
 		</p>
 
 		<h2 id="mUmami">Webanalyse mit Umami (ohne Cookies)</h2>
@@ -421,23 +422,21 @@
 			</li>
 		</ul>
 
-		<h2 id="mLinks">Externe Links (Instagram)</h2>
+		<h2 id="mLinks">Externe Links (Instagram, SoundCloud)</h2>
 		<p>
-			Auf unserer Website verlinken wir auf unser Instagram-Profil (<a
-				href="https://www.instagram.com/dj.booze"
-				target="_blank"
-				rel="noopener noreferrer"
-				>instagram.com/dj.booze</a
-			>). Es werden <strong>keine Social-Media-Plugins</strong> eingebunden; Daten werden erst
-			übermittelt, wenn Sie den Link aktiv anklicken und Instagram (Meta) aufrufen. Dort gelten die
-			Datenschutzbestimmungen des Anbieters.
+			Auf unserer Website verlinken wir auf Profile und Inhalte bei Drittanbietern. Es werden
+			<strong>keine Plugins oder eingebetteten Player</strong> eingebunden; Daten werden erst
+			übermittelt, wenn Sie einen Link aktiv anklicken und die jeweilige Plattform aufrufen. Dort
+			gelten die Datenschutzbestimmungen des Anbieters.
 		</p>
 		<ul class="m-elements">
 			<li>
+				<strong>Instagram: </strong>Link zu
+				<a href="https://www.instagram.com/dj.booze" target="_blank" rel="noopener noreferrer"
+					>instagram.com/dj.booze</a
+				>;
 				<strong>Dienstanbieter:</strong> Meta Platforms Ireland Limited, Merrion Road, Dublin 4, D04
-				X2K5, Irland.
-			</li>
-			<li>
+				X2K5, Irland;
 				<strong>Datenschutzerklärung:</strong>
 				<a
 					href="https://privacycenter.instagram.com/policy"
@@ -446,27 +445,26 @@
 					>https://privacycenter.instagram.com/policy</a
 				>.
 			</li>
-		</ul>
-
-		<h2 id="m328">Eingebettete Inhalte und Drittanbieter</h2>
-		<p>
-			Wir binden Inhalte ein, die von Servern Dritter geladen werden. Dafür ist in der Regel die
-			Übermittlung Ihrer IP-Adresse an den jeweiligen Anbieter technisch erforderlich. Videos auf
-			der Hochzeitsseite werden dagegen von unserem eigenen Hosting bereitgestellt.
-		</p>
-		<ul class="m-elements">
 			<li>
-				<strong>SoundCloud-Player (eingebettet): </strong>Auf der Startseite binden wir Audio-Player
-				von <strong>SoundCloud Global Limited &amp; Co. KG</strong> per iframe ein. Beim Laden oder
-				Abspielen können Nutzungsdaten (z.&nbsp;B. IP-Adresse, Geräteinformationen) an SoundCloud
-				übermittelt werden; der Anbieter kann Cookies setzen.
-				<strong>Rechtsgrundlagen:</strong> Berechtigte Interessen (Art. 6 Abs. 1 S. 1 lit. f) DSGVO)
-				an der Darstellung von Hörproben.
+				<strong>SoundCloud: </strong>Links zu einzelnen Mixes auf
+				<a href="https://soundcloud.com/paul-faass" target="_blank" rel="noopener noreferrer"
+					>soundcloud.com/paul-faass</a
+				>;
+				<strong>Dienstanbieter:</strong> SoundCloud Global Limited &amp; Co. KG;
 				<strong>Datenschutzerklärung:</strong>
 				<a href="https://soundcloud.com/pages/privacy" target="_blank" rel="noopener noreferrer"
 					>https://soundcloud.com/pages/privacy</a
 				>.
 			</li>
+		</ul>
+
+		<h2 id="m328">Drittanbieter-Dienste (Google Kalender)</h2>
+		<p>
+			Neben externen Links nutzen wir folgende Dienste, die Daten im Zusammenhang mit unserem
+			Onlineangebot verarbeiten. Videos auf der Hochzeitsseite stellen wir aus unserem eigenen
+			Hosting bereit (ohne YouTube oder vergleichbare Videoplattformen).
+		</p>
+		<ul class="m-elements">
 			<li>
 				<strong>Google Kalender (serverseitig): </strong>Für die Anzeige öffentlicher Termine ruft
 				unser Server die Google Calendar API auf. Ihr Browser kontaktiert Google dabei nicht direkt;

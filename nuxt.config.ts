@@ -102,7 +102,6 @@ export default defineNuxtConfig({
 	security: {
 		nonce: true,
 		headers: {
-			// SoundCloud (and similar embeds) do not send COEP headers — credentialless blocks them
 			crossOriginEmbedderPolicy: 'unsafe-none',
 			contentSecurityPolicy: {
 				'img-src': ["'self'", 'data:', 'https:', 'blob:'],
@@ -114,15 +113,10 @@ export default defineNuxtConfig({
 					'https://challenges.cloudflare.com',
 				],
 				'connect-src': ["'self'", 'https://challenges.cloudflare.com', 'https://cloud.umami.is'],
-				'frame-src': [
-					"'self'",
-					'https://w.soundcloud.com',
-					'https://soundcloud.com',
-					'https://challenges.cloudflare.com',
-				],
+				'frame-src': ["'self'", 'https://challenges.cloudflare.com'],
 			},
 			permissionsPolicy: {
-				fullscreen: ['self', 'https://w.soundcloud.com'],
+				fullscreen: ['self'],
 			},
 		},
 	},

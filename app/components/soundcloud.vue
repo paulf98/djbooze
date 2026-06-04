@@ -1,51 +1,24 @@
 <template>
-	<div
-		ref="root"
+	<a
+		:href="url"
+		target="_blank"
+		rel="noopener noreferrer"
 		v-motion-pop-visible
 		:duration="800"
-		class="w-full min-h-[166px] bg-neutral-900 p-2 rounded border-2 border-neutral-700 shadow overflow-hidden">
-		<iframe
-			v-if="visible"
-			class="w-full"
-			height="166"
-			scrolling="no"
-			frameborder="no"
-			allow="autoplay; encrypted-media"
-			loading="lazy"
-			referrerpolicy="strict-origin-when-cross-origin"
-			:title="`SoundCloud Player: ${url}`"
-			:src="playerSrc" />
-	</div>
+		class="group flex h-full min-h-[120px] flex-col justify-between rounded border-2 border-neutral-700 bg-neutral-900 p-4 shadow transition-colors hover:border-red-600/60 hover:bg-neutral-800">
+		<div>
+			<p class="text-xs font-medium uppercase tracking-wider text-neutral-400">Mix auf SoundCloud</p>
+			<p class="mt-2 text-base font-semibold leading-snug text-white group-hover:text-red-500">
+				{{ title }}
+			</p>
+		</div>
+		<span class="mt-4 text-sm text-red-600 group-hover:text-red-500">Auf SoundCloud anhören →</span>
+	</a>
 </template>
 
 <script setup lang="ts">
-const props = defineProps<{
+defineProps<{
 	url: string;
+	title: string;
 }>();
-
-const root = ref<HTMLElement | null>(null);
-const visible = ref(false);
-
-const playerSrc = computed(
-	() =>
-		`https://w.soundcloud.com/player/?url=${encodeURIComponent(props.url)}&color=%23ff5500&auto_play=false&hide_related=true&show_comments=false&show_user=true&show_reposts=false&show_teaser=false&visual=false`,
-);
-
-onMounted(() => {
-	const el = root.value;
-	if (!el) return;
-
-	const observer = new IntersectionObserver(
-		([entry]) => {
-			if (entry?.isIntersecting) {
-				visible.value = true;
-				observer.disconnect();
-			}
-		},
-		{ rootMargin: '200px' },
-	);
-
-	observer.observe(el);
-	onUnmounted(() => observer.disconnect());
-});
 </script>
