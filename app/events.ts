@@ -23,6 +23,12 @@ export const pastEvents: MyEvent[] = [
 		image: '/2026/hexentour-2026.JPEG',
 	},
 	{
+		name: 'Sense of Summer - Vibras de Verano',
+		date: '28.03.2026',
+		location: 'Bodega Estacion',
+		image: '/2026/sense-of-summer-26.JPEG',
+	},
+	{
 		name: 'Altweiber Fasching',
 		date: '12.02.2026',
 		location: 'Jugendheim Kirchenarmbach',
@@ -33,12 +39,6 @@ export const pastEvents: MyEvent[] = [
 		date: '14.02.2026',
 		location: 'Turnhalle TVP',
 		image: '/2026/fasching-26-TVP.jpg',
-	},
-	{
-		name: 'Sense of Summer - Vibras de Verano',
-		date: '28.03.2026',
-		location: 'Bodega Estacion',
-		image: '/2026/sense-of-summer-26.JPEG',
 	},
 	{
 		name: 'Die erste Party des Jahres',
