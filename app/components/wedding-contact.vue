@@ -15,16 +15,16 @@
 					v-motion-slide-visible-left
 					:duration="800"
 					:delay="100"
-					class="bg-neutral-900 p-8 rounded-xl border border-neutral-700">
+					class="min-w-0 bg-neutral-900 p-8 rounded-xl border border-neutral-700">
 					<h3 class="text-2xl font-bold mb-6">Kostenlose Beratung anfordern</h3>
 					<p class="text-neutral-400 mb-8">
 						Erzählt mir von Eurer geplanten Hochzeit und ich erstelle euch ein individuelles Angebot
 						für Euren besonderen Tag.
 					</p>
 
-					<form @submit.prevent="submitForm" class="space-y-6">
-						<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-							<div>
+					<form @submit.prevent="submitForm" class="space-y-6 min-w-0">
+						<div class="grid grid-cols-1 md:grid-cols-2 gap-4 min-w-0">
+							<div class="min-w-0">
 								<label for="name" class="block text-sm font-medium mb-2">Ihr Name *</label>
 								<input
 									id="name"
@@ -34,7 +34,7 @@
 									class="w-full px-4 py-3 bg-neutral-800 border border-neutral-600 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition-colors"
 									placeholder="Max Mustermann" />
 							</div>
-							<div>
+							<div class="min-w-0">
 								<label for="email" class="block text-sm font-medium mb-2">E-Mail *</label>
 								<input
 									id="email"
@@ -46,8 +46,8 @@
 							</div>
 						</div>
 
-						<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-							<div>
+						<div class="grid grid-cols-1 md:grid-cols-2 gap-4 min-w-0">
+							<div class="min-w-0">
 								<label for="phone" class="block text-sm font-medium mb-2">Telefonnummer</label>
 								<input
 									id="phone"
@@ -56,7 +56,7 @@
 									class="w-full px-4 py-3 bg-neutral-800 border border-neutral-600 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition-colors"
 									placeholder="+49 123 456789" />
 							</div>
-							<div>
+							<div class="min-w-0">
 								<label for="weddingDate" class="block text-sm font-medium mb-2"
 									>Hochzeitsdatum</label
 								>
@@ -64,7 +64,7 @@
 									id="weddingDate"
 									v-model="form.weddingDate"
 									type="date"
-									class="w-full px-4 py-3 bg-neutral-800 border border-neutral-600 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition-colors" />
+									class="w-full min-w-0 max-w-full px-4 py-3 bg-neutral-800 border border-neutral-600 rounded-lg focus:ring-2 focus:ring-white focus:border-transparent transition-colors" />
 							</div>
 						</div>
 
@@ -351,3 +351,11 @@ ${form.value.message || 'Keine zusätzliche Nachricht'}
 	}
 };
 </script>
+
+<style scoped>
+/* Native date inputs enforce a large min-width on mobile browsers (esp. iOS Safari). */
+input[type='date'] {
+	min-width: 0;
+	max-width: 100%;
+}
+</style>
