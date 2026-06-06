@@ -96,12 +96,12 @@
 				</div>
 
 				<!-- Dot Indicators -->
-				<div class="flex justify-center mt-6 md:mt-8 gap-3">
+				<div class="flex justify-center mt-6 md:mt-8 gap-2 md:gap-3">
 					<button
 						v-for="(image, index) in images"
 						:key="index"
 						@click="goToImage(index)"
-						class="w-3 h-3 rounded-full transition-all duration-300"
+						class="gallery-dot w-2 h-2 md:w-3 md:h-3 rounded-full transition-all duration-300"
 						:class="
 							index === currentImageIndex
 								? 'bg-white scale-125'
@@ -346,17 +346,11 @@ onUnmounted(() => {
 	}
 }
 
-/* Touch-friendly navigation buttons */
+/* Touch-friendly navigation buttons (exclude dot indicators) */
 @media (hover: none) and (pointer: coarse) {
-	button {
+	button:not(.gallery-dot) {
 		min-height: 44px;
 		min-width: 44px;
-	}
-}
-
-/* Prevent zoom on iOS when tapping buttons */
-@media (hover: none) and (pointer: coarse) {
-	button {
 		touch-action: manipulation;
 	}
 }
