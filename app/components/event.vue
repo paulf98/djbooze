@@ -1,6 +1,7 @@
 <template>
 	<div class="w-full max-w-xs mx-auto" v-motion-pop-visible :duration="800">
 		<LazyNuxtImg
+			v-if="props.image"
 			:src="props.image"
 			:alt="props.name"
 			class="w-full max-w-xs mb-4 rounded-md"
@@ -39,7 +40,7 @@ const props = withDefaults(defineProps<MyEvent>(), {
 	description: undefined,
 	date: '01.01.24',
 	location: 'Location',
-	image: '/sample-event.JPEG',
+	image: undefined,
 	link: undefined,
 });
 </script>

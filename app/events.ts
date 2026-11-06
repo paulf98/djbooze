@@ -4,6 +4,21 @@ export const upcomingEvents: MyEvent[] = [];
 
 export const pastEvents: MyEvent[] = [
 	{
+		name: 'Halloween Party',
+		date: '31.10.2026',
+		location: 'MaTriX Pirmasens',
+	},
+	{
+		name: 'Lemberger Kerweparty',
+		date: '24.10.2026',
+		location: 'Freizeithalle Lemberg',
+	},
+	{
+		name: 'KneipenKULTOUR',
+		date: '02.10.2026',
+		location: 'Next Level Pirmasens',
+	},
+	{
 		name: 'After Work Special',
 		date: '11.06.2026',
 		location: 'Blocksbergstr. 29 -31, 66955 Pirmasens',

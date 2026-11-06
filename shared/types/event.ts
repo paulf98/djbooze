@@ -3,6 +3,6 @@ export type MyEvent = {
 	description?: string;
 	date: string;
 	location: string;
-	image: string;
+	image?: string;
 	link?: string;
 };
